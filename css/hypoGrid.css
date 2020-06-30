@@ -1,0 +1,36 @@
+/* 
+    This file draws from "Don't Overthink Grids" available at http://css-tricks.com/dont-overthink-it-grids/
+    It also draws heavily from the tutorial in IAT 235's Week 7 or 8 (I can't remember) lecture.
+*/
+
+/*Border Box Model*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.box {
+
+    /*Backwards Compatibility*/
+    display: flex;
+    display: -ms-flex;
+    display: -webkit-flex;
+
+    /*Allowing for wrappable components*/
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    
+    -webkit-justify-content: space-around;
+    -ms-justify-content: space-around;
+    justify-content: space-around;
+}
+
+.boxItemNav {
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.boxItemCol2 {
+    flex: 1 1 50%;
+}

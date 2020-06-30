@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/*
+This file has two links from google for both the opens sans font as well as the Josefin Sans font.
+The contents are learned from the indepth tutorial that we had on CSS in either week 7 or 8, i don't know.
+*/
+
+section {
+    text-align: left;
+    margin: 2rem 0;
+    padding: 2rem;
+}
+
+nav a, nav a:visited {
+    display: inline-block;
+    background-color: aqua;
+    color: #000000;
+    padding: 1em 1.25em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+.nav-main-item {
+    display: inline-block;
+    background-color: red;
+    color: #ffff;
+    padding: 1em 1.25em;
+    text-decoration: none;
+    transition: background-color 0.5s ease-out;
+}
