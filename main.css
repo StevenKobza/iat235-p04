@@ -1,0 +1,34 @@
+* {
+	font-family: "Open Sans", sans-serif; /* Resource used: https://www.w3schools.com/css/css_font.asp */
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+} 
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #ff4747;
+	height: 80px;
+}
+
+li, a {
+	text-decoration: none;
+	color: white;
+	font-size: 20;
+}
+
+.nav_links {
+	list-style: none;
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 10px 30px;
+} /* Resource used: https://www.youtube.com/watch?v=PwWHL3RyQgk */
+
+.logo {
+	width: 120px;
+	padding: 10px;
+}
