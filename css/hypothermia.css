@@ -6,6 +6,29 @@ This file has two links from google for both the opens sans font as well as the 
 The contents are learned from the indepth tutorial that we had on CSS in either week 7 or 8, i don't know.
 */
 
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 5em;
+}
+
+.bodyInfo {
+    max-width: 90%;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logoHeader {
+    min-width: 30%;
+}
+
 section {
     text-align: left;
     margin: 2rem 0;
@@ -22,6 +45,8 @@ nav a, nav a:visited {
 	transition: background-color 0.5s;
 }
 
+
+
 .nav-main-item {
     display: inline-block;
     background-color: red;
@@ -29,4 +54,15 @@ nav a, nav a:visited {
     padding: 1em 1.25em;
     text-decoration: none;
     transition: background-color 0.5s ease-out;
+}
+
+nav a:hover, nav a:active, nav a:active {
+    background-color: black;
+    color: #ffffff;
+}
+
+
+ul {
+    display: inline-block;
+    list-style: none;
 }
