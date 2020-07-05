@@ -2,3 +2,30 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
+/*
+	Here we are going to establish some rules for our 'box'	which contains all the elements to be wrapped into the flexbox model.
+*/
+.box {
+
+	/*
+		The statement below sets us into the flexbox display mode. Note support for flexbox still necessitates some vendor prefixes (see http://caniuse.com/#search=flex)
+	*/
+	display: -webkit-flex; /* For support in a series of Webkit browsers */
+	display: -ms-flex; /* For support in IE 10 */
+	display: flex;
+
+	/*
+		A flexbox will try to fit all elements in one line by default. The 'flex-wrap' property lets us wrap child elements that become too wide for their current row.
+	*/
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	/*
+		To get our flexbox to change how elements are spanned across the remaining space, we can use the 'justify-content' property. In this case, we are specifying that we want the extra space to be balanced around our elements.
+	*/
+	-webkit-justify-content: space-around;
+	-ms-justify-content: space-around;
+	justify-content: space-around;
+
+}
