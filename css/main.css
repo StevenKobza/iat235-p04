@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* 
+
+Erin Beaudoin 301381019 P03, Step 2
+ 
+Unless otherwise cited, all material here was learned from IAT 235 CSS Basics tutorial *citation below
+Israfel0. (2020, June 29). IAT 235 - CSS Basics [Video]. YouTube. https://www.youtube.com/watch?v=sif-mX9-FRo&feature=youtu.be
+*/
+
+body{
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size:1.25rem;
+	margin:1rem;
+	
+}
+
+h1{
+	font-family: "Josefin Sans", Arial, sans-serif;
+	font-size:5.6rem;
+	margin-bottom: 1;
+}
+
+h2{
+	font-size: 3.75rem;
+	margin-bottom: 1;
+}
+
+
+p, ol, ul{
+	font-size: 1rem;
+}
+
+img{
+	height:auto; /* if the image resizes, the heigh should adjust automatically when the width changes */
+	max-width:100%; /* the maximum width this can have is 100%, won't exceed 100% of the parent element (in this case it's body{}) */
+}
+
+a{
+	color: rgb(37,169,198);
+	text-decoration: none;
+}
+
+a:hover, a:focus, a:active{
+	color: rgb(24,113,133);
+	font-size: 105%; /* learned from CSS :hover Selector. (n.d.). Retrieved July 01, 2020, from https://www.w3schools.com/cssref/sel_hover.asp*/
+	
+}
+
+.nav-main-item{
+	display:inline-block;
+	background-color: rgb(250,100,75);
+	font-size: 1.5rem;
+	color:white;
+	padding: 0.5rem 0.75rem;
+
+	transition-property: background-color;
+	transition-duration: 1s;
+	transition-timing-function: ease-out;
+}
+
+.nav-main-item:hover, nav-main-item:active, .nav-main-item:focus{
+	background-color: rgb(50,50,50);
+}
+
+.main-container{
+	max-width: 60rem;
+	margin: 0 auto;
+}

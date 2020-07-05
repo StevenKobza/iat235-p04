@@ -1,0 +1,124 @@
+/* 
+    This file draws from "Don't Overthink Grids" available at http://css-tricks.com/dont-overthink-it-grids/
+    It also draws heavily from the tutorial in IAT 235's Week 7 or 8 (I can't remember) lecture.
+*/
+
+/*Border Box Model*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+
+.box {
+
+    /*Backwards Compatibility*/
+    display: flex;
+    display: -ms-flex;
+    display: -webkit-flex;
+
+    /*Allowing for wrappable components*/
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    
+    -webkit-justify-content: space-around;
+    -ms-justify-content: space-around;
+    justify-content: space-around;
+}
+
+.box-item-nav {
+    text-align: center;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.boxItemCol2 {
+    flex: 1 1 50%;
+}
+
+#navBar {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5%;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.navOne {
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+
+.navTwo {
+    grid-column: 5/6;
+    grid-row: 1/5;
+}
+
+.twoByGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10%;
+}
+
+.gridOne {
+    grid-column: 1;
+}
+.gridTwo {
+    grid-column: 2/span 1;
+}
+
+.checkGrid {
+    display: grid;
+    grid-template: repeat(6, 1fr) / repeat(6, 1fr);
+    grid-gap: 5px;
+}
+
+.checkOne {
+    grid-row: 1/1;
+    grid-column: 2;
+}
+.checkOneC2 {
+    grid-row: 1/1;
+    grid-column: 3/5;
+}
+.checkTwo {
+    grid-row: 2;
+    grid-column: 2;
+}
+.checkTwoC2 {
+    grid-row: 2;
+    grid-column: 3/5;
+}
+.checkThree {
+    grid-row: 3;
+    grid-column: 2;
+}
+.checkThreeC2 {
+    grid-row: 3;
+    grid-column: 3/5;
+}
+.checkFour {
+    grid-row: 4;
+    grid-column: 2;
+}
+.checkFourC2 {
+    grid-row: 4;
+    grid-column: 3/5;
+}
+.checkFive {
+    grid-row: 5;
+    grid-column: 2;
+}
+.checkFiveC2 {
+    grid-row: 5;
+    grid-column: 3/5;
+}
+.checkSix {
+    grid-row: 6;
+    grid-column: 2;
+}
+.checkSixC2 {
+    grid-row: 6;
+    grid-column: 3/5;
+}
