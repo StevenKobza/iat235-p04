@@ -1,3 +1,4 @@
+/* "*" selects everything, *::before means the selector before everything and *::after means the selector after everything*/
 *, *::before, *::after {
     box-sizing: border-box;
 }
