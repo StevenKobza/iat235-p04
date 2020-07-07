@@ -42,11 +42,11 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr); /*Just means that there will be 5 equally spaced out columns or rows depending on the name of the grid-template*/
     grid-gap: 5%;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(12, 1em);
 }
 
 .navOne {
-    grid-column: 1/5; /*Starting at column 1 and going to column 5*/
+    grid-column: 1/6; /*Starting at column 1 and going to column 5*/
     grid-row: 1/2;
 }
 
@@ -58,13 +58,17 @@
 .twoByGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10%;
+    grid-gap: 5%;
 }
 
 .gridOne {
+    margin-left: auto;
+    margin-right: auto;
     grid-column: 1;
 }
 .gridTwo {
+    margin-left: auto;
+    margin-right: auto;
     grid-column: 2/span 1; /*This span means how many columns will it span*/
 }
 
@@ -122,4 +126,20 @@
 .checkSixC2 {
     grid-row: 6;
     grid-column: 3/5;
+}
+
+@media (max-width: 30em) {
+    .twoByGrid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .gridOne {
+        grid-column: 1/2;
+        grid-row: 1;
+        width: 100%;
+    }
+    .gridTwo {
+        grid-column: 1/2;
+        grid-row: 2;
+    }
 }
