@@ -2,33 +2,31 @@
 	font-family: "Open Sans", sans-serif; /* Resource used: https://www.w3schools.com/css/css_font.asp */
 	box-sizing: border-box;
 	margin: 0;
-	padding: 0;
 } 
 
-header {
+.box {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: #ff4747;
-	height: 80px;
+
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
-li, a {
-	text-decoration: none;
+.box-item-nav {
+	flex-grow:1;
+	flex-shrink:1;
+	flex-basis:auto;
+}
+
+a {
 	color: white;
-	font-size: 20;
+	font-size:1.5rem;
+	padding:1.5rem 1rem;
+	text-decoration: none;
+	list-style-type: none;
 }
 
-.nav_links {
-	list-style: none;
-}
-
-.nav_links li {
-	display: inline-block;
-	padding: 10px 30px;
-} /* Resource used: https://www.youtube.com/watch?v=PwWHL3RyQgk */
-
-.logo {
-	width: 120px;
-	padding: 10px;
+.nav-main-item {
+	background-color: rgb(255, 71, 71);
+	color: white;
+	text-align: center;
 }
