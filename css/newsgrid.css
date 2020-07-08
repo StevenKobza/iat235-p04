@@ -21,3 +21,19 @@
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;
 }
+
+#nav-bar {
+	display:grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+}
+
+.nav1 {
+	grid-column: 1/6;
+	grid-row: 1/2;
+}
+
+.nav2 {
+	grid-column: 5/6;
+	grid-row: 1/5;
+}
