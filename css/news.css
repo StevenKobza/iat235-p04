@@ -1,7 +1,6 @@
 * {
 	font-family: "Open Sans", sans-serif; /* Resource used: https://www.w3schools.com/css/css_font.asp */
 	box-sizing: border-box;
-	margin:0;
 } 
 
 a {
@@ -43,3 +42,50 @@ nav.nav-main {
 	width: 100%;
 	height: 80px;
 }
+
+.logo-header {
+	z-index: 11;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+img {
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mountain img {
+	min-width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
