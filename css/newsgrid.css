@@ -61,7 +61,7 @@
 }
 
 .forecast4 {
-	grid-column: 4/6;
+	grid-column: 3/8;
 	grid-row: 3/4;
 }
 
@@ -119,14 +119,37 @@
 	grid-row: 2/2;
 }
 
+#footer-wrapper {
+	display:grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 2%;
+}
 
+.logo-footer {
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
 
+.kalmont {
+	grid-column: 3/4;
+	grid-row: 2/3;
+}
 
+.made-by {
+	grid-column: 4/5;
+	grid-row: 2/3;
+}
 
+.socials {
+	grid-column: 5/6;
+	grid-row: 2/3;
+}
 
-
-
-
+.citations {
+	grid-column: 7/8;
+	grid-row: 2/3;
+}
 
 
 

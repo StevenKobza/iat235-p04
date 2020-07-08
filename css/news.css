@@ -94,6 +94,11 @@ nav a:hover, nav a:active {
 	flex-direction: column;
 }
 
+.forecast4 a {
+	color: rgb(116, 153, 171);
+	list-style: none;
+}
+
 #newsstory1 {
 	display:flex;
 	justify-content: center;
@@ -120,10 +125,28 @@ nav a:hover, nav a:active {
 	padding: 0;
 }
 
+.citations a {
+	color: rgb(200, 200, 200);
+	font-size: 1rem;
+}
 
+#footer-wrapper {
+	background-color: grey;
+}
 
+.kalmont {
+	color: rgb(200, 200, 200);
+}
 
+.made-by {
+	color: rgb(200, 200, 200);
+}
 
+.socials {
+	color: rgb(200, 200, 200);
+}
 
-
+.socials a {
+	color: rgb(200, 200, 200);
+}
 
