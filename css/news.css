@@ -1,21 +1,8 @@
 * {
 	font-family: "Open Sans", sans-serif; /* Resource used: https://www.w3schools.com/css/css_font.asp */
 	box-sizing: border-box;
-	margin: 0;
+	margin:0;
 } 
-
-.box {
-	display: flex;
-
-	flex-wrap: wrap;
-	justify-content: space-around;
-}
-
-.box-item-nav {
-	flex-grow:1;
-	flex-shrink:1;
-	flex-basis:auto;
-}
 
 a {
 	color: white;
@@ -25,8 +12,34 @@ a {
 	list-style-type: none;
 }
 
+.box {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .nav-main-item {
 	background-color: rgb(255, 71, 71);
 	color: white;
 	text-align: center;
+}
+
+.box-item-nav {
+	flex-grow:1;
+	flex-shrink:1;
+	flex-basis: auto;
+}
+
+nav.nav-main {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	z-index: 10;
+}
+
+.nav-main {
+	width: 100%;
+	height: 80px;
 }
