@@ -50,12 +50,12 @@ section {
 
 nav a, nav a:visited {
     display: inline-block;
-    background-color: aqua;
-    color: #000000;
+    background-color: red;
+    color: #ffffff;
     padding: 1em 1.25em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
+    transition: background-color 0.5s;
 }
 
 
@@ -69,8 +69,9 @@ nav a, nav a:visited {
     transition: background-color 0.5s ease-out;
 }
 
-nav a:hover, nav a:active, nav a:active {
+nav a:hover, nav a:active {
     background-color: black;
+    text-decoration: underline;
     color: #ffffff;
 }
 
