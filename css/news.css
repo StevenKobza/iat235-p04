@@ -68,12 +68,31 @@ img {
 
 #mountain {
 	width: 100%;
+	position: relative;
 }
 
+#mountain h1 {
+	margin: 0;
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 600;
+	font-size: 2em;
+	bottom: 10em;
+	left: 1em;
+	position: relative;
+	max-width: 50%;
 
+	z-index: 9;
+}
 
+nav a:hover, nav a:active {
+	text-decoration: underline;
+}
 
-
+#mountainStatus {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
 
 
 
