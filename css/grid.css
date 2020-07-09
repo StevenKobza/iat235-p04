@@ -10,22 +10,53 @@
 	/*
 		The statement below sets us into the flexbox display mode. Note support for flexbox still necessitates some vendor prefixes (see http://caniuse.com/#search=flex)
 	*/
+	display: flex; /* displays this as a flexbox */
+	flex-wrap: wrap; /* without this, everything tries to fit the width of the page, with this, it will wrap underneath when resized */
+	justify-content: space-around;
 	display: -webkit-flex; /* For support in a series of Webkit browsers */
 	display: -ms-flex; /* For support in IE 10 */
-	display: flex;
+	
 
 	/*
-		A flexbox will try to fit all elements in one line by default. The 'flex-wrap' property lets us wrap child elements that become too wide for their current row.
-	*/
+		A flexbox will try to fit all elements in one line by default. The 'flex-wrap' property lets us wrap child elements that become too wide for
+		 their current row.
+	
 	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
+	*/
 
 	/*
 		To get our flexbox to change how elements are spanned across the remaining space, we can use the 'justify-content' property. In this case, we are specifying that we want the extra space to be balanced around our elements.
-	*/
+	
 	-webkit-justify-content: space-around;
 	-ms-justify-content: space-around;
 	justify-content: space-around;
+	*/
 
+}
+
+.box-item-nav {
+	/*
+		For children of the parent 'flexbox', it is good practice to set a 'flex' property. This is a shorthand in which we in fact set three values, of 'flex-grow', 'flex-shrink' and 'flex-basis' accordingly. In our CSS, this will look like
+
+		flex: flex-grow flex-shrink flex-basis;
+
+		flex-grow - Defines the ability for an element to 'grow' into extra space as needed. If all items have flex-grow set to 1, the remaining space in the container will be 
+		distributed equally to all children.
+		flex-shrink - Defines the ability for an element to 'shrink' as needed.
+		flex-basis - Defines the default size of an element before distributing space, can be based on existing height or width.
+
+		Both 'flex-grow' and 'flex-shrink' can be effectively thought as 'weights': For example elements with higher flex-grow weights - such as a value of 2 in a set of elements with weights of 1 - will try and take up more space when available. When the space is not available, the flexbox will compress those items as necessary.
+
+		In the example below, we are setting both the ability of elements to grow and shrink as equal (all 1), and we are telling the default size to pay attention to the element's set default sizing.
+	*/
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: auto;/* this means "look at my width or height property"*/
+	
+	/*
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	*/
 }

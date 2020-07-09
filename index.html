@@ -3,33 +3,41 @@
 <html lang = "en">
 <!-- Erin Beaudoin 301381019. I learned how to do all of this from Paul's tutorial on youtube.
 -->
+
     
     <link href= "css/main.css" rel="stylesheet">
     <link href = "css/grid.css" rel = "stylesheet">
     <link href="css/normalize.css" rel = "stylesheet">
     <head>
         <meta charset = "utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>KALMONT RESCUE TEAM</title>
     </head>
+
     <body>
 
-        <nav class="nav-main">
-        <div id = "navBar">
-            
-            <a class= "nav-main-item box-item-nav" href="#whatwedo">WHAT WE DO</a>
-            <a class= "nav-main-item box-item-nav" href="#education">EDUCATION</a>
-            <a class= "nav-main-item box-item-nav" href="#current conditions">CURRENT CONDITIONS</a>
-            <a class= "nav-main-item box-item-nav" href="#news">NEWS</a>
+        <nav class="box nav-main"> <!-- create a box class to re-use it with to create other flex containers on the page. Create nav-main to get some navigation styling that is unique to this nav
+-->
+            <a href="#whatwedo" class= "nav-main-item box-item-nav" >WHAT WE DO</a>
+            <!-- nav-main-item box-item-nav shows that this element is part of the box nav-main class, and then box-item-nav allows us to apply instructions to flex children that are navigation items. Items can have multiple classes, as long as there is a space between the words it's considered its own class attribute
+-->
+            <a href="#education" class= "nav-main-item box-item-nav" >EDUCATION</a>
+            <a href="#current conditions" class= "nav-main-item box-item-nav">CURRENT CONDITIONS</a>
+            <a href="#news" class= "nav-main-item box-item-nav" >NEWS</a>
 
             </nav>
             <img src = "img/kalmontLogoHeader.png" alt = "black and white line drawing of mountains with first aid cross in the middle">
-        </div>
+        
 
         <section id = "hero">
-            <h1>KALMONT RESCUE TEAM</h1>
-            <img src = "img/helicopter.jpg" alt = "A red first aid helicopter flying through the mountains">
-            <!-- Citation:Mooze, S. (Date Unknown). Helicopter over Central Switzerland [Online Image]. Retrieved June 23, 2020 from https://unsplash.com/photos/IzgsIKFghrw-->
+             <h1>KALMONT RESCUE TEAM  </h1>
+             <img src = "img/helicopter.jpg" alt = "A red first aid helicopter flying through the mountains">
+                <!-- Citation:Mooze, S. (Date Unknown). Helicopter over Central Switzerland [Online Image]. Retrieved June 23, 2020 from https://unsplash.com/photos/IzgsIKFghrw-->
+          
             
+
+        
+
         </section>
 
         <div class="main-container">
