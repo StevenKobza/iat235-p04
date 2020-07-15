@@ -10,23 +10,36 @@ html {
     font-family: "Open Sans", sans-serif;
 }
 
-h1 {
+#hero h1 {
+    margin: 0;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
-    font-size: 5em;
+    font-size: 2em;
+    top: 6em;
+    left: 1em;
+    position: relative;
+    max-width: 50%;
 }
 
 .bodyInfo {
-    max-width: 90%;
+    position: relative;
+    margin-top: 0;
+    max-width: 100%;
     margin: auto;
 }
 
 img {
     max-width: 100%;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 .logoHeader {
+    margin-left: auto;
+    margin-right: auto;
     min-width: 30%;
+    padding: 0;
+    margin-bottom: 0;
 }
 
 section {
@@ -37,12 +50,12 @@ section {
 
 nav a, nav a:visited {
     display: inline-block;
-    background-color: aqua;
-    color: #000000;
+    background-color: red;
+    color: #ffffff;
     padding: 1em 1.25em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
+    transition: background-color 0.5s;
 }
 
 
@@ -56,8 +69,9 @@ nav a, nav a:visited {
     transition: background-color 0.5s ease-out;
 }
 
-nav a:hover, nav a:active, nav a:active {
+nav a:hover, nav a:active {
     background-color: black;
+    text-decoration: underline;
     color: #ffffff;
 }
 
@@ -65,4 +79,36 @@ nav a:hover, nav a:active, nav a:active {
 ul {
     display: inline-block;
     list-style: none;
+}
+
+#hero {
+    position: relative;
+    margin:0;
+    padding:0;
+    top: -11em;
+}
+
+#hero img {
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#hero h2 {
+    position: relative;
+    left:40%;
+    bottom:3em;
+}
+
+#navGrid{
+    top:0;
+    position:sticky;
+    z-index: 10;
+}
+
+
+@media (max-width: 57em) {
+    #hero {
+        top: -13.5em;
+    }
 }
