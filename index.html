@@ -1,76 +1,82 @@
-
+   <!-- Erin Beaudoin 301381019. 
+    How I learned this:
+    Paul's 235 tutorials on youtube
+    A Complete Guide to Flexbox: CSS-Tricks. (2020, June 12). Retrieved July 09, 2020, from https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    Web Dev Simplified (March 16, 2019) Learn CSS Box Model In 8 Minutes [Video]  Retrieved from: https://www.youtube.com/watch?v=rIO5326FgPE
+    Web Dev Simplified (September 27, 2018) Learn Flexbox in 15 Minutes [Video] https://www.youtube.com/watch?v=fYq5PXgSsbE
+      -->
+   
 <!DOCTYPE html>
 <html lang = "en">
-<!-- Erin Beaudoin 301381019. I learned how to do all of this from Paul's tutorial on youtube.
--->
-    
-    <link href= "css/main.css" rel="stylesheet">
-    <link href = "css/grid.css" rel = "stylesheet">
-    <link href="css/normalize.css" rel = "stylesheet">
-    <head>
-        <meta charset = "utf-8">
-        <title>KALMONT RESCUE TEAM</title>
-    </head>
-    <body>
 
-        <div id = "navBar">
-            <nav class="nav-main">
-            
-            <a class= "nav-main-item box-item-nav" href="#whatwedo">WHAT WE DO</a>
-            <a class= "nav-main-item box-item-nav" href="#education">EDUCATION</a>
-            <a class= "nav-main-item box-item-nav" href="#current conditions">CURRENT CONDITIONS</a>
-            <a class= "nav-main-item box-item-nav" href="#news">NEWS</a>
+   <link href="css/normalize.css" rel = "stylesheet">    
+   <link href= "css/main.css" rel="stylesheet">
+   <link href = "css/grid.css" rel = "stylesheet">
+   
+   
+   <head>
+      <meta charset = "utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>KALMONT RESCUE TEAM</title>
+   </head>
+   <body>
+      <nav class="nav-main box">
+         <!-- create a box class to re-use it with to create other flex containers on the page. Create nav-main to get some navigation styling that is unique to this nav
+            nav-main-item box-item-nav shows that this element is part of the box nav-main class, and then box-item-nav allows us to apply instructions to flex children that are navigation items. Items can have multiple classes, as long as there is a space between the words it's considered its own class attribute
+            -->
+         <a href="#whatwedo" class= "nav-main-item box-item-nav" >WHAT WE DO</a>
+         <a href="#education" class= "nav-main-item box-item-nav" >EDUCATION</a>
+         <a href="#current conditions" class= "nav-main-item box-item-nav">CURRENT CONDITIONS</a>
+         <a href="#news" class= "nav-main-item box-item-nav" >NEWS</a>
+      </nav>
 
-            </nav>
-            <img src = "img/kalmontLogoHeader.png" alt = "black and white line drawing of mountains with first aid cross in the middle">
+      <div class = "box">
+         <a href = "#" ><img src = "img/kalmontLogoHeader.png" alt = "black and white line drawing of mountains with first aid cross in the middle"> </a>
+      </div>
+
+      <div class = "left-box">
+         <h1 class = "title" >KALMONT RESCUE TEAM </h1>
+         <img src = "img/helicopter.jpg" alt = "A red first aid helicopter flying through the mountains">
+         <!-- Citation:Mooze, S. (Date Unknown). Helicopter over Central Switzerland [Online Image]. Retrieved June 23, 2020 from https://unsplash.com/photos/IzgsIKFghrw-->
+  </div>
+
+      <div class="column">
+            <!-- can only have one type of id on each page, it is unique -->
+            <h2>Our Mission</h2>
+            <p class= "body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere, ipsum vehicula maximus viverra, dui velit euismod sem, 
+               quis vehicula magna tellus sed nisl. Nam eget viverra purus. Fusce ultricies porttitor vulputate. Ut porta molestie enim ac aliquam. 
+               Nunc eget lobortis nunc. Aliquam scelerisque tempus massa ac ullamcorper. Fusce id augue diam.<br><br>
+               Mauris efficitur, tortor sed sodales dignissim, enim nulla placerat sem, sit amet lacinia purus eros vitae odio.
+               Curabitur bibendum eget nisl a auctor. Proin at varius nibh, sed faucibus felis. Ut varius blandit venenatis. 
+               Nunc faucibus euismod mauris, et gravida nibh porta non. Suspendisse potenti. Nulla eu preti.<br><br>
+            </p>
         </div>
 
-        <section id = "hero">
-            <h1>KALMONT RESCUE TEAM</h1>
-            <img src = "img/helicopter.jpg" alt = "A red first aid helicopter flying through the mountains">
-            <!-- Citation:Mooze, S. (Date Unknown). Helicopter over Central Switzerland [Online Image]. Retrieved June 23, 2020 from https://unsplash.com/photos/IzgsIKFghrw-->
-            
-        </section>
-
-        <div class="main-container">
-        <section id = "OUR MISSION"> <!-- can only have one type of id on each page, it is unique -->
-            <h2>Our Mission</h2>
-  
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere, ipsum vehicula maximus viverra, dui velit euismod sem, 
-                quis vehicula magna tellus sed nisl. Nam eget viverra purus. Fusce ultricies porttitor vulputate. Ut porta molestie enim ac aliquam. 
-                Nunc eget lobortis nunc. Aliquam scelerisque tempus massa ac ullamcorper. Fusce id augue diam.<br><br>
-                Mauris efficitur, tortor sed sodales dignissim, enim nulla placerat sem, sit amet lacinia purus eros vitae odio.
-                Curabitur bibendum eget nisl a auctor. Proin at varius nibh, sed faucibus felis. Ut varius blandit venenatis. 
-                Nunc faucibus euismod mauris, et gravida nibh porta non. Suspendisse potenti. Nulla eu preti.<br><br>
-              </p>
-        </section>
-        <section id = "CURRENT WEATHER">
+        <div class="column">
             <h2>Current Weather</h2>
-           
-                <img src = "img/weather.jpg" alt = "Weather forecast Monday: Cloudy, -1 feels like -2, chance of rain 10%, Tuesday: Sun and Clouds, -2, feels like - 4 chance of rain 10%, Wednesday Sunny,-3 Feels like - 2, chance of rain 2%, Thursday: Sunny, -1, feels like 0, chance of rain 2%, Friday: Cloudy, -2, feels like -1, chance of rain 8%, Saturday: Sunny with clouds, 0, feels like 1, chance of rain 6%, Sunday: Sunny, 1, feels like 0, chance of rain 2%">
- 		</section>
-          </div><!-- end of .main-container -->
-  		 <section id = "QUICK LINKS">
-  		 	<br><br><img src = "img/quicklinksheader.jpg" alt = "Illustration of mountains">
-            <h2>Quick Links<br><br></h2>
- <div id = "QUICK LINKS">
-            <ul>
-                <li><a href="#" class = "navButtons">LEARN ABOUT OUR SERVICES</a></li>
-                <li><a href="#" class = "navButtons">READ THE LATEST MOUNTAIN NEWS</a></li>
-                <li><a href="#" class = "navButtons">CHECK MOUNTAIN CONDITIONS</a></li>
-            </ul>
-            </section>
+            <img class ="padthai" src = "img/weather.jpg" alt = "Weather forecast Monday: Cloudy, -1 feels like -2, chance of rain 10%, Tuesday: Sun and Clouds, -2, feels like - 4 chance of rain 10%, Wednesday Sunny,-3 Feels like - 2, chance of rain 2%, Thursday: Sunny, -1, feels like 0, chance of rain 2%, Friday: Cloudy, -2, feels like -1, chance of rain 8%, Saturday: Sunny with clouds, 0, feels like 1, chance of rain 6%, Sunday: Sunny, 1, feels like 0, chance of rain 2%">
+      </div>
 
-       
+    <div class="column">
+         <br><br><img src = "img/quicklinksheader.jpg" alt = "Illustration of mountains">
+         <h2>Quick Links<br><br></h2>
+         
+            <a href="#" class = "quick-link">LEARN ABOUT OUR SERVICES</a>
+            <a href="#" class = "quick-link">READ THE LATEST MOUNTAIN NEWS</a>
+            <a href="#" class = "quick-link">CHECK MOUNTAIN CONDITIONS</a>
 
-        <footer>
-            <img src = "img/kalmontLogoFooter.png" alt = "black and white line drawing of mountains with first aid cross in the middle">
-            <p id = "kalmontTitle">KALMONT<br>RESCUE</p>
-            <p>Made By <br>Zoomers</p>
-            <p>SOCIAL MEDIA</p>
-            <a href = "#">Mobile Version</a>
-            <a href = "#">Citations</a>
-        </footer>
-        <img src ="img/Desktop - Home.jpg" alt = "Screen grab of Kalmont Rescue homeoage">
-    </body>
+
+         
+    </div>
+      <footer class= "footer box">
+         <img src = "img/kalmontLogoFooter.png" alt = "black and white line drawing of mountains with first aid cross in the middle">
+         <p id = "kalmontTitle">KALMONT<br>RESCUE</p>
+         <p>Made By <br>Zoomers</p>
+         <p>SOCIAL MEDIA</p>
+         <a href = "#">Mobile Version</a>
+         <a href = "#">Citations</a>
+      </footer>
+      <img src ="img/Desktop - Home.jpg" alt = "Screen grab of Kalmont Rescue homeoage">
+
+   </body>
 </html>

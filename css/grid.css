@@ -1,31 +1,49 @@
-/* "*" selects everything, *::before means the selector before everything and *::after means the selector after everything*/
+/* Erin Beaudoin 301381019. 
+    How I learned this:
+    Paul's 235 tutorials on youtube
+    A Complete Guide to Flexbox: CSS-Tricks. (2020, June 12). Retrieved July 09, 2020, from https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    Web Dev Simplified (March 16, 2019) Learn CSS Box Model In 8 Minutes [Video]  Retrieved from: https://www.youtube.com/watch?v=rIO5326FgPE
+    Web Dev Simplified (September 27, 2018) Learn Flexbox in 15 Minutes [Video] https://www.youtube.com/watch?v=fYq5PXgSsbE
+      */
 *, *::before, *::after {
     box-sizing: border-box;
 }
-/*
-	Here we are going to establish some rules for our 'box'	which contains all the elements to be wrapped into the flexbox model.
-*/
+
 .box {
 
-	/*
-		The statement below sets us into the flexbox display mode. Note support for flexbox still necessitates some vendor prefixes (see http://caniuse.com/#search=flex)
-	*/
+	
+	display: flex; /* displays this as a flexbox */
+	flex-wrap: wrap; /* without this, everything tries to fit the width of the page, with this, it will wrap underneath when resized */
+	justify-content: space-around;
 	display: -webkit-flex; /* For support in a series of Webkit browsers */
 	display: -ms-flex; /* For support in IE 10 */
-	display: flex;
 
-	/*
-		A flexbox will try to fit all elements in one line by default. The 'flex-wrap' property lets us wrap child elements that become too wide for their current row.
-	*/
-	-webkit-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
+}
 
-	/*
-		To get our flexbox to change how elements are spanned across the remaining space, we can use the 'justify-content' property. In this case, we are specifying that we want the extra space to be balanced around our elements.
-	*/
-	-webkit-justify-content: space-around;
-	-ms-justify-content: space-around;
-	justify-content: space-around;
+.column{
+	display: flex; 
+	flex-direction: column;
+	align-items: center;
+	display: -webkit-flex; /* For support in a series of Webkit browsers */
+	display: -ms-flex;
+
+
+}
+
+.left-box {
+
+	display: flex; /* displays this as a flexbox */
+	flex-wrap: wrap; /* without this, everything tries to fit the width of the page, with this, it will wrap underneath when resized */
+	justify-content: flex-start;
+	display: -webkit-flex; /* For support in a series of Webkit browsers */
+	display: -ms-flex; /* For support in IE 10 */
+	
+}
+
+.box-item-nav {
+	
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: auto;/* this means "look at my width or height property"*/
 
 }
