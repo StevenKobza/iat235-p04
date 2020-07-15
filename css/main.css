@@ -3,29 +3,57 @@
 
 /* 
 
-Erin Beaudoin 301381019 P03, Step 2
+Erin Beaudoin 301381019 P03, Step 3
  
-Unless otherwise cited, all material here was learned from IAT 235 CSS Basics tutorial *citation below
-Israfel0. (2020, June 29). IAT 235 - CSS Basics [Video]. YouTube. https://www.youtube.com/watch?v=sif-mX9-FRo&feature=youtu.be
-*/
+/* Erin Beaudoin 301381019. 
+    How I learned this:
+    Paul's 235 tutorials on youtube
+    A Complete Guide to Flexbox: CSS-Tricks. (2020, June 12). Retrieved July 09, 2020, from https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    Web Dev Simplified (March 16, 2019) Learn CSS Box Model In 8 Minutes [Video]  Retrieved from: https://www.youtube.com/watch?v=rIO5326FgPE
+    Web Dev Simplified (September 27, 2018) Learn Flexbox in 15 Minutes [Video] https://www.youtube.com/watch?v=fYq5PXgSsbE
+    Web Dev Simplified (Nov 19, 2019) Learn CSS Media Query In 7 Minutes [Video] https://www.youtube.com/watch?v=yU7jJ3NbPdA
+      */
 
 body{
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size:1.25rem;
-	margin:1rem;
-	
 }
 
 h1{
 	font-family: "Josefin Sans", Arial, sans-serif;
 	font-size:5.6rem;
+	text-align: left;
 	margin-bottom: 1;
 }
 
 h2{
 	font-size: 3.75rem;
-	margin-bottom: 1;
+	text-align: center;
+
 }
+
+
+@media (min-width: 0px) and (max-width: 460px) {
+	h1{
+	font-size:3rem;
+}
+h2{
+	font-size: 2.5rem;
+	text-align: center;
+}
+}
+
+@media (min-width: 461px) {
+ h1{
+	font-size:5rem;
+}
+h2{
+	font-size: 3.2rem;
+	text-align: center;
+
+}
+}
+
 
 
 p, ol, ul{
@@ -47,26 +75,59 @@ a:hover, a:focus, a:active{
 	font-size: 105%; /* learned from CSS :hover Selector. (n.d.). Retrieved July 01, 2020, from https://www.w3schools.com/cssref/sel_hover.asp*/
 	
 }
+.title{
+	padding: 2rem;
+}
 
+.body-text{
+	padding:2rem;
+	max-width:40rem;
+}
 
+.quick-link{
+	background-color: rgb(245, 245, 245);
+	padding: 0.5rem 0.75rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	border:0.5rem;
+	margin:1rem;
+}
 .nav-main-item{
-	display:inline-block;
-	background-color: rgb(250,100,75);
+	
+	background-color: rgb(255, 71, 71);
 	font-size: 1.5rem;
-	color:white;
+	color: white;
 	padding: 0.5rem 0.75rem;
 	text-align: center;
-
+	flex-basis: 20rem;
 	transition-property: background-color;
 	transition-duration: 1s;
 	transition-timing-function: ease-out;
+}
+
+.nav-main {
+	/*position: fixed;*/
+	top: 0;
+	left: 0;
+	right: 0;
+
+	z-index: 10;
+}
+
+.padthai{
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 .nav-main-item:hover, nav-main-item:active, .nav-main-item:focus{
 	background-color: rgb(50,50,50);
 }
 
-.main-container{
-	max-width: 60rem;
-	margin: 0 auto;
+.footer{
+	background-color: rgb(107, 107, 107);
+	color: white;
+	padding: 4rem;
+	border-top:2rem;
+	margin-top: 4rem;
 }
+
