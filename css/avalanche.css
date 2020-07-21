@@ -1,0 +1,14 @@
+h3 {
+    font-weight: normal;
+}
+
+.footerGrid {
+    background-color: #6b6b6b;;
+}
+.footerGrid a, p {
+    color: #bdbdbd;
+}
+
+.footerGrid a {
+    text-decoration: none;
+}

@@ -8,6 +8,17 @@ body{
 	
 }
 
+#hero h1 {
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    top: 6em;
+    left: 1em;
+    position: relative;
+    max-width: 50%;
+}
+
 h1{
 	font-family: "Josefin Sans", Arial, sans-serif;
 	font-size:5.6rem;
@@ -15,8 +26,28 @@ h1{
 }
 
 img {
+    max-height: 100%;
     height: auto;
-    width: 100%;
+    max-width: 100%;
+}
+
+#hero {
+    position: relative;
+    margin:0;
+    padding:0;
+    top: -11em;
+}
+
+#hero img {
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#hero h2 {
+    position: relative;
+    left:40%;
+    bottom:3em;
 }
 
 nav a, nav a:visited {
@@ -42,4 +73,10 @@ nav a:hover, nav a:active {
     background-color: black;
     text-decoration: underline;
     color: #ffffff;
+}
+
+#navGrid{
+    top:0;
+    position:sticky;
+    z-index: 10;
 }

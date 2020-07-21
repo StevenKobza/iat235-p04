@@ -1,3 +1,5 @@
+/** Steven's work**/
+
 *, *::after, *::before {
 	box-sizing: border-box;
 }
@@ -30,7 +32,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr); /*Just means that there will be 5 equally spaced out columns or rows depending on the name of the grid-template*/
     grid-gap: 5%;
-    grid-template-rows: repeat(12, 1em);
+    grid-template-rows: repeat(6, 1em);
 }
 
 .navOne {
@@ -39,6 +41,91 @@
 }
 
 .navTwo {
+    margin: auto;
     grid-column: 5/6;
     grid-row: 1/5;
+}
+
+.footerGrid {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+}
+
+.footerLogo {
+    grid-column: 2/3;
+    grid-row: 3/6;
+}
+
+.footerTitle {
+    grid-column: 3/4;
+    grid-row: 3/6;
+}
+
+.footerCredit {
+    grid-column: 4/5;
+    grid-row: 3/6;
+}
+
+.footerSocial {
+    grid-column: 6/9;
+    grid-row: 2/5;
+}
+
+.footerMobile {
+    grid-column: 6/9;
+    grid-row: 4/7;
+}
+
+.footerCitation {
+    grid-column: 12/13;
+    grid-row: 3/6;
+}
+
+.centerGridItem {
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.twoByGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5%;
+}
+
+.gridOne {
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 1;
+}
+.gridTwo {
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 2; /*This span means how many columns will it span*/
+}
+
+
+
+.gridSpan {
+    grid-row: 1;
+    position: relative;
+    grid-column: 1/span 2;
+}
+
+.gridTwoFade {
+    z-index: 5;
+    grid-row: 1;
+    position: relative;
+    background-color: rgba(255, 255, 255, 75%);
+    background-size: auto;
+    grid-column: 2;
+}
+
+.gridOneFade {
+    z-index: 5;
+    grid-row: 1;
+    position: relative;
+    background-color: rgba(255, 255, 255, 75%);
+    grid-column: 1;
 }

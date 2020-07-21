@@ -42,7 +42,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr); /*Just means that there will be 5 equally spaced out columns or rows depending on the name of the grid-template*/
     grid-gap: 5%;
-    grid-template-rows: repeat(12, 1em);
+    grid-template-rows: repeat(6, 1em);
 }
 
 .navOne {
@@ -72,96 +72,53 @@
     grid-column: 2/span 1; /*This span means how many columns will it span*/
 }
 
-.checkGrid {
-    display: grid;
-    grid-template: repeat(6, 1fr) / repeat(6, 1fr); /*This means that there will be 6 rows each 1fr (same spaced) apart and 6 columns each 1fr apart*/
-    grid-gap: 5px; /*The gap between each row and column besides the 1fr*/
+
+#checkList ul {
+    list-style-image: url("../img/check.png");
+    line-height: 2rem;
 }
 
-/*Starting here you get to see the mess that is the code of my checklist.*/
-.checkOne {
-    grid-row: 1/1;/*This indicates the startingRow/endingRow*/
-    grid-column: 2;/*This indicates the startingColumn*/
-}
-.checkOneC2 {
-    grid-row: 1/1;
-    grid-column: 3/5;/*This indicates the startingColumn/endingColumn*/
-}
-.checkTwo {
-    grid-row: 2;
-    grid-column: 2;
-}
-.checkTwoC2 {
-    grid-row: 2;
-    grid-column: 3/5;
-}
-.checkThree {
-    grid-row: 3;
-    grid-column: 2;
-}
-.checkThreeC2 {
-    grid-row: 3;
-    grid-column: 3/5;
-}
-.checkFour {
-    grid-row: 4;
-    grid-column: 2;
-}
-.checkFourC2 {
-    grid-row: 4;
-    grid-column: 3/5;
-}
-.checkFive {
-    grid-row: 5;
-    grid-column: 2;
-}
-.checkFiveC2 {
-    grid-row: 5;
-    grid-column: 3/5;
-}
-.checkSix {
-    grid-row: 6;
-    grid-column: 2;
-}
-.checkSixC2 {
-    grid-row: 6;
-    grid-column: 3/5;
-}
 
 .footerGrid {
     display: grid;
     grid-template-columns: repeat(13, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
 }
 
 .footerLogo {
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 3/6;
 }
 
 .footerTitle {
     grid-column: 3/4;
-    grid-row: 2/3;
+    grid-row: 3/6;
 }
 
 .footerCredit {
     grid-column: 4/5;
-    grid-row: 2/3;
+    grid-row: 3/6;
 }
 
 .footerSocial {
-    grid-column: 7/8;
-    grid-row: 1/2;
+    grid-column: 6/9;
+    grid-row: 2/5;
 }
 
 .footerMobile {
-    grid-column: 7/8;
-    grid-row: 3/4;
+    grid-column: 6/9;
+    grid-row: 4/7;
 }
 
 .footerCitation {
     grid-column: 12/13;
-    grid-row: 2/3;
+    grid-row: 3/6;
+}
+
+.centerGridItem {
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
