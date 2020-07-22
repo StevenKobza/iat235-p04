@@ -91,7 +91,6 @@ nav a, nav a:visited {
 }
 
 nav a:hover, nav a:active {
-    background-color: black;
     text-decoration: underline;
     color: #ffffff;
 }
