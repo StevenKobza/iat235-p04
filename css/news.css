@@ -91,6 +91,7 @@ nav a:hover, nav a:active {
 #mountainStatus {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	flex-direction: column;
 }
 
