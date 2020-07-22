@@ -127,8 +127,18 @@ nav a:hover, nav a:active {
 	color: rgb(200, 200, 200);
 }
 
+.socialIcons {
+	display: flex;
+	max-width: 30px;
+	max-height: 30px;
+	align-items: baseline;
+	justify-content: flex-start;
+	margin: 40px 10px;
+}
 
-
+.citations {
+	margin: 15px 0px;
+}
 
 
 
