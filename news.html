@@ -9,21 +9,21 @@
         <link rel = "stylesheet" href = "./css/normalize.css">
         <link rel = "stylesheet" href = "./css/newsgrid.css">
         <link rel = "stylesheet" href = "./css/news.css">
+        <link rel = "stylesheet" href = "./css/headerFooter.css">
     </head>
 
     <body>
 
-        <div id = "nav-bar">
+        <div id = "navBar">
 
-            <nav class = "box nav-main nav1">
-                <a href= "#" class = "nav-main-item box-item-nav">WHAT WE DO</a>
-                <a href= "#" class = "nav-main-item box-item-nav">EDUCATION</a>
-                <a href= "#" class = "nav-main-item box-item-nav">CURRENT CONDITIONS</a>
-                <a href= "#" class = "nav-main-item box-item-nav">NEWS</a>
-
-                <a href= "#" class= "nav-main-item box-item-nav">&nbsp;</a>
+            <nav class = "box navMain nav1">
+                <a href= "aboutus.html" class = "navMainItem boxItemNav">WHAT WE DO</a>
+                <a href= "hypothermia.html" class = "navMainItem boxItemNav">EDUCATION</a>
+                <a href= "mountain-conditions.html" class = "navMainItem boxItemNav">CURRENT CONDITIONS</a>
+                <a href= "news.html" class = "navMainItem boxItemNav">NEWS</a>
+                <a href= "#" class= "navMainItem boxItemNav">&nbsp;</a>
             </nav>
-            <a href = "#" class= "logo-header nav2"><img src = "img/kalmontLogoHeader.png" alt = "logo"></a>
+            <a href = "index.html" class= "logoHeader nav2"><img src = "img/kalmontLogoHeader.png" alt = "logo"></a>
         </div>
 
 
@@ -114,24 +114,35 @@
         </div>
     </div>
 
-    <div id= "footer-wrapper">
-            <div class= "logo-footer">
-                <img src ="img/kalmontLogoFooter.png">
+    <footer>
+
+        <div class = "footerGrid">
+            <div class = "footerLogo rightGridItem">
+                <img src = "img/kalmontLogoFooter.png" alt = "abstract mountain logo">
             </div>
-            <div class= "kalmont">
-                <p>KALMONT RESCUE</p>
+            <div class = "footerTitle centerGridItem">
+                <p id = "kalmontTitle">KALMONT<br>RESCUE</p>
             </div>
-            <div class= "made-by">
-                <p>Made by Zoomers</p>
+
+            <div class = "footerCredit centerGridItem">
+                <p>Made By <br>Zoomers</p>
             </div>
-            <div class= "socials">
+
+            <div class = "footerSocial centerGridItem">
                 <p>SOCIAL MEDIA</p>
-                <a href="#">Mobile Version</a>
             </div>
-            <div class= "citations">
-                <a href="#">Citations</a>
+
+            <div class = "footerSocialSVG centerGridItem">
+                <img src = "footerSVGs/f_logo_RGB-Black_1024.svg" alt = "facebook logo">
+                <img src = "footerSVGs/glyph-logo_May2016.svg" alt = "instagram logo">
+                <img src = "footerSVGs/Twitter_Logo_Blue.svg" alt = "twitter logo">
             </div>
-    </div>
+
+            <div class = "footerCitation centerGridItem">
+                <a href = "citations.html">Citations</a>
+            </div>
+        </div>
+    </footer>
         <img src = "img/News - Desktop v2.png"> 
     </body>
 </html>

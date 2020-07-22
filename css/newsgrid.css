@@ -16,13 +16,13 @@
 	justify-content: space-around;
 } /* Resources used: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ and https://stackoverflow.com/questions/17695865/why-does-display-ms-flex-ms-justify-content-center-not-work-in-ie10*/
 
-.box-item-nav { 
+.boxItemNav { 
 	-webkit-flex: 1 1 auto;
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;
 } /* Resource used: https://www.w3schools.com/css/css_grid_container.asp */
 
-#nav-bar {
+#navBar {
 	display:grid;
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: repeat(5, 1fr);
