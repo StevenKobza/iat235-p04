@@ -6,6 +6,7 @@
 }
 
 .footerGrid {
+    font-size: 1rem;
     background: #6b6b6b;
 }
 
@@ -26,8 +27,8 @@
 
 #citationsList {
     position: relative;
-    left:9%;
-    max-width: 80%;
+    left:12.5%;
+    max-width: 75%;
 }
 
 #citationsList ul li{
@@ -37,4 +38,19 @@
 #citationsList ul a{
     color: black;
     text-decoration: none;
+}
+
+#hero h1 {
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    top: 12em;
+    left: 12em;
+    position: relative;
+    max-width: 50%;
+}
+
+#hero img {
+    object-position: 50% 70%;
 }

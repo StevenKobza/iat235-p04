@@ -38,22 +38,6 @@
     flex: 1 1 50%;
 }
 
-#navBar {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); /*Just means that there will be 5 equally spaced out columns or rows depending on the name of the grid-template*/
-    grid-gap: 5%;
-    grid-template-rows: repeat(6, 1em);
-}
-
-.navOne {
-    grid-column: 1/6; /*Starting at column 1 and going to column 5*/
-    grid-row: 1/3;
-}
-
-.navTwo {
-    grid-column: 5/6;
-    grid-row: 1/5;
-}
 
 .twoByGrid {
     display: grid;
@@ -93,43 +77,6 @@
 #checkList ul {
     list-style-image: url("../img/check.png");
     line-height: 2rem;
-}
-
-
-.footerGrid {
-    display: grid;
-    grid-template-columns: repeat(13, 1fr);
-    grid-template-rows: repeat(7, 1fr);
-}
-
-.footerLogo {
-    grid-column: 2/3;
-    grid-row: 3/6;
-}
-
-.footerTitle {
-    grid-column: 3/4;
-    grid-row: 3/6;
-}
-
-.footerCredit {
-    grid-column: 4/5;
-    grid-row: 3/6;
-}
-
-.footerSocial {
-    grid-column: 6/9;
-    grid-row: 2/5;
-}
-
-.footerMobile {
-    grid-column: 6/9;
-    grid-row: 4/7;
-}
-
-.footerCitation {
-    grid-column: 12/13;
-    grid-row: 3/6;
 }
 
 .centerGridItem {
