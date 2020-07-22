@@ -12,7 +12,7 @@
    <link href="css/normalize.css" rel = "stylesheet">    
    <link href= "css/main.css" rel="stylesheet">
    <link href = "css/grid.css" rel = "stylesheet">
-   
+   <link href = "css/headerFooter.css" rel = "stylesheet">
    
    <head>
       <meta charset = "utf-8">
@@ -24,10 +24,10 @@
          <!-- create a box class to re-use it with to create other flex containers on the page. Create nav-main to get some navigation styling that is unique to this nav
             nav-main-item box-item-nav shows that this element is part of the box nav-main class, and then box-item-nav allows us to apply instructions to flex children that are navigation items. Items can have multiple classes, as long as there is a space between the words it's considered its own class attribute
             -->
-         <a href="#whatwedo" class= "nav-main-item box-item-nav" >WHAT WE DO</a>
-         <a href="#education" class= "nav-main-item box-item-nav" >EDUCATION</a>
-         <a href="#current conditions" class= "nav-main-item box-item-nav">CURRENT CONDITIONS</a>
-         <a href="#news" class= "nav-main-item box-item-nav" >NEWS</a>
+         <a href="aboutus.html" class= "nav-main-item box-item-nav" >WHAT WE DO</a>
+         <a href="hypothermia.html" class= "nav-main-item box-item-nav" >EDUCATION</a>
+         <a href="mountain-conditions.html" class= "nav-main-item box-item-nav">CURRENT CONDITIONS</a>
+         <a href="news.html" class= "nav-main-item box-item-nav" >NEWS</a>
       </nav>
 
       <div class = "box">
@@ -43,12 +43,9 @@
       <div class="column">
             <!-- can only have one type of id on each page, it is unique -->
             <h2>Our Mission</h2>
-            <p class= "body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere, ipsum vehicula maximus viverra, dui velit euismod sem, 
-               quis vehicula magna tellus sed nisl. Nam eget viverra purus. Fusce ultricies porttitor vulputate. Ut porta molestie enim ac aliquam. 
-               Nunc eget lobortis nunc. Aliquam scelerisque tempus massa ac ullamcorper. Fusce id augue diam.<br><br>
-               Mauris efficitur, tortor sed sodales dignissim, enim nulla placerat sem, sit amet lacinia purus eros vitae odio.
-               Curabitur bibendum eget nisl a auctor. Proin at varius nibh, sed faucibus felis. Ut varius blandit venenatis. 
-               Nunc faucibus euismod mauris, et gravida nibh porta non. Suspendisse potenti. Nulla eu preti.<br><br>
+            <p class= "body-text">The team consists of approximately 50 volunteers skilled in search and rescue operations in mountain, canyon and urban settings. Kalmont Rescue Team performs approximately 130 search & rescue operations annually, with some operations lasting multiple days <br><br>
+               MMembers participate in different support or rescue categories, depending on individual skills and participation levels. Kalmont Rescue Team is a volunteer community-based search and rescue team. Its members are from all walks of life but share a common interest in providing an important life-saving service to the public, 24 hours a day, every day of the year.
+<br><br>
             </p>
         </div>
 
@@ -64,18 +61,39 @@
             <a href="#" class = "quick-link">LEARN ABOUT OUR SERVICES</a>
             <a href="#" class = "quick-link">READ THE LATEST MOUNTAIN NEWS</a>
             <a href="#" class = "quick-link">CHECK MOUNTAIN CONDITIONS</a>
-
-
          
     </div>
-      <footer class= "footer box">
-         <img src = "img/kalmontLogoFooter.png" alt = "black and white line drawing of mountains with first aid cross in the middle">
-         <p id = "kalmontTitle">KALMONT<br>RESCUE</p>
-         <p>Made By <br>Zoomers</p>
-         <p>SOCIAL MEDIA</p>
-         <a href = "#">Mobile Version</a>
-         <a href = "#">Citations</a>
-      </footer>
+
+    <footer>
+
+      <div class = "footerGrid">
+          <div class = "footerLogo rightGridItem">
+              <img src = "img/kalmontLogoFooter.png" alt = "abstract mountain logo">
+          </div>
+          <div class = "footerTitle centerGridItem">
+              <p id = "kalmontTitle">KALMONT<br>RESCUE</p>
+          </div>
+
+          <div class = "footerCredit centerGridItem">
+              <p>Made By <br>Zoomers</p>
+          </div>
+
+          <div class = "footerSocial centerGridItem">
+              <p>SOCIAL MEDIA</p>
+          </div>
+
+          <div class = "footerSocialSVG centerGridItem">
+              <img src = "footerSVGs/f_logo_RGB-Black_1024.svg" alt = "facebook logo">
+              <img src = "footerSVGs/glyph-logo_May2016.svg" alt = "instagram logo">
+              <img src = "footerSVGs/Twitter_Logo_Blue.svg" alt = "twitter logo">
+          </div>
+
+          <div class = "footerCitation centerGridItem">
+              <a href = "citations.html">Citations</a>
+          </div>
+      </div>
+  </footer>
+
       <img src ="img/Desktop - Home.jpg" alt = "Screen grab of Kalmont Rescue homeoage">
 
    </body>
