@@ -122,7 +122,7 @@ a:hover, a:focus, a:active{
 .nav-main-item:hover, nav-main-item:active, .nav-main-item:focus{
 	background-color: rgb(50,50,50);
 }
-
+/*
 .footer{
 	background-color: rgb(107, 107, 107);
 	color: white;
@@ -130,4 +130,4 @@ a:hover, a:focus, a:active{
 	border-top:2rem;
 	margin-top: 4rem;
 }
-
+*/
