@@ -20,16 +20,29 @@
       <title>KALMONT RESCUE TEAM</title>
    </head>
    <body>
-      <nav class="nav-main box">
-         <!-- create a box class to re-use it with to create other flex containers on the page. Create nav-main to get some navigation styling that is unique to this nav
-            nav-main-item box-item-nav shows that this element is part of the box nav-main class, and then box-item-nav allows us to apply instructions to flex children that are navigation items. Items can have multiple classes, as long as there is a space between the words it's considered its own class attribute
-            -->
-         <a href="aboutus.html" class= "nav-main-item box-item-nav" >WHAT WE DO</a>
-         <a href="hypothermia.html" class= "nav-main-item box-item-nav" >EDUCATION</a>
-         <a href="mountain-conditions.html" class= "nav-main-item box-item-nav">CURRENT CONDITIONS</a>
-         <a href="news.html" class= "nav-main-item box-item-nav" >NEWS</a>
-      </nav>
+      <div id = "navGrid">
+            <div id = "navBar">
 
+                <nav class = "navMain box navOne">
+
+                    <!--Navigation Items-->
+                
+                    <a href="aboutus.html" class = "navMainItem boxItemNav buttonNav">WHAT WE DO</a>
+
+                    <a href="hypothermia.html" class = "navMainItem boxItemNav buttonNav">EDUCATION</a>
+
+                    <a href="mountain-conditions.html" class = "navMainItem boxItemNav buttonNav">CURRENT CONDITIONS</a>
+
+                    <a href="news.html" class = "navMainItem boxItemNav buttonNav">NEWS</a>
+
+                    <a href = "#" class = "navMainItem boxItemNav buttonNav blankOne">&nbsp;</a>
+
+                </nav>
+                <a href = "index.html" class = "navTwo logoHeader"><img src = "img/kalmontLogoHeader.png" alt = "abstract mountain logo"> </a>
+            
+            </div>
+        </div>
+        
       <div class = "box">
          <a href = "#" ><img src = "img/kalmontLogoHeader.png" alt = "black and white line drawing of mountains with first aid cross in the middle"> </a>
       </div>
