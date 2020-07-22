@@ -51,7 +51,7 @@
     grid-template-rows: repeat(7, 1fr);
 }
 
-.footerGrid a {
+.footerGrid a, .footerGrid p{
     color: #bdbdbd;
 }
 
