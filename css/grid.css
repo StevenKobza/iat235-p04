@@ -47,3 +47,15 @@
 	flex-basis: auto;/* this means "look at my width or height property"*/
 
 }
+
+#navGrid {
+    top:0;
+    position:sticky;
+    z-index: 10;
+}
+
+.footerGrid {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
