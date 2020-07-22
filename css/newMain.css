@@ -8,6 +8,29 @@ body{
 	
 }
 
+#hero h1 {
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    top: 6em;
+    left: 1em;
+    position: relative;
+    max-width: 50%;
+}
+
+h1, h2, h3{
+    font-family: "Josefin Sans", Arial, sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 { 
+    font-size: 1.5rem;
+}
+
 h1{
 	font-family: "Josefin Sans", Arial, sans-serif;
 	font-size:5.6rem;
@@ -15,8 +38,31 @@ h1{
 }
 
 img {
+    max-height: 100%;
     height: auto;
-    width: 100%;
+    max-width: 100%;
+    
+}
+
+#hero {
+    position: relative;
+    margin:0;
+    padding:0;
+    top: -11em;
+}
+
+#hero img {
+    min-width: 100%;
+    height: 50rem;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+}
+
+#hero h2 {
+    position: relative;
+    left:40%;
+    bottom:3em;
 }
 
 nav a, nav a:visited {
@@ -29,7 +75,15 @@ nav a, nav a:visited {
     transition: background-color 0.5s;
 }
 
-.nav-main-item {
+.logoHeader {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 30%;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.navMainItem {
     display: inline-block;
     background-color: red;
     color: #ffffff;
@@ -39,7 +93,20 @@ nav a, nav a:visited {
 }
 
 nav a:hover, nav a:active {
-    background-color: black;
     text-decoration: underline;
     color: #ffffff;
+}
+
+#navGrid{
+    top:0;
+    position:sticky;
+    z-index: 10;
+}
+
+@media (max-width: 500px) {
+    #hero img {
+        top: 15rem;
+        position: relative;
+        height: unset;
+    }
 }

@@ -6,161 +6,300 @@
         <meta name= "viewport" content= "width=device-width, initial-scale=1">
 
         <title>Mountain Conditions Section</title>
+        <link rel = "stylesheet" href = "./css/normalize.css">
+        <link rel = "stylesheet" href = "./css/mtConditions.css">
+        <link rel = "stylesheet" href = "./css/mtConditionsGrid.css">
     </head>
 
     <body>
 
-    	<div class= "heading-one"> <!-- first image with header -->
-    		<section id= "first-image-text">
+        <div id = "navBar">
+
+            <nav class = "box navMain nav1">
+                <a href= "aboutus.html" class = "navMainItem boxItemNav">WHAT WE DO</a>
+                <a href= "hypothermia.html" class = "navMainItem boxItemNav">EDUCATION</a>
+                <a href= "mountain-conditions.html" class = "navMainItem boxItemNav">CURRENT CONDITIONS</a>
+                <a href= "news.html" class = "navMainItem boxItemNav">NEWS</a>
+
+                <a href= "#" class= "navMainItem boxItemNav">&nbsp;</a>
+            </nav>
+            <a href = "index.html" class= "logoHeader nav2"><img src = "img/kalmontLogoHeader.png" alt = "logo"></a>
+        </div>
+
+    	<div class= "headingOne"> <!-- first image with header -->
+    		<section id= "firstImageText">
     			<img src= "img/mountainConditions.png">
+            <!--<div class= "parallelogram"></div>-->
     			<h1>MOUNTAIN CONDITIONS</h1>
     		</section>
     	</div>
 
-    	<div id= "forecast-grid"> <!-- today's forecast section -->
+    	<div id= "forecastGrid"> <!-- today's forecast section -->
     		<div class= "forecast1">
     			<h2>TODAY'S FORECAST</h2>
     		</div>
     		<div class= "forecast2">
-    			<!--<img src= ""> -->
+    			<img src= "img/sunClouds.jpg">
+            </div>
+            <div class= "forecast3">
     			<p>0°C</p>
     		</div>
-    		<div class= "forecast3">
+    		<div class= "forecast4">
     			<p>Mainly cloudy with clear periods and scattered showers.</p>
     		</div>
-    		<div class= "forecast4">
+    		<div class= "forecast5">
+                <img src= "img/mtElement.jpg">
+            </div>
+            <div class= "forecast6">
     			<p>Elevation: 1860m</p>
     		</div>
-    		<div class= "forecast5">
-    			<p>1°C HI</p>
-    		</div>
-    		<div class= "forecast6">
-    			<p>-1°C LOW</p>
-    		</div>
     		<div class= "forecast7">
-    			<p>Winds: Light</p>
-    		</div>
-    		<div class= "forecast8">
-    			<p>10 CM</p><br>
-    			<p>DAYTIME SNOW</p>
+    			<p>1°C HI</p>
+            </div>
+            <div class= "forecast8">
+                <img src= "img/upArrow.jpg">
     		</div>
     		<div class= "forecast9">
+    			<p>-1°C LOW</p>
+            </div>
+            <div class= "forecast10">
+                <img src= "img/downArrow.jpg">
+    		</div>
+    		<div class= "forecast11">
+                <img src= "img/wind.jpg">
+            </div>
+            <div class= "forecast12">
+    			<p>Winds: Light</p>
+    		</div>
+    		<div class= "forecast13">
+    			<p>10 CM</p><br>
+            </div>
+            <div class= "forecast14">
+    			<p>DAYTIME SNOW</p>
+    		</div>
+    		<div class= "forecast15">
+                <img src= "img/snowflake.jpg">
+            </div>
+            <div class= "forecast16">
     			<p>Freezing Level: 3200m</p>
     		</div>
-    		<div class= "forecast10">>
+    		<div class= "forecast17">
     			<p>2 CM</p><br>
+            </div>
+            <div class= "forecast18">
     			<p>NIGHTTIME SNOW</p>
     		</div>
     	</div> <!-- end of forecast-wrapper div -->
 
-    	<div id= "lift-status-table"> <!-- start of lift status table -->
-    		<table> <!-- resource: https://www.w3schools.com/html/html_tables.asp -->>
-    			<tr>
-    				<td>Lifts</td>
-    				<td>Status</td>
-    				<td>Risk Level</td>
-    			</tr>
-    			<tr>
-    				<td>Chair 1</td>
-    				<td>Open</td>
-    				<td>Low</td>
-    			</tr>
-    			<tr>
-    				<td>Chair 2</td>
-    				<td>Open</td>
-    				<td>Moderate</td>
-    			</tr>
-    			<tr>
-    				<td>Chair 3</td>
-    				<td>Closed</td>
-    				<td>Considerable</td>
-    			</tr>
-    			<tr>
-    				<td>Chair 4</td>
-    				<td>Open</td>
-    				<td>High</td>
-    			</tr>
-    			<tr>
-    				<td>Chair 5</td>
-    				<td>Open</td>
-    				<td>Low</td>
-    			</tr>
-    		</table>  <!-- end of lift status table -->
+
+
+    	<div id= "liftStatusTable"> <!-- start of lift status table -->
+    		<div id= "liftStatusGrid"> 
+                <div class= "liftStatus">
+                    <h3>Lift Status</h3>
+                </div>
+    			<div class= "liftCategory1"> <!-- 1st row in lift status table-->
+    				<p>Lifts</p>
+                </div>
+                <div class= "liftCategory2">
+    				<p>Status</p>
+                </div>
+                <div class= "liftCategory3">
+    				<p>Risk Level</p>
+                </div>
+    			<div class= "liftElement1"> <!-- 2nd row in lift status table  -->
+    				<p>Chair 1</p>
+                </div>
+                <div class= "liftElement2">
+    				<p>Open</p>
+                </div>
+                <div class= "liftElement3">
+    				<img src= "img/low.jpg">
+                </div>
+                <div class= "liftElement4">
+                    <img src= "img/mtConditionsElement2.jpg">
+                </div>
+    			<div class= "liftElement5">
+    				<p>Chair 2</p>
+                </div>
+                <div class= "liftElement6">
+    				<p>Open</p>
+                </div>
+                <div class= "liftElement7">
+    				<img src= "img/moderate.jpg">
+    			</div>
+                <div class= "liftElement8">
+                    <img src= "img/mtConditionsElement.jpg">
+                </div>
+    			<div class= "liftElement9">
+    				<p>Chair 3</p>
+                </div>
+                <div class= "liftElement10">
+    				<p>Closed</p>
+                </div>
+                <div class= "liftElement11">
+    				<img src= "img/considerable.jpg">
+    			</div>
+                <div class= "liftElement12">
+                    <img src= "img/mtConditionsElement3.jpg">
+                </div>
+    			<div class= "liftElement13">
+    				<p>Chair 4</p>
+                </div>
+                <div class= "liftElement14">
+    				<p>Open</p>
+                </div>
+                <div class= "liftElement15">
+    				<img src= "img/high.jpg">
+                </div>
+                <div class= "liftElement16">
+                    <img src= "img/mtConditionsElement4.jpg">
+    			</div>
+    			<div class= "liftElement17">
+    				<p>Chair 5</p>
+                </div>
+                <div class= "liftElement18">
+    				<p>Open</p>
+                </div>
+                <div class= "liftElement19">
+    				<img src= "img/low.jpg">
+                </div>
+                <div class= "liftElement20">
+                    <img src= "img/mtConditionsElement2.jpg">
+                </div>
+    		</div>  <!-- end of lift status table -->
     	</div>
 
-    	<div id= "trail-status-table"> <!-- start of trail status table -->
-    		<table>
-    			<tr>
-    				<td>Lifts</td>
-    				<td>Status</td>
-    				<td>Risk Level</td>
-    			</tr>
-    			<tr>
-    				<td>Trail 1</td>
-    				<td>Open</td>
-    				<td>Low</td>
-    			</tr>
-    			<tr>
-    				<td>Trail 2</td>
-    				<td>Open</td>
-    				<td>Moderate</td>
-    			</tr>
-    			<tr>
-    				<td>Trail 3</td>
-    				<td>Closed</td>
-    				<td>Considerable</td>
-    			</tr>
-    			<tr>
-    				<td>Trail 4</td>
-    				<td>Open</td>
-    				<td>High</td>
-    			</tr>
-    			<tr>
-    				<td>Trail 5</td>
-    				<td>Open</td>
-    				<td>Low</td>
-    			</tr>
-    		</table> <!-- end of trail status table -->
+    
+
+    	<div id= "trailStatusTable"> <!-- start of trail status table -->
+    		<div id= "trailStatusGrid">
+                <div class= "trailStatus">
+                    <h4>Trail Status</h4>
+                </div>
+    			<div class= "trailCategory1">
+    				<p>Lifts</p>
+                </div>
+                <div class= "trailCategory2">
+    				<p>Status</p>
+                </div>
+                <div class= "trailCategory3">
+    				<p>Risk Level</p>
+    			</div>
+    			<div class= "trailElement1">
+    				<p>Trail 1</p>
+                </div>
+                <div class= "trailElement2">
+    				<p>Open</p>
+                </div>
+                <div class= "trailElement3">
+    				<img src= "img/low.jpg">
+                </div>
+                <div class= "trailElement4">
+                    <img src= "img/mtConditionsElement2.jpg">
+                </div>
+    			
+    			<div class= "trailElement5">
+    				<p>Trail 2</p>
+                </div>
+                <div class= "trailElement6">
+    				<p>Open</p>
+                </div>
+                <div class= "trailElement7">
+    				<img src= "img/moderate.jpg">
+                </div>
+                <div class= "trailElement8">
+                    <img src= "img/mtConditionsElement.jpg">
+                </div>
+    			
+    			<div class= "trailElement9">
+    				<p>Trail 3</p>
+                </div>
+                <div class= "trailElement10">
+    				<p>Closed</p>
+                </div>
+                <div class= "trailElement11">
+    				<img src= "img/considerable.jpg">
+                </div>
+                <div class= "trailElement12">
+                    <img src= "img/mtConditionsElement3.jpg">
+                </div>
+    			
+    			<div class= "trailElement13">
+    				<p>Trail 4</p>
+                </div>
+                <div class= "trailElement14">
+    				<p>Open</p>
+                </div>
+                <div class= "trailElement15">
+    				<img src= "img/high.jpg">
+                </div>
+                <div class= "trailElement16">
+                    <img src= "img/mtConditionsElement4.jpg">
+                </div>
+    			
+    			<div class= "trailElement17">
+    				<p>Trail 5</p>
+                </div>
+                <div class= "trailElement18">
+    				<p>Open</p>
+                </div>
+                <div class= "trailElement19">
+    				<img src= "img/low.jpg">
+                </div>
+                <div class= "trailElement20">
+                    <img src= "img/mtConditionsElement2.jpg">
+                </div>
+    		</div> <!-- end of trail status table -->
     	</div>
 
-    	<div id= "webcams-grid"> <!-- start of mountain webcam grid -->
+        <div id= "mtWebcamsHeader">
+            <div class= "mtWebcamsHeader">
+                <h3>Mountain Webcams</h3>
+            </div>
+        </div>
+
+    	<div id= "webcamsGrid"> <!-- start of mountain webcam grid -->
     		<div class= "webcam1">
-    			<img src= "">
+    			<img src= "img/webcam.jpg">
     			<p>Webcam name</p>
     		</div>
     		<div class= "webcam2">
-    			<!--<img src= "">-->
+    			<img src= "img/webcam.jpg">
     			<p>Webcam name</p>
     		</div>
     		<div class= "webcam3">
-    			<img src= "">
+    			<img src= "img/webcam.jpg">
     			<p>Webcam name</p>
     		</div>
     		<div class= "webcam4">
-    			<!--<img src= "">-->
+    			<img src= "img/webcam.jpg">
     			<p>Webcam name</p>
     		</div>
     	</div> <!-- end of mountain webcam grid -->
 
-    	<div id= "footer-grid"> <!-- start of footer grid -->
-            <div class= "logo-footer">
+    	<div id= "footerGrid"> <!-- start of footer grid -->
+            <div class= "logoFooter">
                 <img src="img/kalmontLogoFooter.png">
             </div>
             <div class= "kalmont">
                 <p>KALMONT RESCUE</p>
             </div>
-            <div class= "made-by">
+            <div class= "madeBy">
                 <p>Made by Zoomers</p>
             </div>
             <div class= "socials">
                 <p>SOCIAL MEDIA</p>
+            </div>
+            <div class= "mobileV">
                 <a href="#">Mobile Version</a>
             </div>
             <div class= "citations">
-                <a href="#">Citations</a>
+                <a href="citations.html">Citations</a>
             </div>
     	</div> <!-- end of footer grid -->
 
+        <img src="img/mountainConditionsPg.png" alt= "Mountain conditions webpage">
     </body>
 </html>
 

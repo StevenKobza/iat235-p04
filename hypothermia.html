@@ -6,6 +6,7 @@
         <link href = "css/normalize.css" rel = "stylesheet">
         <link href = "css/hypoGrid.css" rel = "stylesheet">
         <link href = "css/hypothermia.css" rel = "stylesheet">
+        <link href = "css/headerFooter.css" rel = "stylesheet">
         <title>Hypothermia Information</title>
     </head>
     <body>
@@ -13,22 +14,22 @@
         <div id = "navGrid">
             <div id = "navBar">
 
-                <nav class = "nav-main box navOne">
+                <nav class = "navMain box navOne">
 
                     <!--Navigation Items-->
                 
-                    <a href="#" class = "nav-main-item box-item-nav buttonNav">WHAT WE DO</a>
+                    <a href="aboutus.html" class = "navMainItem boxItemNav buttonNav">WHAT WE DO</a>
 
-                    <a href="#" class = "nav-main-item box-item-nav buttonNav">EDUCATION</a>
+                    <a href="hypothermia.html" class = "navMainItem boxItemNav buttonNav">EDUCATION</a>
 
-                    <a href="#" class = "nav-main-item box-item-nav buttonNav">CURRENT CONDITIONS</a>
+                    <a href="mountain-conditions.html" class = "navMainItem boxItemNav buttonNav">CURRENT CONDITIONS</a>
 
-                    <a href="#" class = "nav-main-item box-item-nav buttonNav">NEWS</a>
+                    <a href="news.html" class = "navMainItem boxItemNav buttonNav">NEWS</a>
 
-                    <a href = "#" class = "nav-main-item box-item-nav buttonNav">&nbsp;</a>
+                    <a href = "#" class = "navMainItem boxItemNav buttonNav blankOne">&nbsp;</a>
 
                 </nav>
-                <a href = "#" class = "navTwo logoHeader"><img src = "img/kalmontLogoHeader.png" alt = "abstract mountain logo"> </a>
+                <a href = "index.html" class = "navTwo logoHeader"><img src = "img/kalmontLogoHeader.png" alt = "abstract mountain logo"> </a>
             
             </div>
         </div>
@@ -76,63 +77,14 @@
             <div class = "twoByGrid">
 
                 <div class = "gridOne">
-                    <div class = "checkGrid">
-                        <!--Check grid is a number of columns and rows that go across-->
-
-                        <div class = "checkOne">
-                            <!--CheckOne is row 1 Column 2-->
-                            <img src = "img/check.png" alt = "white checkmark on green background">
-                        </div>
-                        <div class = "checkOneC2">
-                            <!--CheckOneC2 is row 1 Column 3-->
-                            <p>Layered Clothes</p>
-                        </div>
-
-                        <div class = "checkTwo">
-                            <!--CheckTwo is row 2 Column 2-->
-                            <img src = "img/check.png" alt = "white checkmark on green background">
-                        </div>
-                        <div class = "checkTwoC2">
-                            <!--CheckTwoC2 is row 2 Column 3-->
-                            <p>First-Aid Kit</p>
-                        </div>
-
-                        <div class = "checkThree">
-                            <!--CheckThree is row 3 Column 2-->
-                            <img src = "img/check.png" alt = "white checkmark on green background">
-                        </div>
-                        <div class = "checkThreeC2">
-                            <!--CheckThreeC2 is row 3 Column 3-->
-                            <p>Emergency Blanket</p>
-                        </div>
-
-                        <div class = "checkFour">
-                            <!--CheckFour is row 4 Column 2-->
-                            <img src = "img/check.png" alt = "white checkmark on green background">
-                        </div>
-                        <div class = "checkFourC2">
-                            <!--CheckFourC2 is row 4 Column 3-->
-                            <p>Winter Boots</p>
-                        </div>
-
-                        <div class = "checkFive">
-                            <!--CheckFive is row 5 Column 2-->
-                            <img src = "img/check.png" alt = "white checkmark on green background">
-                        </div>
-                        <div class = "checkFiveC2">
-                            <!--CheckFiveC2 is row 5 Column 3-->
-                            <p>Compass</p>
-                        </div>
-
-                        <div class = "checkSix">
-                            <!--CheckSix is row 6 Column 2-->
-                            <img src = "img/check.png" alt = "white checkmark on green background">
-                        </div>
-                        <div class = "checkSixC2">
-                            <!--CheckSixC2 is row 6 Column 3-->
-                            <p>Trail Map</p>
-                        </div>
-                    </div>
+                    <ul>
+                        <li><p>Layered Clothes</p></li>
+                        <li><p>First-Aid Kit</p></li>
+                        <li><p>Emergency Blanket</p></li>
+                        <li><p>Winter Boots</p></li>
+                        <li><p>Compass</p></li>
+                        <li><p>Trail Map</p></li>
+                    </ul>
                 </div>
 
                 <div class = "gridTwo">
@@ -147,13 +99,13 @@
 
             <section class = "symptom">
                 <!--TwoByGrid Class dictates a grid with two different columns beside each other in one row.-->
-                <div class = "twoByGrid">
-                    <div class = "gridOne">
+                <div class = "threeByGrid">
+                    <div class = "gridThreeOneSpanOne">
                         <!--Grid one is column one-->
                         <img src = "img/shiver.png" alt = "person Shivering">
                     </div>
 
-                    <div class = "gridTwo">
+                    <div class = "gridThreeTwoSpanTwo">
                         <!--Grid two is column two-->
                         <h4>Bouts of Uncontrollable Shivering</h4>
 
@@ -165,14 +117,14 @@
 
 
             <section class = "symptom">
-                <div class = "twoByGrid">
-                    <div class = "gridOne">
+                <div class = "threeByGrid">
+                    <div class = "gridThreeOneSpanTwo">
                     <h4>Confusion and Poor Judgement</h4>
 
                     <p>Quisque finibus vitae urna a dapibus. Nunc neque enim, dapibus at erat id, efficitur pellentesque odio. 
                     Nulla et enim condimentum, sagittis quam nec, lobortis diam. Vestibulum sagittis quam nec, lobortis diam. </p>
                 </div>
-                <div class = "gridTwo">
+                <div class = "gridThreeTwoSpanOne">
                     <img src = "img/confusion.png" alt = "person looking confused">
                 </div>
             </div>
@@ -180,12 +132,12 @@
 
 
             <section class = "symptom"> 
-                <div class = "twoByGrid">
-                    <div class = "gridOne">
+                <div class = "threeByGrid">
+                    <div class = "gridThreeOneSpanOne">
                         <img src = "img/coordination.png" alt = "person slipping">
                     </div>
 
-                    <div class = "gridTwo">
+                    <div class = "gridThreeTwoSpanTwo">
                         <h4>Lack of Coordination</h4>
 
                         <p>Quisque finibus vitae urna a dapibus. Nunc neque enim, dapibus at erat id, efficitur pellentesque odio. 
@@ -196,14 +148,14 @@
 
 
             <section class = "symptom">
-                <div class = "twoByGrid">
-                    <div class = "gridOne">
+                <div class = "threeByGrid">
+                    <div class = "gridThreeOneSpanTwo">
                         <h4>Normal Breathing and Pulse</h4>
 
                         <p>Quisque finibus vitae urna a dapibus. Nunc neque enim, dapibus at erat id, efficitur pellentesque odio. 
                             Nulla et enim condimentum, sagittis quam nec, lobortis diam. Vestibulum sagittis quam nec, lobortis diam. </p>
                     </div>
-                    <div class = "gridTwo">
+                    <div class = "gridThreeTwoSpanOne">
                         <img src = "img/pulse.png" alt = "person breathing normally">
                     </div>
             </div>
@@ -217,26 +169,29 @@
         <footer>
 
             <div class = "footerGrid">
-                <div class = "footerLogo">
+                <div class = "footerLogo centerGridItem">
                     <img src = "img/kalmontLogoFooter.png" alt = "abstract mountain logo">
                 </div>
-                <div class = "footerTitle">
+                <div class = "footerTitle centerGridItem">
                     <p id = "kalmontTitle">KALMONT<br>RESCUE</p>
                 </div>
 
-                <div class = "footerCredit">
+                <div class = "footerCredit centerGridItem">
                     <p>Made By <br>Zoomers</p>
                 </div>
 
-                <div class = "footerSocial">
+                <div class = "footerSocial centerGridItem">
                     <p>SOCIAL MEDIA</p>
                 </div>
 
-                <div class = "footerMobile">
-                    <a href = "#">Mobile Version</a>
+                <div class = "footerSocialSVG centerGridItem">
+                    <img src = "footerSVGs/f_logo_RGB-Black_1024.svg" alt = "facebook logo">
+                    <img src = "footerSVGs/glyph-logo_May2016.svg" alt = "instagram logo">
+                    <img src = "footerSVGs/Twitter_Logo_Blue.svg" alt = "twitter logo">
                 </div>
-                <div class = "footerCitation">
-                    <a href = "#">Citations</a>
+
+                <div class = "footerCitation centerGridItem">
+                    <a href = "citations.html">Citations</a>
                 </div>
             </div>
         </footer>

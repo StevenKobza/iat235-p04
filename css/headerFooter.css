@@ -1,0 +1,125 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+.box {
+
+    /*Backwards Compatibility*/
+    display: flex;
+    display: -ms-flex;
+    display: -webkit-flex;
+
+    /*Allowing for wrappable components*/
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    
+    -webkit-justify-content: space-around;
+    -ms-justify-content: space-around;
+    justify-content: space-around;
+}
+
+.box-item-nav {
+    text-align: center;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+#navBar {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /*Just means that there will be 5 equally spaced out columns or rows depending on the name of the grid-template*/
+    grid-gap: 5%;
+    grid-template-rows: repeat(6, 1em);
+}
+
+.navOne {
+    grid-column: 1/6; /*Starting at column 1 and going to column 5*/
+    grid-row: 1/3;
+}
+
+.navTwo {
+    margin: auto;
+    grid-column: 5/6;
+    grid-row: 1/5;
+}
+
+.footerGrid {
+    background-color: #6b6b6b;
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+}
+
+.footerGrid a {
+    color: #bdbdbd;
+}
+
+.footerLogo {
+    margin-left: auto;
+    grid-column: 2/3;
+    grid-row: 3/6;
+}
+
+.footerTitle {
+    grid-column: 3/4;
+    grid-row: 3/6;
+}
+
+.footerCredit {
+    grid-column: 4/5;
+    grid-row: 3/6;
+}
+
+.footerSocial {
+    grid-column: 6/9;
+    grid-row: 2/5;
+}
+
+.footerMobile {
+    grid-column: 6/9;
+    grid-row: 4/7;
+}
+
+.footerCitation {
+    grid-column: 12/13;
+    grid-row: 3/6;
+}
+
+.footerSocialSVG {
+    display: flex;
+    justify-content: center;
+    grid-column: 6/9;
+    grid-row: 4/6;
+}
+
+.footerSocialSVG img {
+    margin-left: 1rem;
+    max-width: 2rem;
+    width: 1.25rem;
+}
+
+.centerGridItem {
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rightGridItem {
+    align-self: center;
+    margin-left: auto;
+}
+
+@media (max-width: 500px) {
+    .navOne {
+        grid-column: 1/5;
+        grid-row: 1;
+    }
+    .footerGrid {
+        font-size: 0.75rem;
+    }
+
+    .footerGrid img {
+        
+    }
+}

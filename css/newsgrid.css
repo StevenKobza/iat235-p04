@@ -65,7 +65,7 @@
 	grid-row: 3/4;
 }
 
-#paragraph-wrapper {
+.paragraph-wrapper {
 	display:grid;
 	grid-template-columns: 1fr 4fr 1fr 4fr 1fr;
 	grid-template-rows: repeat(2, 1fr);
