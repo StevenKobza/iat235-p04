@@ -12,11 +12,23 @@ body{
     margin: 0;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
-    font-size: 2em;
+    font-size: 2rem;
     top: 6em;
     left: 1em;
     position: relative;
     max-width: 50%;
+}
+
+h1, h2, h3, p, a {
+    font-family: "Josefin Sans", Arial, sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 { 
+    font-size: 1.5rem;
 }
 
 h1{
@@ -29,6 +41,7 @@ img {
     max-height: 100%;
     height: auto;
     max-width: 100%;
+    
 }
 
 #hero {
@@ -40,6 +53,7 @@ img {
 
 #hero img {
     min-width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -79,4 +93,12 @@ nav a:hover, nav a:active {
     top:0;
     position:sticky;
     z-index: 10;
+}
+
+@media (max-width: 500px) {
+    #hero img {
+        top: 15rem;
+        position: relative;
+        height: unset;
+    }
 }

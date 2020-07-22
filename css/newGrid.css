@@ -28,60 +28,6 @@
     flex: 1 1 auto;
 }
 
-#navBar {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); /*Just means that there will be 5 equally spaced out columns or rows depending on the name of the grid-template*/
-    grid-gap: 5%;
-    grid-template-rows: repeat(6, 1em);
-}
-
-.navOne {
-    grid-column: 1/6; /*Starting at column 1 and going to column 5*/
-    grid-row: 1/3;
-}
-
-.navTwo {
-    margin: auto;
-    grid-column: 5/6;
-    grid-row: 1/5;
-}
-
-.footerGrid {
-    display: grid;
-    grid-template-columns: repeat(13, 1fr);
-    grid-template-rows: repeat(7, 1fr);
-}
-
-.footerLogo {
-    grid-column: 2/3;
-    grid-row: 3/6;
-}
-
-.footerTitle {
-    grid-column: 3/4;
-    grid-row: 3/6;
-}
-
-.footerCredit {
-    grid-column: 4/5;
-    grid-row: 3/6;
-}
-
-.footerSocial {
-    grid-column: 6/9;
-    grid-row: 2/5;
-}
-
-.footerMobile {
-    grid-column: 6/9;
-    grid-row: 4/7;
-}
-
-.footerCitation {
-    grid-column: 12/13;
-    grid-row: 3/6;
-}
-
 .centerGridItem {
     align-self: center;
     margin-left: auto;
@@ -110,7 +56,27 @@
     grid-column: 2; /*This span means how many columns will it span*/
 }
 
+.threeByGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5%;
+}
 
+.gridThreeOneSpanOne {
+    grid-column: 1;
+}
+
+.gridThreeOneSpanTwo {
+    grid-column: 1/3;
+}
+
+.gridThreeTwoSpanOne {
+    grid-column: 3;
+}
+
+.gridThreeTwoSpanTwo {
+    grid-column: 2/4;
+}
 
 .gridSpan {
     grid-row: 1;
@@ -133,4 +99,30 @@
     position: relative;
     background-color: rgba(255, 255, 255, 75%);
     grid-column: 1;
+}
+
+@media (max-width: 500px) {
+
+    .twoByGrid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .gridOne {
+        grid-column: 1/2;
+        grid-row: 1;
+        width: 100%;
+        height:fit-content;
+    }
+    .gridTwo {
+        grid-column: 1/2;
+        grid-row: 2;
+    }
+    .gridTwoFade {
+        grid-column: 1/2;
+        grid-row: 2;
+    }
+    .gridOneFade {
+        grid-column: 1;
+        grid-row: 1;
+    }
 }

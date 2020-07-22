@@ -12,3 +12,18 @@ h3 {
 .footerGrid a {
     text-decoration: none;
 }
+
+#increaseOdds, #caughtIn{
+    left: 5rem;
+}
+
+#hero h1 {
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    top: 12em;
+    left: 12em;
+    position: relative;
+    max-width: 50%;
+}
