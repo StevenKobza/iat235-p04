@@ -91,6 +91,7 @@
 .footerSocialSVG img {
     margin-left: 1rem;
     max-width: 2rem;
+    width: 1.25rem;
 }
 
 .centerGridItem {
@@ -108,5 +109,12 @@
     .navOne {
         grid-column: 1/5;
         grid-row: 1;
+    }
+    .footerGrid {
+        font-size: 0.75rem;
+    }
+
+    .footerGrid img {
+        
     }
 }
