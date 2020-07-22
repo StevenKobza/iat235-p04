@@ -16,13 +16,13 @@
 	justify-content: space-around;
 } /* Resources used: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ and https://stackoverflow.com/questions/17695865/why-does-display-ms-flex-ms-justify-content-center-not-work-in-ie10*/
 
-.boxItemNav { 
+.box-item-nav { 
 	-webkit-flex: 1 1 auto;
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;
 } /* Resource used: https://www.w3schools.com/css/css_grid_container.asp */
 
-#navBar {
+#nav-bar {
 	display:grid;
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: repeat(5, 1fr);
@@ -38,7 +38,7 @@
 	grid-row: 1/5;
 }
 
-#forecastWrapper {
+#forecast-wrapper {
 	display: grid;
 	grid-template-columns: repeat(7, 1fr);
 	grid-template-rows: repeat(4, 1fr);
@@ -65,7 +65,7 @@
 	grid-row: 3/4;
 }
 
-#paragraphWrapper {
+.paragraph-wrapper {
 	display:grid;
 	grid-template-columns: 1fr 4fr 1fr 4fr 1fr;
 	grid-template-rows: repeat(2, 1fr);
@@ -92,7 +92,7 @@
 	grid-row: 2/2;
 }
 
-#paragraphWrapper2 {
+#paragraph-wrapper2 {
 	display:grid;
 	grid-template-columns: 1fr 4fr 1fr 4fr 1fr;
 	grid-template-rows: repeat(2, 1fr);
@@ -119,14 +119,14 @@
 	grid-row: 2/2;
 }
 
-#footerWrapper {
+#footer-wrapper {
 	display:grid;
 	grid-template-columns: repeat(8, 1fr);
 	grid-template-rows: repeat(3, 1fr);
 	grid-gap: 2%;
 }
 
-.logoFooter {
+.logo-footer {
 	grid-column: 2/3;
 	grid-row: 2/3;
 }
@@ -136,7 +136,7 @@
 	grid-row: 2/3;
 }
 
-.madeBy {
+.made-by {
 	grid-column: 4/5;
 	grid-row: 2/3;
 }
