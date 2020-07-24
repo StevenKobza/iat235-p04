@@ -28,6 +28,9 @@ nav a:hover, nav a:active {
     color: #ffffff;
 }
 
+#mobileNavGrid {
+    display: none;
+}
 
 .box {
 
@@ -174,6 +177,7 @@ nav a:hover, nav a:active {
     }
 
     .footerSocialSVG {
+        height: 100px;
         grid-column: 3/7;
         grid-row: 6/9;
     }
