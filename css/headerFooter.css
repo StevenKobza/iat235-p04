@@ -63,7 +63,12 @@ nav a:hover, nav a:active {
     grid-template-rows: repeat(6, 1em);
 }
 
+#navBar a {
+    align-self: center;
+}
+
 .navOne {
+    
     grid-column: 1/6; /*Starting at column 1 and going to column 5*/
     grid-row: 1/3;
 }
