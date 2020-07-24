@@ -4,6 +4,31 @@
 	box-sizing: border-box;
 }
 
+nav a, nav a:visited {
+    display: inline-block;
+    background-color: red;
+    color: #ffffff;
+    padding: 1em 1.25em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.navMainItem {
+    display: inline-block;
+    background-color: red;
+    color: #ffffff;
+    padding: 1em 1.25em;
+    text-decoration: none;
+    transition: background-color 0.5s ease-out;
+}
+
+nav a:hover, nav a:active {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+
 .box {
 
     /*Backwards Compatibility*/
@@ -21,7 +46,7 @@
     justify-content: space-around;
 }
 
-.box-item-nav {
+.boxItemNav {
     text-align: center;
     -webkit-flex: 1 1 auto;
     -ms-flex: 1 1 auto;
