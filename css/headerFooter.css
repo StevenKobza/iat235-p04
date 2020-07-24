@@ -140,6 +140,36 @@ nav a:hover, nav a:active {
 }
 
 @media (max-width: 500px) {
+    #hero h1 {
+        left: 29%;
+        top: 4.5em;
+    }
+    
+    
+
+    #navGrid {
+        display: none;
+    }
+
+    #mobileNavGrid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr;
+        top:0;
+        position:sticky;
+        z-index: 10;
+    }
+
+    #navLogo {
+        grid-row: 1;
+        grid-column: 5;
+    }
+
+    #navHamburger {
+        grid-row: 1;
+        grid-column: 1/2;
+    }
+
     .navOne {
         grid-column: 1/5;
         grid-row: 1;
@@ -150,5 +180,11 @@ nav a:hover, nav a:active {
 
     .footerGrid img {
         
+    }
+}
+
+@media (max-width: 784px) {
+    .blankOne {
+        display: none;
     }
 }

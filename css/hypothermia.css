@@ -147,6 +147,16 @@ ul {
     text-decoration: none;
 }
 
+.hypoCheck, .hypoCheckTitle {
+    top:10%;
+    align-items: center;
+    position: relative;
+    left: 10%;
+}
+
+.roundThis {
+    border-radius: 20px;
+}
 
 @media (max-width: 57em) {
     #hero {
