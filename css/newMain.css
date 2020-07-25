@@ -112,10 +112,21 @@ nav a:hover, nav a:active {
     #hero h2 {
         left: 1.5em;
         top: 160%;
+        height: fit-content;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 50%;
+    }
+
+    #hero h1 {
+        border: none;
+        padding: none;
+        width: 50%;
+        height: fit-content;
     }
 
     #hero img {
-        top: 15rem;
+        top: 9.5rem;
         position: relative;
         height: unset;
     }

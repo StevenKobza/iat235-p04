@@ -64,4 +64,10 @@ h3 {
         height: 15%;
         object-fit: cover;
     }
+
+    .gridOneFade h2, .gridOneFade ul{
+        position: relative;
+        left: 2.5rem;
+        width: 80%;
+    }
 }
