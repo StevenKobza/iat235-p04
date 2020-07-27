@@ -6,7 +6,7 @@ This file has two links from google for both the opens sans font as well as the 
 The contents are learned from the indepth tutorial that we had on CSS in either week 7 or 8, i don't know.
 */
 
-html {
+/*html {
     font-family: "Open Sans", sans-serif;
 }
 
@@ -35,10 +35,12 @@ h3 {
     font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
     font-size: 2rem;
-    top: 12em;
-    left: 12em;
-    position: relative;
+    top: 50%;
+    left: 20%;
+    bottom: 0rem;
+    position: absolute;
     max-width: 50%;
+    z-index: 2;
 }
 
 
@@ -100,7 +102,7 @@ ul {
     display: inline-block;
     list-style: none;
 }
-
+*/
 #hero {
     position: relative;
     margin:0;
@@ -118,11 +120,11 @@ ul {
 }
 
 #hero h2 {
-    position: relative;
+    position: absolute;
     left:40%;
-    bottom:3em;
+    bottom:-2.5%;
 }
-
+/*
 #navGrid{
     top:0;
     position:sticky;
@@ -145,7 +147,7 @@ ul {
 .footerMobile a{
     color: #bdbdbd;
     text-decoration: none;
-}
+}*/
 
 .hypoCheck, .hypoCheckTitle {
     top:10%;
@@ -154,12 +156,37 @@ ul {
     left: 10%;
 }
 
-.roundThis {
+/*.roundThis {
     border-radius: 20px;
 }
+*/
+.earlyWarningH3 {
+    text-align: center;
+}
 
-@media (max-width: 57em) {
+#earlyWarning {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+}
+
+#whatHypothermia {
+    position: relative;
+    top: -13rem;
+}
+
+@media (max-width: 500px) {
     #hero {
         top: -13.5em;
+    }
+
+    #whatHypothermia {
+        top: 2rem;
+    }
+
+    .hypoCheckTitle, .hypoCheck {
+        top: 1em;
+        margin: 0;
+        max-width: 80%;
     }
 }
