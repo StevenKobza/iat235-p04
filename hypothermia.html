@@ -6,11 +6,20 @@
         <link href = "css/normalize.css" rel = "stylesheet">
         <link href = "css/hypoGrid.css" rel = "stylesheet">
         <link href = "css/hypothermia.css" rel = "stylesheet">
+        <link href = "css/newMain.css" rel = "stylesheet">
+        <link href = "css/newGrid.css" rel = "stylesheet">
         <link href = "css/headerFooter.css" rel = "stylesheet">
         <title>Hypothermia Information</title>
     </head>
     <body>
-
+        <div id = "mobileNavGrid">
+            <div id = "navHamburger" class = "centerGridItem">
+                <img id = "hamburger" src = "HamburgerSVG/iconfinder_menu-alt_134216.svg" alt = "menuHamburger">
+            </div>
+            <div id = "navLogo">
+                <a href = "index.html" class = "logoHeaderMobile"><img src = "img/kalmontLogoHeader.png" alt = "abstract mountain logo"></a>
+            </div>
+        </div>
         <div id = "navGrid">
             <div id = "navBar">
 
@@ -51,8 +60,8 @@
         <section id = "whatHypothermia">
             <div class = "twoByGrid">
 
-                <div class = "gridOne">
-                    <img src = "img/whatHypoImg.png" alt = "group of people in the distance with a ski pole in foreground">
+                <div class = "gridOne centerGridItem">
+                    <img src = "img/whatHypoImg.png" class = "roundThis" alt = "group of people in the distance with a ski pole in foreground">
                 </div>
 
                 <div class = "gridTwo">
@@ -73,34 +82,44 @@
         
         <section id = "checkList">
             
-            <h2>What to Bring to Avoid Hypothermia</h2>
             <div class = "twoByGrid">
 
                 <div class = "gridOne">
-                    <ul>
-                        <li><p>Layered Clothes</p></li>
-                        <li><p>First-Aid Kit</p></li>
-                        <li><p>Emergency Blanket</p></li>
-                        <li><p>Winter Boots</p></li>
-                        <li><p>Compass</p></li>
-                        <li><p>Trail Map</p></li>
-                    </ul>
+                    
+                    <h2 class = "hypoCheckTitle">What to Bring to Avoid Hypothermia</h2>
+                    <div class = "twoByGrid hypoCheck">
+                        <div class = "gridOne">
+                            <ul>
+                                <li><p>Layered Clothes</p></li>
+                                <li><p>First-Aid Kit</p></li>
+                                <li><p>Emergency Blanket</p></li>
+                            </ul>
+                        </div>
+                        <div class = "gridTwo">
+                            <ul>
+                                <li><p>Winter Boots</p></li>
+                                <li><p>Compass</p></li>
+                                <li><p>Trail Map</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
                 </div>
 
-                <div class = "gridTwo">
-                    <img src = "img/alice-donovan-rouse-z9F_yK4Nmf8-unsplash2.png" alt = "assorted survival equipment layed out">
+                <div class = "gridTwo centerGridItem">
+                    <img src = "img/alice-donovan-rouse-z9F_yK4Nmf8-unsplash2.png" class = "roundThis" alt = "assorted survival equipment layed out">
                 </div>
             </div>
         </section>  
 
         <section id = "earlyWarning">
 
-            <h3>EARLY WARNING SIGNS OF HYPOTHERMIA</h3>
+            <h3 class = "earlyWarningH3">EARLY WARNING SIGNS OF HYPOTHERMIA</h3>
 
             <section class = "symptom">
                 <!--TwoByGrid Class dictates a grid with two different columns beside each other in one row.-->
                 <div class = "threeByGrid">
-                    <div class = "gridThreeOneSpanOne">
+                    <div class = "gridThreeOneSpanOne centerGridItem">
                         <!--Grid one is column one-->
                         <img src = "img/shiver.png" alt = "person Shivering">
                     </div>
@@ -124,7 +143,7 @@
                     <p>Quisque finibus vitae urna a dapibus. Nunc neque enim, dapibus at erat id, efficitur pellentesque odio. 
                     Nulla et enim condimentum, sagittis quam nec, lobortis diam. Vestibulum sagittis quam nec, lobortis diam. </p>
                 </div>
-                <div class = "gridThreeTwoSpanOne">
+                <div class = "gridThreeTwoSpanOne centerGridItem">
                     <img src = "img/confusion.png" alt = "person looking confused">
                 </div>
             </div>
@@ -133,7 +152,7 @@
 
             <section class = "symptom"> 
                 <div class = "threeByGrid">
-                    <div class = "gridThreeOneSpanOne">
+                    <div class = "gridThreeOneSpanOne centerGridItem">
                         <img src = "img/coordination.png" alt = "person slipping">
                     </div>
 
@@ -155,7 +174,7 @@
                         <p>Quisque finibus vitae urna a dapibus. Nunc neque enim, dapibus at erat id, efficitur pellentesque odio. 
                             Nulla et enim condimentum, sagittis quam nec, lobortis diam. Vestibulum sagittis quam nec, lobortis diam. </p>
                     </div>
-                    <div class = "gridThreeTwoSpanOne">
+                    <div class = "gridThreeTwoSpanOne centerGridItem">
                         <img src = "img/pulse.png" alt = "person breathing normally">
                     </div>
             </div>

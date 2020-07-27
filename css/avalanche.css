@@ -23,8 +23,51 @@ h3 {
     font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
     font-size: 2rem;
-    top: 12em;
-    left: 12em;
-    position: relative;
+    top: 50%;
+    left: 20%;
+    bottom: 0rem;
+    position: absolute;
     max-width: 50%;
+    z-index: 2;
+}
+
+#whatAvalanche {
+    position: relative;
+    top: -13rem;
+}
+
+.gridOneFade h2, .gridOneFade ul{
+    position: relative;
+    left: 5rem;
+    width: 80%;
+}
+
+.gridTwoFade h2, .gridTwoFade ul {
+    position: relative;
+    left: 2.5rem;
+    right: 5rem;
+    width: 80%;
+}
+
+.gridTwo img {
+    position: relative;
+    top: 0.5%;
+}
+
+@media (max-width: 500px) {
+    #whatAvalanche {
+        top: 2rem;
+    }
+
+    #whatAvalanche img {
+        max-height: 15%;
+        height: 15%;
+        object-fit: cover;
+    }
+
+    .gridOneFade h2, .gridOneFade ul{
+        position: relative;
+        left: 2.5rem;
+        width: 80%;
+    }
 }

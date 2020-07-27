@@ -4,7 +4,7 @@
 body{
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size:1.25rem;
-	margin:1rem;
+	/*margin:1rem;*/
 	
 }
 
@@ -13,8 +13,8 @@ body{
     font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
     font-size: 2rem;
-    top: 6em;
-    left: 1em;
+    /*top: 6em;
+    left: 1em;*/
     position: relative;
     max-width: 50%;
 }
@@ -60,9 +60,9 @@ img {
 }
 
 #hero h2 {
-    position: relative;
+    position: absolute;
     left:40%;
-    bottom:3em;
+    bottom:-2.5%;
 }
 
 nav a, nav a:visited {
@@ -103,10 +103,44 @@ nav a:hover, nav a:active {
     z-index: 10;
 }
 
+.roundThis {
+    border-radius: 20px;
+}
+
+
 @media (max-width: 500px) {
+    #hero h2 {
+        left: 1.5em;
+        top: 160%;
+        height: fit-content;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 50%;
+    }
+
+    #hero h1 {
+        border: none;
+        padding: none;
+        width: 50%;
+        height: fit-content;
+    }
+
     #hero img {
-        top: 15rem;
+        top: 9.5rem;
         position: relative;
         height: unset;
     }
+
+    .logoHeaderMobile {
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 30%;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    #navBar {
+        display: none;
+    }
+
 }
