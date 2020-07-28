@@ -6,7 +6,7 @@ h3 {
     font-size: 1rem;
     background-color: #6b6b6b;;
 }
-.footerGrid a, p {
+.footerGrid a, .footerGrid p {
     color: #bdbdbd;
 }
 
@@ -22,27 +22,28 @@ h3 {
     margin: 0;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 4rem;
     top: 50%;
     left: 20%;
     bottom: 0rem;
     position: absolute;
-    max-width: 50%;
-    z-index: 2;
+    max-width: 30%;
+    z-index: 3;
+    
 }
 
 #whatAvalanche {
     position: relative;
-    top: -13rem;
+    top: -10rem;
 }
 
-.gridOneFade h2, .gridOneFade ul{
+.gridOneFade h1, .gridOneFade ul{
     position: relative;
     left: 5rem;
     width: 80%;
 }
 
-.gridTwoFade h2, .gridTwoFade ul {
+.gridTwoFade h1, .gridTwoFade ul {
     position: relative;
     left: 2.5rem;
     right: 5rem;
@@ -53,6 +54,22 @@ h3 {
     position: relative;
     top: 0.5%;
 }
+
+#hazardousTerrainHeader {
+    text-align: center;
+}
+
+#hazardousTerrain p {
+    color: black;
+    font-size: 2rem;
+}
+
+#whatAvalanche p {
+    position: relative;
+    left: 10%;
+    width: 80%;
+}
+
 
 @media (max-width: 500px) {
     #whatAvalanche {

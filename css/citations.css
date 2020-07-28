@@ -40,6 +40,7 @@
     text-decoration: none;
 }
 
+/*
 #hero h1 {
     margin: 0;
     font-family: "Josefin Sans", sans-serif;
@@ -49,6 +50,15 @@
     left: 12em;
     position: relative;
     max-width: 50%;
+}
+*/
+
+.heroH2 {
+    left: 40%;
+}
+
+.heroH2 h2 {
+    left: 4em;
 }
 
 #hero img {
