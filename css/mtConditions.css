@@ -53,6 +53,11 @@ nav.navMain {
 	right: 0;
 }
 
+.headingOne {
+	position: relative;
+	top: -2.8em;
+}
+
 img {
 	max-width: 100%;
 	margin-left: auto;
