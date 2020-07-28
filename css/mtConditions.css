@@ -20,7 +20,7 @@ a {
 }
 
 .navMainItem {
-	background-color: rgb(255, 71, 71);
+	background-color: rgb(255, 40, 40);
 	color: white;
 	text-align: center;
 	padding:1.5rem 1rem;
@@ -122,23 +122,31 @@ nav a:hover, nav a:active {
 	/*align-items: center;*/
 }
 
-#footerGrid {
+.citations a {
+	color: rgb(200, 200, 200);
+	font-size: 1rem;
+}
+
+#footerWrapper {
 	background-color: grey;
+}
+
+.kalmont {
 	color: rgb(200, 200, 200);
 }
 
-.socialIcons {
-	display: flex;
-	max-width: 30px;
-	max-height: 30px;
-	align-items: baseline;
-	justify-content: flex-start;
-	margin: 40px 10px;
+.madeBy {
+	color: rgb(200, 200, 200);
 }
 
-.citations {
-	margin: 15px 0px;
+.socials {
+	color: rgb(200, 200, 200);
 }
+
+.socials a {
+	color: rgb(200, 200, 200);
+}
+
 
 
 

@@ -413,65 +413,36 @@
 	grid-column: 4/4;
 	grid-row: 2/2;
 }
-
-#footerGrid {
-	display: grid;
-	grid-template-columns: repeat(11, 1fr);
+#footerWrapper {
+	display:grid;
+	grid-template-columns: repeat(8, 1fr);
 	grid-template-rows: repeat(3, 1fr);
-	
+	grid-gap: 2%;
 }
 
 .logoFooter {
-	grid-column: 2/2;
-	grid-row: 2/2;
+	grid-column: 2/3;
+	grid-row: 2/3;
 }
 
 .kalmont {
-	grid-column: 3/3;
-	grid-row: 2/2;
+	grid-column: 3/4;
+	grid-row: 2/3;
 }
 
 .madeBy {
-	grid-column: 4/4;
-	grid-row: 2/2;
+	grid-column: 4/5;
+	grid-row: 2/3;
 }
 
 .socials {
-	grid-column: 6/8;
-	grid-row: 2/2;
-}
-
-.mobileV {
-	grid-column: 6/8;
-	grid-row: 3/4;
+	grid-column: 5/6;
+	grid-row: 2/3;
 }
 
 .citations {
-	grid-column: 10/10;
-	grid-row: 2/2;
+	grid-column: 7/8;
+	grid-row: 2/3;
 }
-
-.socialIcons {
-	grid-column: 6/7;
-	grid-row: 2/2;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
