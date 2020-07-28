@@ -31,7 +31,7 @@
 
                     <a href="hypothermia.html" class = "navMainItem boxItemNav buttonNav">EDUCATION</a>
 
-                    <a href="mountain-conditions.html" class = "navMainItem boxItemNav buttonNav">CURRENT CONDITIONS</a>
+                    <a href="mountainConditions.html" class = "navMainItem boxItemNav buttonNav">CURRENT CONDITIONS</a>
 
                     <a href="news.html" class = "navMainItem boxItemNav buttonNav">NEWS</a>
 
@@ -45,13 +45,25 @@
 
         <div class = "bodyInfo">
             <section id = "hero">
-
-                <h1>AVALANCHE EDUCATION</h1>
-
-                <img src = "img/avalancheHeader.png"alt = "top down view of skiers in the middle of trees">
+                <div id = "heroH1">
+                    <h1>AVALANCHE EDUCATION</h1>
+                    <!--<svg>
+                        <img class = "h1Background" src = "img/H1Background.svg" alt = "rectangle">
+                    </svg>-->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="830" height="676" viewBox="0 0 830 676" fill="none" class = "h1Background">
+                        <path d="M0 8.7C0 4 4 0.3 8.6 0.7L821.6 66.5C826.2 66.8 829.5 70.9 828.9 75.5L759.8 615.8C759.3 619.6 756.2 622.5 752.4 622.7L8.6 675.4C3.9 675.7 0 672.1 0 667.4L0 8.7Z"/>
+                    </svg>
+                </div>
+                <img class = "heroImg" src = "img/avalancheHeader.png"alt = "top down view of skiers in the middle of trees">
             
-
+                <div class = "heroH2">
+                    
                     <h2>What are Avalanches?</h2>
+                    <!--<img class = "h2Background" src = "img/h2Background.svg" alt = "rounded parrallelogram">-->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="675" height="174" viewBox="0 0 675 174" fill="none" class = "h2Background">
+                        <path d="M38.2 6.1C39.1 2.5 42.3 0 46 0H666.7C671.9 0 675.7 4.9 674.4 10L633.4 168C632.5 171.5 629.3 174 625.6 174H8.1C3 174-0.8 169.2 0.4 164.1L38.2 6.1Z" fill="#628BC8"/>
+                    </svg>
+                </div>
 
             </section>
 
@@ -60,11 +72,7 @@
         <section id = "whatAvalanche">
             <div class = "twoByGrid">
 
-                <div class = "gridOne">
-                    <img src = "img/avalancheHero.png" class = "roundThis" alt = "group of people in the distance with a ski pole in foreground">
-                </div>
-
-                <div class = "gridTwo">
+                <div class = "gridOne verticalCenter">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere, ipsum vehicula maximus viverra, dui velit euismod sem, 
                     quis vehicula magna tellus sed nisl. Nam eget viverra purus. Fusce ultricies porttitor vulputate. Ut porta molestie enim ac aliquam. 
                     Nunc eget lobortis nunc. Aliquam scelerisque tempus massa ac ullamcorper. Fusce id augue diam.
@@ -75,6 +83,12 @@
                     Curabitur bibendum eget nisl a auctor. Proin at varius nibh, sed faucibus felis. Ut varius blandit venenatis. 
                     Nunc faucibus euismod mauris, et gravida nibh porta non. Suspendisse potenti. Nulla eu preti.</p>
                 </div>
+
+                <div class = "gridTwo">
+                    <img src = "img/avalancheHeroTry2.png" class = "roundThis" alt = "group of people in the distance with a ski pole in foreground">
+                </div>
+
+                
             </div>
         </section>
         
@@ -83,7 +97,7 @@
         <section id = "increaseOdds">
             <div class = "twoByGrid">
                 <div class = "gridOneFade">
-                    <h2 class = "centerGridItem">How To Increase Your Odds of Surviving an Avalanche</h2>
+                    <h1 class = "centerGridItem">How To Increase Your Odds of Surviving an Avalanche</h1>
                     <ul>
                         <li><h3>Plunge an ice axe into the undersurface. 
                             This may help you near the top of the slide.
@@ -103,7 +117,7 @@
                     <img src = "img/derek-malou-dw5pk8KM6lk-unsplash.png" class = "roundThis" alt = "parachutist walking up snow hill">
                 </div>
                 <div class = "gridTwoFade">
-                    <h2 class = "centerGridItem">If You Are Caught in an Avalanche</h2>
+                    <h1 class = "centerGridItem">If You Are Caught in an Avalanche</h1>
                     <ul>
                     <li><h3>Keep one hand in front of your face
                         and try to maintain air space.
@@ -120,22 +134,21 @@
         </section> 
 
         <section id = "hazardousTerrain">
+            <h1 id = "hazardousTerrainHeader">Hazardous Terrain to avoid</h1>
             <div class = "threeByGrid">
                 <div class = "gridThreeOneSpanOne centerGridItem">
                     <img src = "img/gullies.png" alt = "stylized picture of gullie">
                 </div>
-                <div class = "gridThreeTwoSpanTwo">
-                    <h2>Gullies</h2>
-                    <p>lorem ipsum</p>
+                <div class = "gridThreeTwoSpanTwo verticalCenter">
+                    <p>Gullies</p>
                 </div>
             </div>
             <div class = "threeByGrid">
                 <div class = "gridThreOneSpanOne centerGridItem">
                     <img src = "img/convex.png" alt = "stylized convex slope">
                 </div>
-                <div class = "gridThreeTwoSpanTwo">
-                    <h2>Convex Slopes</h2>
-                    <p>lorem ipsum</p>
+                <div class = "gridThreeTwoSpanTwo verticalCenter">
+                    <p>Convex Slopes</p>
                 </div>
                 
             </div>
@@ -143,9 +156,8 @@
                 <div class = "gridThreeOneSpanOne centerGridItem">
                     <img src = "img/leeslope.png" alt = "stylized lee slope">
                 </div>
-                <div class = "gridThreeTwoSpanTwo">
-                    <h2>Lee Slopes</h2>
-                    <p>lorem ipsum</p>
+                <div class = "gridThreeTwoSpanTwo verticalCenter">
+                    <p>Lee Slopes</p>
                 </div>
             </div>
         </section>
