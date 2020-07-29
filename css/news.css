@@ -144,6 +144,7 @@ nav a:hover, nav a:active {
 #open {
 	color: rgb(139, 221, 144);
 	font-weight: 700;
+	font-size: 1.5rem;
 }
 
 .redSkier {
