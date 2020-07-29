@@ -122,14 +122,14 @@ nav a:hover, nav a:active {
 }
 
 .mountainHero2 {
-    left: 37%;
+    left: 39%;
     position: absolute;
-    bottom:-3em;
+    bottom:-3.3em;
 }
 
 .mountainHero2 h2 {
     position: absolute;
-    left: 2.5em;
+    left: 1.5em;
     bottom: 0.5em;
     color: white;
 }
