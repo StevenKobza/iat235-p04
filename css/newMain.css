@@ -25,7 +25,7 @@ body{
 #hero h1 {
     margin: 0;
     font-family: "Josefin Sans", sans-serif;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 4rem;
     top: 50%;
     left: 20%;
@@ -77,10 +77,11 @@ img {
 
 .h2Background {
     height: 50%;
-    width: 60%;
+    width: 20em;
 }
 
 .heroH2 {
+    color: white;
     left: 42.5%;
     position: absolute;
     bottom:-3em;
