@@ -104,6 +104,10 @@ ul {
 }
 */
 
+.gridTwo {
+    width: 80%;
+}
+
 #hero h1 {
     margin: 0;
     font-family: "Josefin Sans", sans-serif;
