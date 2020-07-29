@@ -187,8 +187,9 @@ th, td {
 
 tr:nth-child(even) {background-color: #f2f2f2;} /* Learned from: https://www.w3schools.com/css/tryit.asp?filename=trycss_table_striped */
 
-tr:nth-child(odd) {
-	background-color: white;
+tr:nth-child(1), tr:nth-child(1) th {
+	background-color: black;
+	color:white;
 }
 
 #liftStatusTable img {
