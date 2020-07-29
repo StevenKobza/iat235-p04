@@ -34,6 +34,10 @@
     margin-right: auto;
 }
 
+.verticalCenter {
+    align-self: center;
+}
+
 .rightGridItem {
     align-self: center;
     margin-left: auto;

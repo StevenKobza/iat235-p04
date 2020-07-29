@@ -31,7 +31,7 @@
 
                     <a href="hypothermia.html" class = "navMainItem boxItemNav buttonNav">EDUCATION</a>
 
-                    <a href="mountain-conditions.html" class = "navMainItem boxItemNav buttonNav">CURRENT CONDITIONS</a>
+                    <a href="mountainConditions.html" class = "navMainItem boxItemNav buttonNav">CURRENT CONDITIONS</a>
 
                     <a href="news.html" class = "navMainItem boxItemNav buttonNav">NEWS</a>
 
@@ -45,13 +45,25 @@
 
         <div class = "bodyInfo">
             <section id = "hero">
-
-                <h1>AVALANCHE EDUCATION</h1>
-
-                <img src = "img/avalancheHeader.png"alt = "top down view of skiers in the middle of trees">
+                <div id = "heroH1">
+                    <h1>AVALANCHE EDUCATION</h1>
+                    <!--<svg>
+                        <img class = "h1Background" src = "img/H1Background.svg" alt = "rectangle">
+                    </svg>-->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="828" height="674" viewBox="0 0 828 674" fill="none" class = "h1Background">
+                        <path d="M0 20.7C0 9 10-0.2 21.6 0.7L809.1 64.5C820.5 65.4 828.8 75.6 827.3 86.9L761 605C759.8 614.5 752.1 621.8 742.6 622.4L21.4 673.5C9.8 674.3 0 665.1 0 653.5L0 20.7Z"/>
+                    </svg>
+                </div>
+                <img class = "heroImg" src = "img/avalancheHeader.png"alt = "top down view of skiers in the middle of trees">
             
-
+                <div class = "heroH2">
+                    
                     <h2>What are Avalanches?</h2>
+                    <!--<img class = "h2Background" src = "img/h2Background.svg" alt = "rounded parrallelogram">-->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="538" height="147" viewBox="0 0 538 147" fill="none" class = "h2Background">
+                        <path d="M25.1 15.5C27.2 6.4 35.2 0 44.6 0H517.4C530.4 0 540 12.2 536.8 24.8L510.3 131.8C508.1 140.7 500.1 147 490.9 147H20.1C7.2 147-2.3 135.1 0.6 122.5L25.1 15.5Z" fill="#628BC8"/>
+                    </svg>
+                </div>
 
             </section>
 
@@ -60,21 +72,23 @@
         <section id = "whatAvalanche">
             <div class = "twoByGrid">
 
-                <div class = "gridOne">
-                    <img src = "img/avalancheHero.png" class = "roundThis" alt = "group of people in the distance with a ski pole in foreground">
+                <div class = "gridOne verticalCenter">
+                    <p>"Snow is deposited in successive layers as the winter progresses. These layers may have
+                        dissimilar physical properties and an avalanche occurs when one layer slides on another
+                        (Surface Avalanche), or the whole snow cover slides on the ground (Full-Depth). An avalanche
+                        may be Dry or Wet, according to whether free water is present in the snow. It may be of Loose
+                        Snow, when the avalanche starts at a single point, or a Slab Avalanche which occurs when an
+                        area of more cohesive snow separates from the surrounding snow and slides out. In practice,
+                        any snow slide big enough to carry a person down, is important. Avalanche configurations are
+                        illustrated in the SAIS "Avalanche Recording Form"." (Winterdata, pg. 3)
+                        </p>
                 </div>
 
                 <div class = "gridTwo">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere, ipsum vehicula maximus viverra, dui velit euismod sem, 
-                    quis vehicula magna tellus sed nisl. Nam eget viverra purus. Fusce ultricies porttitor vulputate. Ut porta molestie enim ac aliquam. 
-                    Nunc eget lobortis nunc. Aliquam scelerisque tempus massa ac ullamcorper. Fusce id augue diam.
-                    Mauris efficitur, tortor sed sodales dignissim, enim nulla placerat sem, sit amet lacinia purus eros vitae odio.
-                    Curabitur bibendum eget nisl a auctor. Proin at varius nibh, sed faucibus felis. Ut varius blandit venenatis. 
-                    Nunc faucibus euismod mauris, et gravida nibh porta non. Suspendisse potenti. Nulla eu preti.
-                    Mauris efficitur, tortor sed sodales dignissim, enim nulla placerat sem, sit amet lacinia purus eros vitae odio. 
-                    Curabitur bibendum eget nisl a auctor. Proin at varius nibh, sed faucibus felis. Ut varius blandit venenatis. 
-                    Nunc faucibus euismod mauris, et gravida nibh porta non. Suspendisse potenti. Nulla eu preti.</p>
+                    <img src = "img/avalancheHeroTry2.png" class = "roundThis" alt = "group of people in the distance with a ski pole in foreground">
                 </div>
+
+                
             </div>
         </section>
         
@@ -83,7 +97,7 @@
         <section id = "increaseOdds">
             <div class = "twoByGrid">
                 <div class = "gridOneFade">
-                    <h2 class = "centerGridItem">How To Increase Your Odds of Surviving an Avalanche</h2>
+                    <h1 class = "centerGridItem">How To Increase Your Odds of Surviving an Avalanche</h1>
                     <ul>
                         <li><h3>Plunge an ice axe into the undersurface. 
                             This may help you near the top of the slide.
@@ -103,7 +117,7 @@
                     <img src = "img/derek-malou-dw5pk8KM6lk-unsplash.png" class = "roundThis" alt = "parachutist walking up snow hill">
                 </div>
                 <div class = "gridTwoFade">
-                    <h2 class = "centerGridItem">If You Are Caught in an Avalanche</h2>
+                    <h1 class = "centerGridItem">If You Are Caught in an Avalanche</h1>
                     <ul>
                     <li><h3>Keep one hand in front of your face
                         and try to maintain air space.
@@ -120,22 +134,21 @@
         </section> 
 
         <section id = "hazardousTerrain">
+            <h1 id = "hazardousTerrainHeader">Hazardous Terrain to avoid</h1>
             <div class = "threeByGrid">
                 <div class = "gridThreeOneSpanOne centerGridItem">
                     <img src = "img/gullies.png" alt = "stylized picture of gullie">
                 </div>
-                <div class = "gridThreeTwoSpanTwo">
-                    <h2>Gullies</h2>
-                    <p>lorem ipsum</p>
+                <div class = "gridThreeTwoSpanTwo verticalCenter">
+                    <p>Gullies</p>
                 </div>
             </div>
             <div class = "threeByGrid">
                 <div class = "gridThreOneSpanOne centerGridItem">
                     <img src = "img/convex.png" alt = "stylized convex slope">
                 </div>
-                <div class = "gridThreeTwoSpanTwo">
-                    <h2>Convex Slopes</h2>
-                    <p>lorem ipsum</p>
+                <div class = "gridThreeTwoSpanTwo verticalCenter">
+                    <p>Convex Slopes</p>
                 </div>
                 
             </div>
@@ -143,9 +156,8 @@
                 <div class = "gridThreeOneSpanOne centerGridItem">
                     <img src = "img/leeslope.png" alt = "stylized lee slope">
                 </div>
-                <div class = "gridThreeTwoSpanTwo">
-                    <h2>Lee Slopes</h2>
-                    <p>lorem ipsum</p>
+                <div class = "gridThreeTwoSpanTwo verticalCenter">
+                    <p>Lee Slopes</p>
                 </div>
             </div>
         </section>

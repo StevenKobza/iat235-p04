@@ -9,10 +9,12 @@
 
 a {
 	color: white;
-	font-size:1.5rem;
-	padding:1.5rem 1rem;
 	text-decoration: none;
 	list-style-type: none;
+}
+
+body {
+	font-size: 1.25rem;
 }
 
 .box {
@@ -22,9 +24,10 @@ a {
 }
 
 .navMainItem {
-	background-color: rgb(255, 71, 71);
+	background-color: rgb(255, 40, 40);
 	color: white;
 	text-align: center;
+	padding:1.5rem 1rem;
 }
 
 .boxItemNav {
@@ -35,7 +38,7 @@ a {
 
 nav.navMain {
 	position: fixed;
-	top: 0;
+	top: -0.5rem;
 	left: 0;
 	right: 0;
 
@@ -54,50 +57,128 @@ nav.navMain {
 	right: 0;
 }
 
+.headingOne {
+	position: relative;
+	top: -2.8em;
+}
+
 img {
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#mountain img {
-	min-width: 100%;
-	margin: 0;
-	padding: 0;
-}
-
-#mountain {
+#mountainHero {
 	width: 100%;
 	position: relative;
-}
-
-#mountain h1 {
-	margin: 0;
-	font-family: "Josefin Sans", sans-serif;
-	font-weight: 600;
-	font-size: 2em;
-	bottom: 10em;
-	left: 1em;
-	position: relative;
-	max-width: 50%;
-
-	z-index: 9; 
+    margin:0;
+    padding:0;
+    top: 0;
+    z-index: 0;
 }
 
 nav a:hover, nav a:active {
 	text-decoration: underline; /* Resource used: https://www.w3schools.com/cssref/sel_hover.asp*/
 }
 
-#mountainStatus {
+#mountainHero h1 {
+	margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    top: 40%;
+    left: 18%;
+    bottom: 0rem;
+    position: absolute;
+    max-width: 30%;
+    z-index: 3;
+}
+
+.heroBackground {
+	position: absolute;
+    height: 60%;
+    width: 40%;
+    left: 8em;
+    top: 6em;
+    z-index: 2;
+}
+
+.heroBackground path {
+    fill-opacity:0.75;
+    fill:white;
+}
+
+.heroImg {
+	min-width: 100%;
+    height: 40rem;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+}
+
+.heroBackground2 {
+    height: 50%;
+    width: 60%;
+}
+
+.mountainHero2 {
+    left: 37%;
+    position: absolute;
+    bottom:-3em;
+}
+
+.mountainHero2 h2 {
+    position: absolute;
+    left: 2.5em;
+    bottom: 0.5em;
+    color: white;
+}
+
+#currentStatus {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 }
 
-.forecast4 a {
-	color: rgb(116, 153, 171);
-	list-style: none; /* Resource used: https://developer.mozilla.org/en-US/docs/Web/CSS/list-style*/
+#open {
+	color: rgb(139, 221, 144);
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+.redSkier {
+	object-fit: cover;
+	width: 100%;
+	height: 400px;
+}
+
+.cloud {
+	width: 70%;
+	padding-top: 13%;
+	padding-left: 7%;
+}
+
+.forecast1 h3 {
+	font-size: 1.8rem;
+}
+
+.forecast2 p {
+	text-align: justify;
+	position: relative;
+	top: -7.5em;
+	left: 7em;
+}
+
+.temp {
+	font-weight: 600;
+}
+
+.forecast3 p {
+	/*text-align: justify;*/
+	position: relative;
+	top: -7.5em;
+	left: 3em;
 }
 
 #newsStory1 {
@@ -107,10 +188,14 @@ nav a:hover, nav a:active {
 	align-items: center;
 }
 
-#newsStory1 img {
-	min-width: 100%;
-	margin: 0;
-	padding: 0;
+#newsStory1 h4 {
+	font-size: 1.3em;
+}
+
+.skierInAir {
+	object-fit: cover;
+	width: 100%;
+	height: 600px;
 }
 
 #newsStory2 {
@@ -120,10 +205,14 @@ nav a:hover, nav a:active {
 	align-items: center;
 }
 
-#newsStory2 img {
-	min-width: 100%;
-	margin: 0;
-	padding: 0;
+#newsStory2 h5 {
+	font-size: 1.2em;
+}
+
+.hikerFound {
+	object-fit: cover;
+	width: 100%;
+	height: 600px;
 }
 
 .citations a {

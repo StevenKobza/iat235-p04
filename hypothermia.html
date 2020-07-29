@@ -31,7 +31,7 @@
 
                     <a href="hypothermia.html" class = "navMainItem boxItemNav buttonNav">EDUCATION</a>
 
-                    <a href="mountain-conditions.html" class = "navMainItem boxItemNav buttonNav">CURRENT CONDITIONS</a>
+                    <a href="mountainConditions.html" class = "navMainItem boxItemNav buttonNav">CURRENT CONDITIONS</a>
 
                     <a href="news.html" class = "navMainItem boxItemNav buttonNav">NEWS</a>
 
@@ -44,15 +44,21 @@
         </div>
 
         <div class = "bodyInfo">
-        <section id = "hero">
-
-            <h1>HYPOTHERMIA EDUCATION</h1>
-
-            <img src = "img/hypoHeroImg.png" alt = "top down view of skiers in the middle of trees">
+            <section id = "hero">
+                <div id = "heroH1">
+                    <h1>HYPOTHERMIA EDUCATION</h1>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="828" height="674" viewBox="0 0 828 674" fill="none" class = "h1Background">
+                        <path d="M0 20.7C0 9 10-0.2 21.6 0.7L809.1 64.5C820.5 65.4 828.8 75.6 827.3 86.9L761 605C759.8 614.5 752.1 621.8 742.6 622.4L21.4 673.5C9.8 674.3 0 665.1 0 653.5L0 20.7Z"/>
+                    </svg>
+                </div>
+            <img class = "heroImg" src = "img/hypoHeroImg.png" alt = "top down view of skiers in the middle of trees">
             
-
-                <h2>What is Hypothermia</h2>
-
+            <div class = "heroH2">
+                <h2>What is Hypothermia?</h2>
+                <svg xmlns="http://www.w3.org/2000/svg" width="538" height="147" viewBox="0 0 538 147" fill="none" class = "h2Background">
+                    <path d="M25.1 15.5C27.2 6.4 35.2 0 44.6 0H517.4C530.4 0 540 12.2 536.8 24.8L510.3 131.8C508.1 140.7 500.1 147 490.9 147H20.1C7.2 147-2.3 135.1 0.6 122.5L25.1 15.5Z" fill="#628BC8"/>
+                </svg>
+            </div>
         </section>
 
 
@@ -61,19 +67,18 @@
             <div class = "twoByGrid">
 
                 <div class = "gridOne centerGridItem">
-                    <img src = "img/whatHypoImg.png" class = "roundThis" alt = "group of people in the distance with a ski pole in foreground">
+                    <img src = "img/whatHypoImgTry2.png" class = "roundThis" alt = "group of people in the distance with a ski pole in foreground">
                 </div>
 
-                <div class = "gridTwo">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere, ipsum vehicula maximus viverra, dui velit euismod sem, 
-                    quis vehicula magna tellus sed nisl. Nam eget viverra purus. Fusce ultricies porttitor vulputate. Ut porta molestie enim ac aliquam. 
-                    Nunc eget lobortis nunc. Aliquam scelerisque tempus massa ac ullamcorper. Fusce id augue diam.<br><br>
-                    Mauris efficitur, tortor sed sodales dignissim, enim nulla placerat sem, sit amet lacinia purus eros vitae odio.
-                    Curabitur bibendum eget nisl a auctor. Proin at varius nibh, sed faucibus felis. Ut varius blandit venenatis. 
-                    Nunc faucibus euismod mauris, et gravida nibh porta non. Suspendisse potenti. Nulla eu preti.<br><br>
-                    Mauris efficitur, tortor sed sodales dignissim, enim nulla placerat sem, sit amet lacinia purus eros vitae odio. 
-                    Curabitur bibendum eget nisl a auctor. Proin at varius nibh, sed faucibus felis. Ut varius blandit venenatis. 
-                    Nunc faucibus euismod mauris, et gravida nibh porta non. Suspendisse potenti. Nulla eu preti.</p>
+                <div class = "gridTwo verticalCenter">
+                    <p>"Recent tragedies in the Scottish hills have again highlighted the dangers of low body
+                        temperature, or "hypothermia" (from the Greek hypo, under; themre, heat). Humans work best
+                        at a body temperature of around 37 degrees Celsius (96F), which allows the chemical reactions
+                        that keep us alive to run smoothly. Left alone, our body temperature will approach the
+                        temperature of the surroundings. In Scotland, this usually means we will cool down! We can
+                        modify this process in different ways such as exercising to produce heat or wearing clothing
+                        and using shelter to reduce heat loss. Digesting food also produces some heat and food is
+                        essential as fuel for muscular exercise." (Winterdata, pg. 9)</p>
                 </div>
             </div>
         </section>
@@ -114,7 +119,7 @@
 
         <section id = "earlyWarning">
 
-            <h3 class = "earlyWarningH3">EARLY WARNING SIGNS OF HYPOTHERMIA</h3>
+            <h2 class = "earlyWarningH3">EARLY WARNING SIGNS OF HYPOTHERMIA</h2>
 
             <section class = "symptom">
                 <!--TwoByGrid Class dictates a grid with two different columns beside each other in one row.-->
@@ -124,12 +129,13 @@
                         <img src = "img/shiver.png" alt = "person Shivering">
                     </div>
 
-                    <div class = "gridThreeTwoSpanTwo">
+                    <div class = "gridThreeTwoSpanTwo verticalCenter">
                         <!--Grid two is column two-->
-                        <h4>Bouts of Uncontrollable Shivering</h4>
-
+                        <h2>Bouts of Uncontrollable Shivering</h2>
+                        <!--
                         <p>Quisque finibus vitae urna a dapibus. Nunc neque enim, dapibus at erat id, efficitur pellentesque odio. 
                         Nulla et enim condimentum, sagittis quam nec, lobortis diam. Vestibulum sagittis quam nec, lobortis diam. </p>
+                        -->
                     </div>
                 </div>
             </section>
@@ -137,11 +143,12 @@
 
             <section class = "symptom">
                 <div class = "threeByGrid">
-                    <div class = "gridThreeOneSpanTwo">
-                    <h4>Confusion and Poor Judgement</h4>
-
+                    <div class = "gridThreeOneSpanTwo verticalCenter rightGridItem">
+                    <h2>Confusion and Poor Judgement</h2>
+                    <!--
                     <p>Quisque finibus vitae urna a dapibus. Nunc neque enim, dapibus at erat id, efficitur pellentesque odio. 
                     Nulla et enim condimentum, sagittis quam nec, lobortis diam. Vestibulum sagittis quam nec, lobortis diam. </p>
+                    -->
                 </div>
                 <div class = "gridThreeTwoSpanOne centerGridItem">
                     <img src = "img/confusion.png" alt = "person looking confused">
@@ -156,11 +163,12 @@
                         <img src = "img/coordination.png" alt = "person slipping">
                     </div>
 
-                    <div class = "gridThreeTwoSpanTwo">
-                        <h4>Lack of Coordination</h4>
-
+                    <div class = "gridThreeTwoSpanTwo verticalCenter">
+                        <h2>Lack of Coordination</h2>
+                        <!--
                         <p>Quisque finibus vitae urna a dapibus. Nunc neque enim, dapibus at erat id, efficitur pellentesque odio. 
                         Nulla et enim condimentum, sagittis quam nec, lobortis diam. Vestibulum sagittis quam nec, lobortis diam. </p>
+                        -->
                     </div>
                 </div>
             </section>
@@ -168,11 +176,12 @@
 
             <section class = "symptom">
                 <div class = "threeByGrid">
-                    <div class = "gridThreeOneSpanTwo">
-                        <h4>Normal Breathing and Pulse</h4>
-
+                    <div class = "gridThreeOneSpanTwo verticalCenter rightGridItem">
+                        <h2>Normal Breathing and Pulse</h2>
+                        <!--
                         <p>Quisque finibus vitae urna a dapibus. Nunc neque enim, dapibus at erat id, efficitur pellentesque odio. 
                             Nulla et enim condimentum, sagittis quam nec, lobortis diam. Vestibulum sagittis quam nec, lobortis diam. </p>
+                            -->
                     </div>
                     <div class = "gridThreeTwoSpanOne centerGridItem">
                         <img src = "img/pulse.png" alt = "person breathing normally">

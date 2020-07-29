@@ -38,95 +38,77 @@
 	grid-row: 1/5;
 }
 
-#forecast-wrapper {
+#forecastWrapper {
 	display: grid;
-	grid-template-columns: repeat(7, 1fr);
-	grid-template-rows: repeat(4, 1fr);
-	grid-gap: 5%;
+	grid-template-columns: repeat(18, 1fr);
+	grid-template-rows: auto;
 }
 
 .forecast1 {
-	grid-column: 4/6;
+	grid-column: 2/7;
 	grid-row: 1/1;
 }
 
 .forecast2 {
-	grid-column: 3/5;
+	grid-column: 2/4;
+	grid-row: 2/3;
+}
+
+.cloud {
+	grid-column: 2/4;
 	grid-row: 2/3;
 }
 
 .forecast3 {
-	grid-column: 5/7;
+	grid-column: 5/8;
 	grid-row: 2/3;
 }
 
-.forecast4 {
-	grid-column: 3/8;
-	grid-row: 3/4;
-}
-
-.paragraph-wrapper {
+.paragraphWrapper {
 	display:grid;
 	grid-template-columns: 1fr 4fr 1fr 4fr 1fr;
-	grid-template-rows: repeat(2, 1fr);
-	grid-gap: 2%;
+	grid-template-rows: 1 1fr;
+	grid-gap: 0;
+	padding-top: 2%;
 }
 
 .paragraph1 {
 	grid-column: 2/3;
-	grid-row: 1/1;
+	grid-row: 1/2;
 }
 
 .paragraph2 {
-	grid-column: 2/3;
-	grid-row: 2/2;
+	grid-column: 4/5;
+	grid-row: 1/2;
+}
+
+#paragraphWrapper2 {
+	display:grid;
+	grid-template-columns: 1fr 4fr 1fr 4fr 1fr;
+	grid-template-rows: 1 1fr;
+	grid-gap: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 .paragraph3 {
-	grid-column: 4/5;
-	grid-row: 1/1;
+	grid-column: 2/3;
+	grid-row: 1/2;
 }
 
 .paragraph4 {
 	grid-column: 4/5;
-	grid-row: 2/2;
+	grid-row: 1/2;
 }
 
-#paragraph-wrapper2 {
-	display:grid;
-	grid-template-columns: 1fr 4fr 1fr 4fr 1fr;
-	grid-template-rows: repeat(2, 1fr);
-	grid-gap: 2%;
-}
-
-.paragraph5 {
-	grid-column: 2/3;
-	grid-row: 1/1;
-}
-
-.paragraph6 {
-	grid-column: 2/3;
-	grid-row: 2/2;
-}
-
-.paragraph7 {
-	grid-column: 4/5;
-	grid-row: 1/1;
-}
-
-.paragraph8 {
-	grid-column: 4/5;
-	grid-row: 2/2;
-}
-
-#footer-wrapper {
+#footerWrapper {
 	display:grid;
 	grid-template-columns: repeat(8, 1fr);
 	grid-template-rows: repeat(3, 1fr);
-	grid-gap: 2%;
+	grid-gap: 0;
 }
 
-.logo-footer {
+.logoFooter {
 	grid-column: 2/3;
 	grid-row: 2/3;
 }
@@ -136,7 +118,7 @@
 	grid-row: 2/3;
 }
 
-.made-by {
+.madeBy {
 	grid-column: 4/5;
 	grid-row: 2/3;
 }
