@@ -232,6 +232,10 @@ tr:nth-child(1), tr:nth-child(1) th {
 	/*align-items: center;*/
 }
 
+img.roundedCorners {
+	border-radius: 1em;
+}
+
 .citations a {
 	color: rgb(200, 200, 200);
 	font-size: 1rem;
