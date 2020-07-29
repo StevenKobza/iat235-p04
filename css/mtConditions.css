@@ -68,7 +68,7 @@ img {
 	margin-right: auto;
 }
 
-#firstImageText img {
+#mountainHero img {
 	min-width: 100%;
 	margin: 0;
 	padding: 0;
@@ -77,32 +77,86 @@ img {
 	object-position: 50% 80%;
 }
 
-/*.parallelogram {
-	width: 100px;
-	height: 80px;
-	background: rgba(255,255,255,0.5);
-}*/
-
-#firstImageText {
+#mountainHero {
 	width: 100%;
 	position: relative;
+    margin:0;
+    padding:0;
+    top: 0;
+    z-index: 0;
 }
 
-#firstImageText h1 {
+#mountainHero h1 {
 	margin: 0;
-	font-family: "Josefin Sans", sans-serif;
-	font-weight: 600;
-	font-size: 2em;
-	bottom: 10em;
-	left: 1em;
-	position: relative;
-	max-width: 50%;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    top: 50%;
+    left: 15%;
+    bottom: 0rem;
+    position: absolute;
+    max-width: 30%;
+    z-index: 3;
+}
 
-	z-index: 9; 
+.heroBackground {
+	position: absolute;
+    height: 60%;
+    width: 40%;
+    left: 8em;
+    top: 10em;
+    z-index: 2;
+}
+
+.heroBackground path {
+    fill-opacity:0.85;
+    fill:white;
+}
+
+.heroImg {
+	min-width: 100%;
+    height: 40rem;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
 }
 
 nav a:hover, nav a:active {
 	text-decoration: underline; /* Resource used: https://www.w3schools.com/cssref/sel_hover.asp*/
+}
+
+.forecast3 {
+	margin-left: 1em;
+	font-weight: 650;
+	font-size: 1.5em;
+}
+
+.forecast5 {
+	width: 60%;
+	margin-left: 1em;
+	margin-top: 1em;
+}
+
+.forecast8 img {
+	width: 50%;
+	margin: 1em;
+}
+
+.forecast10 img {
+	width: 50%;
+	margin: 1em;
+}
+
+.forecast11 {
+	width: 60%;
+	margin-left: 0.8em;
+	margin-top: 0.8em;
+}
+
+.forecast15 {
+	width: 60%;
+	margin-left: 1.4em;
+	margin-top: 0.8em;
 }
 
 #liftStatusTable img {
