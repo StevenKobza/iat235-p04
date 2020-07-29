@@ -188,11 +188,6 @@ nav a:hover, nav a:active {
     }
 
     #hero h1 {
-        left: 20%;
-        top: 0.5em;
-        z-index: 11;
-        width: 40%;
-        position: sticky;
     }
     
     
