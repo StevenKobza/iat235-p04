@@ -40,29 +40,28 @@
 
 #forecastWrapper {
 	display: grid;
-	grid-template-columns: repeat(7, 1fr);
-	grid-template-rows: repeat(4, 1fr);
-	grid-gap: 5%;
+	grid-template-columns: repeat(18, 1fr);
+	grid-template-rows: repeat(3, 1fr);
 }
 
 .forecast1 {
-	grid-column: 4/6;
+	grid-column: 2/7;
 	grid-row: 1/1;
 }
 
 .forecast2 {
-	grid-column: 3/5;
+	grid-column: 2/4;
+	grid-row: 2/3;
+}
+
+.forecastImg {
+	grid-column: 3/4;
 	grid-row: 2/3;
 }
 
 .forecast3 {
 	grid-column: 5/7;
 	grid-row: 2/3;
-}
-
-.forecast4 {
-	grid-column: 3/8;
-	grid-row: 3/4;
 }
 
 .paragraphWrapper {

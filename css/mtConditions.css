@@ -30,12 +30,6 @@ body {
 	padding:1.5rem 1rem;
 }
 
-#navGrid {
-	top: 0;
-    position: sticky;
-    z-index: 10;
-}
-
 .boxItemNav {
 	flex-grow:1;
 	flex-shrink:1;
@@ -44,7 +38,7 @@ body {
 
 nav.navMain {
 	position: fixed;
-	top: -0.5;
+	top: -0.5rem;
 	left: 0;
 	right: 0;
 
@@ -65,7 +59,7 @@ nav.navMain {
 
 .headingOne {
 	position: relative;
-	top: -2.8em;
+	top: -9em;
 }
 
 img {
@@ -79,7 +73,7 @@ img {
 	margin: 0;
 	padding: 0;
 	object-fit: cover;
-	height: 50rem;
+	height: 48rem;
 	object-position: 50% 80%;
 }
 

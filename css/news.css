@@ -13,6 +13,10 @@ a {
 	list-style-type: none;
 }
 
+body {
+	font-size: 1.25rem;
+}
+
 .box {
 	display: flex;
 	flex-wrap: wrap;
@@ -20,7 +24,7 @@ a {
 }
 
 .navMainItem {
-	background-color: rgb(255, 71, 71);
+	background-color: rgb(255, 40, 40);
 	color: white;
 	text-align: center;
 	padding:1.5rem 1rem;
@@ -34,7 +38,7 @@ a {
 
 nav.navMain {
 	position: fixed;
-	top: 0;
+	top: -0.5rem;
 	left: 0;
 	right: 0;
 
@@ -53,24 +57,32 @@ nav.navMain {
 	right: 0;
 }
 
+.headingOne {
+	position: relative;
+	top: -2.8em;
+}
+
 img {
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#mountain img {
+#mountainHero img {
 	min-width: 100%;
 	margin: 0;
 	padding: 0;
+	object-fit: cover;
+	height: 40rem;
+	object-position: 50% 80%;
 }
 
-#mountain {
+#mountainHero {
 	width: 100%;
 	position: relative;
 }
 
-#mountain h1 {
+#mountainHero h1 {
 	margin: 0;
 	font-family: "Josefin Sans", sans-serif;
 	font-weight: 600;
@@ -94,9 +106,20 @@ nav a:hover, nav a:active {
 	flex-direction: column;
 }
 
-.forecast4 a {
-	color: rgb(116, 153, 171);
-	list-style: none; /* Resource used: https://developer.mozilla.org/en-US/docs/Web/CSS/list-style*/
+#open {
+	color: rgb(139, 221, 144);
+}
+
+.forecast2 p {
+	text-align: justify;
+	z-index: 2;
+}
+
+.forecast2 img {
+    display: block;
+    margin: -2.3rem;
+    position: absolute;
+    width: 20%;
 }
 
 #newsStory1 {
