@@ -91,6 +91,11 @@ a:hover, a:focus, a:active{
 }*/
 .title{
 	padding: 2rem;
+	position: absolute;
+	height: fit-content;
+	top: 40%;
+	left: 15%;
+	bottom: 0rem;
 }
 
 .body-text{
