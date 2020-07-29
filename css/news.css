@@ -68,38 +68,77 @@ img {
 	margin-right: auto;
 }
 
-#mountainHero img {
-	min-width: 100%;
-	margin: 0;
-	padding: 0;
-	object-fit: cover;
-	height: 40rem;
-	object-position: 50% 80%;
-}
-
 #mountainHero {
 	width: 100%;
 	position: relative;
-}
-
-#mountainHero h1 {
-	margin: 0;
-	font-family: "Josefin Sans", sans-serif;
-	font-weight: 600;
-	font-size: 2em;
-	bottom: 10em;
-	left: 1em;
-	position: relative;
-	max-width: 50%;
-
-	z-index: 9; 
 }
 
 nav a:hover, nav a:active {
 	text-decoration: underline; /* Resource used: https://www.w3schools.com/cssref/sel_hover.asp*/
 }
 
-#mountainStatus {
+#mountainHero h1 {
+	margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    top: 40%;
+    left: 25%;
+    bottom: 0rem;
+    position: absolute;
+    max-width: 30%;
+    z-index: 3;
+}
+
+#mountainHero {
+	position: relative;
+    margin:0;
+    padding:0;
+    top: 0;
+    z-index: 0;
+}
+
+.heroBackground {
+	position: absolute;
+    height: 60%;
+    width: 40%;
+    left: 14em;
+    top: 6em;
+    z-index: 2;
+}
+
+.heroBackground path {
+    fill-opacity:0.75;
+    fill:white;
+}
+
+.heroImg {
+	min-width: 100%;
+    height: 40rem;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+}
+
+.heroBackground2 {
+    height: 50%;
+    width: 60%;
+}
+
+.mountainHero2 {
+    left: 37%;
+    position: absolute;
+    bottom:-3em;
+}
+
+.mountainHero2 h2 {
+    position: absolute;
+    left: 2.5em;
+    bottom: 0.5em;
+    color: white;
+}
+
+#currentStatus {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -108,18 +147,31 @@ nav a:hover, nav a:active {
 
 #open {
 	color: rgb(139, 221, 144);
+	font-weight: 700;
+}
+
+.redSkier {
+	object-fit: cover;
+	width: 100%;
+	height: 400px;
 }
 
 .forecast2 p {
 	text-align: justify;
-	z-index: 2;
+	position: relative;
+	top: -7.5em;
+	left: 7em;
 }
 
-.forecast2 img {
-    display: block;
-    margin: -2.3rem;
-    position: absolute;
-    width: 20%;
+.temp {
+	font-weight: 600;
+}
+
+.forecast3 p {
+	/*text-align: justify;*/
+	position: relative;
+	top: -7.5em;
+	left: 3em;
 }
 
 #newsStory1 {
@@ -129,10 +181,14 @@ nav a:hover, nav a:active {
 	align-items: center;
 }
 
-#newsStory1 img {
-	min-width: 100%;
-	margin: 0;
-	padding: 0;
+#newsStory1 h4 {
+	font-size: 1.3em;
+}
+
+.skierInAir {
+	object-fit: cover;
+	width: 100%;
+	height: 600px;
 }
 
 #newsStory2 {
@@ -142,10 +198,14 @@ nav a:hover, nav a:active {
 	align-items: center;
 }
 
-#newsStory2 img {
-	min-width: 100%;
-	margin: 0;
-	padding: 0;
+#newsStory2 h5 {
+	font-size: 1.2em;
+}
+
+.hikerFound {
+	object-fit: cover;
+	width: 100%;
+	height: 600px;
 }
 
 .citations a {

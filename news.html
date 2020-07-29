@@ -10,6 +10,7 @@
         <link rel = "stylesheet" href = "./css/newsgrid.css">
         <link rel = "stylesheet" href = "./css/news.css">
         <link rel = "stylesheet" href = "./css/headerFooter.css">
+        <!--<link rel = "stylesheet" href = ".css/newMain.css">-->
     </head>
 
     <body>
@@ -38,21 +39,41 @@
 
         <div class= "box headingOne">
             <section id= "mountainHero">
-                <img src= "img/savinghelicopter.png">
-                <h1>MOUNTAIN NEWS</h1>
+                <div id= "mountainHero1">
+                    <h1>MOUNTAIN NEWS</h1>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="830" height="676" viewBox="0 0 830 676" fill="none" class = "heroBackground">
+                            <path d="M0 8.7C0 4 4 0.3 8.6 0.7L821.6 66.5C826.2 66.8 829.5 70.9 828.9 75.5L759.8 615.8C759.3 619.6 756.2 622.5 752.4 622.7L8.6 675.4C3.9 675.7 0 672.1 0 667.4L0 8.7Z"/>
+                        </svg>
+                </div>
+
+            <img class= "heroImg" src= "img/savinghelicopter.png">
+
+            <div class = "mountainHero2">
+                <h2>Mountain Status</h2>
+                <svg xmlns="http://www.w3.org/2000/svg" width="675" height="174" viewBox="0 0 675 174" fill="none" class = "heroBackground2">
+                    <path d="M38.2 6.1C39.1 2.5 42.3 0 46 0H666.7C671.9 0 675.7 4.9 674.4 10L633.4 168C632.5 171.5 629.3 174 625.6 174H8.1C3 174-0.8 169.2 0.4 164.1L38.2 6.1Z" fill="#628BC8"/>
+                </svg>
+            </div>
             </section>
         </div>
 
-        <section id= "mountainStatus">
+        <div id= "currentStatus">
+            <p>WE ARE CURRENTLY:</p>
+                <section id= "open">
+                    <p>OPEN</p>
+                 </section>
+        </div>
+
+        <!--<section id= "mountainStatus">
             <h2>Mountain Status</h2>
         
             <p>WE ARE CURRENTLY:</p>
             <section id= "open">
                 <p>OPEN</p>
             </section>
-        </section>
+        </section>-->
 
-        <img src = "img/skierRed.jpg">
+        <img class= "redSkier" src = "img/skierRed.jpg">
 
 
     <div id= "forecastWrapper">
@@ -62,14 +83,23 @@
         </div>
 
         <div class = "forecast2">
-            <img src= "img/roundedRect.png">
-            <p>-4 Degrees</p>
+            <svg width="400" height="180">
+                <rect x="2" y="20" rx="20" ry="20" width="260" height="150"
+                style="fill:black;stroke:black;stroke-width:5;opacity:0.1" />
+            </svg>
+            <p class= "temp">
+                -4 Degrees
+            </p>
             <p>Cloudy</p>
         </div>
 
         <div class = "forecast3">
-            <p>Chance of snow: 0%</p>
-            <p>Wind: 6 km/h</p>
+            <svg width="400" height="180">
+                <rect x="40" y="20" rx="20" ry="20" width="250" height="150"
+                style="fill:black;stroke:black;stroke-width:5;opacity:0.1" />
+            </svg>
+            <p>• Chance of snow: 0%</p>
+            <p>• Wind: 6 km/h</p>
         </div>
 
 
@@ -77,49 +107,32 @@
 
         <section id= "newsStory1">
             <h4>Skier Falls Down Mountain and Survives</h4>
-            <img src= "img/skierinair.png">
         </section>
 
-
+        <img class= "skierInAir" src= "img/skierinair.png">
 
     <div class = "paragraphWrapper">
         <div class= "paragraph1">
-            <p>Every skier or snowboarder has probably, at one point in his or her career, looked at some steep ski slope and remarked to buddies on the chairlift, “Boy, if you fall on that trail there’s nothing stopping you from sliding forever.”</p>
+            <p>Every skier or snowboarder has probably, at one point in his or her career, looked at some steep ski slope and remarked to buddies on the chairlift, “Boy, if you fall on that trail there’s nothing stopping you from sliding forever.”<br><br>Fortunately, most will never have to experience such a terrifying moment. Unfortunately for a YouTube user listed as Stijn de Man, that is exactly what he recently faced on a ski trip to Kalmont when he lost his skis while heading down a 3,900-foot trail and slid uncontrollably all the way to the bottom of the mountain, topping speeds of 50 mph as he rocketed down the ski slope. De Man was almost at the very top of a trail in Kalmont﻿, when he lost balance and his skis came off. He traveled nearly the entire length of the piste sliding on his back.</p>
         </div>
 
         <div class= "paragraph2">
-            <p>Fortunately, most will never have to experience such a terrifying moment. Unfortunately for a YouTube user listed as Stijn de Man, that is exactly what he recently faced on a ski trip to Kalmont when he lost his skis while heading down a 3,900-foot trail and slid uncontrollably all the way to the bottom of the mountain, topping speeds of 50 mph as he rocketed down the ski slope. De Man was almost at the very top of a trail in Kalmont﻿, when he lost balance and his skis came off. He traveled nearly the entire length of the piste sliding on his back.</p>
-        </div>
-
-        <div class= "paragraph3">
-            <p>“A friend and I went skiing on a very steep and icy slope, I fell and didn’t manage to slow down. I learned my lesson and I hope some of you will too! Be very, VERY, careful on steep, icy slopes!” de Man wrote in the YouTube description of his fall. “I had a GPS speed app on at the moment, I fell whilst going around 55 k/ph [24 mph] … when I hit the net, I was going about 80 kp/h [50 mph]! So I guess we could agree the net did a marvelous job.”</p>
-        </div>
-
-        <div class= "paragraph4">   
-            <p>The skier managed to walk away from the whole debacle with only a few bruises.</p>
+            <p>“A friend and I went skiing on a very steep and icy slope, I fell and didn’t manage to slow down. I learned my lesson and I hope some of you will too! Be very, VERY, careful on steep, icy slopes!” de Man wrote in the YouTube description of his fall. “I had a GPS speed app on at the moment, I fell whilst going around 55 k/ph [24 mph] … when I hit the net, I was going about 80 kp/h [50 mph]! So I guess we could agree the net did a marvelous job.”<br><br>The skier managed to walk away from the whole debacle with only a few bruises.</p>
         </div>
     </div>
 
         <section id = "newsStory2">
-
             <h5>Hiker Found After 40 Days of Missing</h5>
-            <img src = "img/beardedman.png">
         </section>
 
+        <img class= "hikerFound" src = "img/beardedman.png">
+
     <div id= "paragraphWrapper2">
-        <div class= "paragraph5">
-            <p>He hadn’t been seen since he left in December for a two-month snowshoeing trip, but 40 days later, the missing hiker was found, barely alive, in northern Kalmont.</p>
+        <div class= "paragraph3">
+            <p>He hadn’t been seen since he left in December for a two-month snowshoeing trip, but 40 days later, the missing hiker was found, barely alive, in northern Kalmont. Marcos Lavoie was discovered by Kalmont police during a helicopter search on Wednesday morning, about 1,110 kilometres northwest of Kalmada, halfway between Kalmadie and Kalmontish.<br><br>Authorities have confirmed that the dehydrated and emaciated 30-year-old is in critical condition in a hospital in the Wigwam area. The hiker was so weak, he had to be carried on the backs of rescuers as they returned to the helicopter.</p>
         </div>
 
-        <div class= "paragraph6">
-            <p>Marcos Lavoie was discovered by Kalmont police during a helicopter search on Wednesday morning, about 1,110 kilometres northwest of Kalmada, halfway between Kalmadie and Kalmontish.</p>
-        </div>
-
-        <div class= "paragraph7">
-            <p>Authorities have confirmed that the dehydrated and emaciated 30-year-old is in critical condition in a hospital in the Wigwam area. The hiker was so weak, he had to be carried on the backs of rescuers as they returned to the helicopter.</p>
-        </div>
-
-        <div class= "paragraph8">
+        <div class= "paragraph4">
             <p>Apparently, the trouble started after a coyote visited the man’s campsite, ate all of his food and damaged his equipment. Although he did not appear to have been attacked, authorities will have to wait until the man recovers to hear the full story of what took place.</p>
         </div>
     </div>
