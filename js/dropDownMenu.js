@@ -10,5 +10,9 @@ var btn = document.querySelector(".dropDown");
 console.log(btn.textContent);
 
 btn.onclick = function() {
-    el.style.display = "unset";
+    if (el.style.display == "none") {
+        el.style.display = "unset";
+    } else if (el.style.display == "unset") {
+        el.style.display = "none";
+    }
 }

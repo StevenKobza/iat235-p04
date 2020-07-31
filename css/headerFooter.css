@@ -23,6 +23,10 @@ nav a, nav a:visited {
     transition: background-color 0.5s ease-out;
 }
 
+.navMain {
+    z-index: 10;
+}
+
 .navSubMenu {
     display: inline-block;
     background-color: white;
@@ -93,6 +97,7 @@ nav a:hover, nav a:active {
 }
 
 .navTwo {
+    z-index: 11;
     margin: auto;
     grid-column: 5/6;
     grid-row: 1/5;
