@@ -224,19 +224,19 @@ nav a:hover, nav a:active {
         background-color: rgb(255,75,75);
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: 1fr;
+        grid-template-rows: repeat(8, 1fr);
         top:0;
         position:sticky;
         z-index: 10;
     }
 
     #navLogo {
-        grid-row: 1;
+        grid-row: 1/4;
         grid-column: 5;
     }
 
     #navHamburger {
-        grid-row: 1;
+        grid-row: 1/4;
         grid-column: 1/2;
     }
 
@@ -244,6 +244,12 @@ nav a:hover, nav a:active {
         grid-column: 1/5;
         grid-row: 1;
     }
+
+    .mobileDropDownMenu {
+        grid-column: 1/6;
+        grid-row: 4/9;
+    }
+
 
     .footerGrid img {
         
