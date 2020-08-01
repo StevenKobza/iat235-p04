@@ -224,7 +224,7 @@ nav a:hover, nav a:active {
         background-color: rgb(255,75,75);
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(8, 1fr);
+        grid-template-rows: repeat(12, 1fr);
         top:0;
         position:sticky;
         z-index: 10;
@@ -247,7 +247,7 @@ nav a:hover, nav a:active {
 
     .mobileDropDownMenu {
         grid-column: 1/6;
-        grid-row: 4/9;
+        grid-row: 4/13;
     }
 
 

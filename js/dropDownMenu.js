@@ -27,7 +27,7 @@ mobileBtn.onclick = function() {
     var tempEl = document.getElementById("mobileNavGrid");
     if (mobileEl.style.display == "none") {
         mobileEl.style.display = "unset";
-        tempEl.style.gridTemplateRows = "repeat(8, 1fr)";
+        tempEl.style.gridTemplateRows = "repeat(12, 1fr)";
     } else {
         tempEl.style.gridTemplateRows = "repeat(3, 1fr)";
         mobileEl.style.display = "none";
