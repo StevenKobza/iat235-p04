@@ -140,11 +140,15 @@ nav a:hover, nav a:active {
 .forecast8 img {
 	width: 50%;
 	margin: 1em;
+	overflow: hidden;
+	object-fit: cover;
 }
 
 .forecast10 img {
 	width: 50%;
 	margin: 1em;
+	overflow: hidden;
+	object-fit: cover;
 }
 
 .forecast11 {

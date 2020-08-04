@@ -124,13 +124,13 @@ nav a:hover, nav a:active {
 .mountainHero2 {
     left: 39%;
     position: absolute;
-    bottom:-3.3em;
+    bottom:-3em;
 }
 
 .mountainHero2 h2 {
     position: absolute;
     left: 1.5em;
-    bottom: 0.5em;
+    bottom: 0.3em;
     color: white;
 }
 
@@ -198,6 +198,10 @@ nav a:hover, nav a:active {
 	height: 600px;
 }
 
+.paragraph2 a {
+	color: rgb(97, 137, 198);
+}
+
 #newsStory2 {
 	display:flex;
 	justify-content: center;
@@ -213,6 +217,10 @@ nav a:hover, nav a:active {
 	object-fit: cover;
 	width: 100%;
 	height: 600px;
+}
+
+.paragraph4 a {
+	color: rgb(97, 137, 198);
 }
 
 .citations a {
