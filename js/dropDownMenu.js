@@ -6,6 +6,8 @@ window.onload = function() {
     console.log("this");
     el.style.display = "none";
     mobileEl.display = "none";
+    
+    mobileEl.style.display = "none";
 }
 
 var btn = document.querySelector(".dropDown");
@@ -23,8 +25,9 @@ btn.onclick = function() {
 mobileBtn.onclick = function() {
     console.log("this");
     console.log(mobileEl.style.display);
-    
+
     var tempEl = document.getElementById("mobileNavGrid");
+    console.log(mobileEl.display);
     if (mobileEl.style.display == "none") {
         mobileEl.style.display = "unset";
         tempEl.style.gridTemplateRows = "repeat(13, 1fr)";
