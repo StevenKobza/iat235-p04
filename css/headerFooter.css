@@ -23,6 +23,19 @@ nav a, nav a:visited {
     transition: background-color 0.5s ease-out;
 }
 
+.navMain {
+    z-index: 10;
+}
+
+.navSubMenu {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 1em 1.25em;
+    text-decoration: none;
+    width: 100%;
+}
+
 nav a:hover, nav a:active {
     text-decoration: underline;
     color: #ffffff;
@@ -56,6 +69,7 @@ nav a:hover, nav a:active {
     flex: 1 1 auto;
 }
 
+
 #navBar {
     display: grid;
     grid-template-columns: repeat(5, 1fr); /*Just means that there will be 5 equally spaced out columns or rows depending on the name of the grid-template*/
@@ -67,6 +81,15 @@ nav a:hover, nav a:active {
     align-self: center;
 }
 
+.dropDownMenu {
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 8;
+    grid-column: 2;
+    grid-row: 3;
+    
+}
+
 .navOne {
     
     grid-column: 1/6; /*Starting at column 1 and going to column 5*/
@@ -74,6 +97,7 @@ nav a:hover, nav a:active {
 }
 
 .navTwo {
+    z-index: 11;
     margin: auto;
     grid-column: 5/6;
     grid-row: 1/5;
@@ -200,19 +224,19 @@ nav a:hover, nav a:active {
         background-color: rgb(255,75,75);
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: 1fr;
+        grid-template-rows: repeat(13, 1fr);
         top:0;
         position:sticky;
         z-index: 10;
     }
 
     #navLogo {
-        grid-row: 1;
+        grid-row: 1/4;
         grid-column: 5;
     }
 
     #navHamburger {
-        grid-row: 1;
+        grid-row: 1/4;
         grid-column: 1/2;
     }
 
@@ -220,6 +244,13 @@ nav a:hover, nav a:active {
         grid-column: 1/5;
         grid-row: 1;
     }
+
+    .mobileDropDownMenu {
+        grid-column: 1/6;
+        grid-row: 4/14;
+        
+    }
+
 
     .footerGrid img {
         

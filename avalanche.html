@@ -12,11 +12,17 @@
     </head>
     <body>
         <div id = "mobileNavGrid">
-            <div id = "navHamburger" class = "centerGridItem">
+            <div id = "navHamburger" class = "centerGridItem hamburgerClass">
                 <img id = "hamburger" src = "HamburgerSVG/iconfinder_menu-alt_134216.svg" alt = "menuHamburger">
             </div>
             <div id = "navLogo">
                 <a href = "index.html" class = "logoHeaderMobile"><img src = "img/kalmontLogoHeader.png" alt = "abstract mountain logo"></a>
+            </div>
+            <div class = "mobileDropDownMenu">
+                <a href = "aboutus.html" class = "navSubMenu boxItemNav centerGridItem">WHAT WE DO</a>
+                <a href = "hypothermia.html" class = "navSubMenu boxItemNav centerGridItem">HYPOTHERMIA</a>
+                <a href = "avalanche.html" class = "navSubMenu boxItemNav centerGridItem">AVALANCHE</a>
+                <a href = "mountainConditions.html" class = "navSubMenu boxItemNav centerGridItem">CURRENT CONDITIONS</a>
             </div>
         </div>
         <div id = "navGrid">
@@ -29,7 +35,7 @@
                 
                     <a href="aboutus.html" class = "navMainItem boxItemNav buttonNav">WHAT WE DO</a>
 
-                    <a href="hypothermia.html" class = "navMainItem boxItemNav buttonNav">EDUCATION</a>
+                    <a href="#dropDown" class = "navMainItem boxItemNav buttonNav dropDown">EDUCATION</a>
 
                     <a href="mountainConditions.html" class = "navMainItem boxItemNav buttonNav">CURRENT CONDITIONS</a>
 
@@ -39,6 +45,10 @@
 
                 </nav>
                 <a href = "index.html" class = "navTwo logoHeader"><img src = "img/kalmontLogoHeader.png" alt = "abstract mountain logo"> </a>
+                <div class = "dropDownMenu">
+                    <a href = "hypothermia.html" class = "navSubMenu boxItemNav centerGridItem">HYPOTHERMIA</a>
+                    <a href = "avalanche.html" class = "navSubMenu boxItemNav centerGridItem">AVALANCHE</a>
+                </div>
             
             </div>
         </div>
@@ -195,6 +205,7 @@
         </footer>
 
         <img src ="img/avalancheDesktop.png" alt = "Original Website I'm trying to replicate">
+        <script src = "js/dropDownMenu.js"></script>
 
     </body>
 

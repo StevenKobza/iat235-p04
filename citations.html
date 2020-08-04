@@ -15,11 +15,17 @@
     </head>
     <body>
         <div id = "mobileNavGrid">
-            <div id = "navHamburger" class = "centerGridItem">
+            <div id = "navHamburger" class = "centerGridItem hamburgerClass">
                 <img id = "hamburger" src = "HamburgerSVG/iconfinder_menu-alt_134216.svg" alt = "menuHamburger">
             </div>
             <div id = "navLogo">
                 <a href = "index.html" class = "logoHeaderMobile"><img src = "img/kalmontLogoHeader.png" alt = "abstract mountain logo"></a>
+            </div>
+            <div class = "mobileDropDownMenu">
+                <a href = "aboutus.html" class = "navSubMenu boxItemNav centerGridItem">WHAT WE DO</a>
+                <a href = "hypothermia.html" class = "navSubMenu boxItemNav centerGridItem">HYPOTHERMIA</a>
+                <a href = "avalanche.html" class = "navSubMenu boxItemNav centerGridItem">AVALANCHE</a>
+                <a href = "mountainConditions.html" class = "navSubMenu boxItemNav centerGridItem">CURRENT CONDITIONS</a>
             </div>
         </div>
         <div id = "navGrid">
@@ -27,7 +33,7 @@
                 <nav class = "navMain box navOne">
                     <a href = "aboutus.html" class = "navMainItem boxItemNav buttonNav centerGridItem">WHAT WE DO</a>
 
-                    <a href = "hypothermia.html" class = "navMainItem boxItemNav buttonNav centerGridItem">EDUCATION</a>
+                    <a href = "#dropDown" class = "navMainItem boxItemNav buttonNav centerGridItem dropDown">EDUCATION</a>
 
                     <a href = "mountainConditions.html" class = "navMainItem boxItemNav buttonNav centerGridItem">CURRENT CONDITIONS</a>
 
@@ -36,6 +42,10 @@
                     <a href = "#" class = "navMainItem boxItemNav buttonNav blankOne">&nbsp;</a>
                 </nav>
                 <a href = "index.html" class = "navTwo logoHeader"><img class = "centerGridItem" src = "img/kalmontLogoHeader.png" alt = "abstract mountain logo"></a>
+                <div class = "dropDownMenu">
+                    <a href = "hypothermia.html" class = "navSubMenu boxItemNav centerGridItem">HYPOTHERMIA</a>
+                    <a href = "avalanche.html" class = "navSubMenu boxItemNav centerGridItem">AVALANCHE</a>
+                </div>
             </div>
         </div>
 
@@ -122,5 +132,6 @@
             </div>
         </footer>
         <img src = "img/Desktop-Ciations.png" alt = "Replicating this">
+        <script src = "js/dropDownMenu.js"></script>
     </body>
 </html>

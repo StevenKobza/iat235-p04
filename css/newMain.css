@@ -10,10 +10,10 @@ body{
 
 .h1Background {
     position: absolute;
-    height: 60%;
-    width: 40%;
-    left: 14em;
-    top: 10em;
+    height: 70%;
+    width: 35%;
+    left: 19%;
+    top: 9em;
     z-index: 2;
 }
 
@@ -139,22 +139,32 @@ nav a:hover, nav a:active {
 @media (max-width: 500px) {
 
     #hero h1 {
+        top: 10em;
         border: none;
         padding: none;
-        width: 50%;
-        height: fit-content;
+        width: 30%;
+        height: 30%;
+        font-size: 1.4em;
+        left: 1.5em;
+    }
+
+    .h1Background {
+        width: 60%;
+        top: 10em;
+        left: 2em;
     }
 
     .heroImg {
-        top: 9.5rem;
+        top: 13.75rem;
         position: relative;
         height: unset;
     }
 
     .heroH2 {
         position: relative;
-        top: 5em;
-        left: 5em;
+        top: 9em;
+        left: 12.5%;
+        width: 75%;
     }
 
     .heroH2 h2 {
@@ -176,6 +186,14 @@ nav a:hover, nav a:active {
 
     #navBar {
         display: none;
+    }
+
+    .h2Background {
+        width: 100%;
+        margin: none;
+    }
+    .heroH2 h2 {
+        font-size: 1.25em;
     }
 
 }

@@ -17,7 +17,7 @@ h3 {
 #increaseOdds, #caughtIn{
     left: 5rem;
 }
-
+/*
 #hero h1 {
     margin: 0;
     font-family: "Josefin Sans", sans-serif;
@@ -29,8 +29,8 @@ h3 {
     position: absolute;
     max-width: 30%;
     z-index: 3;
-    
-}
+ 
+}*/
 
 #whatAvalanche {
     position: relative;
@@ -87,4 +87,6 @@ h3 {
         left: 2.5rem;
         width: 80%;
     }
+
+    
 }
