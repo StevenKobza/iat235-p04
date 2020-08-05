@@ -6,7 +6,6 @@ window.onload = function() {
     console.log("this");
     el.style.display = "none";
     mobileEl.display = "none";
-    
     mobileEl.style.display = "none";
 }
 

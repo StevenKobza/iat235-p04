@@ -82,11 +82,15 @@ h3 {
         object-fit: cover;
     }
 
-    .gridOneFade h2, .gridOneFade ul{
+    .gridOneFade h2, .gridOneFade ul, .gridTwoFade h2, .gridTwoFade ul {
         position: relative;
-        left: 2.5rem;
-        width: 80%;
+        left: 5%;
+        width: 75%;
     }
 
-    
+    .gridOneFade .centerGridItem, .gridTwoFade .centerGridItem{
+        width: 75%;
+        left: 5%;
+    }
+
 }
