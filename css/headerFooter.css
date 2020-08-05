@@ -140,16 +140,26 @@ nav a:hover, nav a:active {
 }
 
 .footerSiteMapPt1 {
-    grid-column: 5/7;
-    grid-row: 2/9;
+    position: relative;
+    left: -2em;
+    grid-column: 6/8;
+    grid-row: 3/5;
 }
 .footerSiteMapPt2 {
-    grid-column: 7/9;
-    grid-row: 2/9;
+    position: relative;
+    left: -2em;
+    grid-column: 7/10;
+    grid-row: 3/5;
 }
 .footerSiteMapPt3 {
+    position: relative;
+    left: -5em;
     grid-column: 9/11;
-    grid-row: 2/9;
+    grid-row: 3/5;
+}
+
+.footerSiteMapPt1 ul, .footerSiteMapPt2 ul, .footerSiteMapPt3 ul {
+    margin-top: 0;
 }
 
 .footerLogo {
@@ -161,20 +171,17 @@ nav a:hover, nav a:active {
     max-width: unset;
     max-height: unset;
     grid-column: 1/3;
-    grid-row: 1/5;
+    grid-row: 2/6;
 }
 
 .footerLogo img {
-    width: 150%;
-    height: 150%;
+    width: 175%;
+    height: 175%;
 }
 
 .footerTitle {
-    position: relative;
-    top: -2em;
-    left: -2%;
-    grid-column: 1/5;
-    grid-row: 1/9;
+    grid-column: 3/5;
+    grid-row: 3/9;
     margin: 0;
 }
 
@@ -184,26 +191,37 @@ nav a:hover, nav a:active {
 }
 
 #kalmontTitle {
-    font-size: 1.35rem;
+    font-size: 1.5rem;
 }
 
 #kalmontTitleSecond {
-    font-size: 1.35rem;
+    font-size: 2rem;
     color:white;
 }
 
 .footerCredit {
-    position: relative;
-    top: -0.5em;
-    left: 1.25em;
-    margin-left: auto;
     grid-column: 12/14;
-    grid-row: 4/7;
+    grid-row: 5/7;
+    align-self: center;
+    text-align: right;
+    position: relative;
+    left: -12%;
+}
+
+.footerCredit p {
+    margin: 0;
 }
 
 .footerSocial {
-    grid-column: 6/9;
+    grid-column: 7/8;
     grid-row: 5/7;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerSocial p {
+    margin: 0;
 }
 
 .footerMobile {
@@ -213,7 +231,7 @@ nav a:hover, nav a:active {
 
 .footerCitation {
     grid-column: 13/14;
-    grid-row: 5/7;
+    grid-row: 6/8;
 }
 
 .footerCitation a, .footerCredit p, .footerSocial p{
@@ -228,10 +246,18 @@ nav a:hover, nav a:active {
     grid-row: 6/8;
 }
 
-.footerSocialSVG img {
+.facebookFooter, .instagramFooter, .twitterFooter .cls-2 {
+    fill: #ffffff;
+}
+.facebookFooter .st0, .twitterFooter .cls-1 {
+    fill: #6b6b6b;
+}
+
+
+.footerSocialSVG svg {
     margin-left: 1rem;
     max-width: 2rem;
-    width: 1.25rem;
+    width: 1.75rem;
 }
 
 .centerGridItem {
