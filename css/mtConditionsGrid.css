@@ -227,6 +227,7 @@ h4 {
 	.forecast1 {
 		grid-column: 1;
 		grid-row: 1;
+		margin-left: 1em;
 	}
 
 	.forecast2 {

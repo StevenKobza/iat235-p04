@@ -220,11 +220,7 @@ nav a:hover, nav a:active {
 	margin-top: -2em;
 }
 
-h3 {
-	font-size: 1.8em;
-}
-
-h4 {
+h3, h4, h5 {
 	font-size: 1.8em;
 }
 
@@ -348,7 +344,11 @@ img.roundedCorners {
 	}
 
 	h3, h4 {
-		margin-left: 1em;
+		margin-left: 0.3em;
+	}
+
+	h5 {
+		margin-left: 0.8em;
 	}
 
 	#liftStatusTable {
@@ -356,15 +356,15 @@ img.roundedCorners {
 	}
 
 	#liftStatusTable table {
-		margin-left: 2.5em;
+		margin-left: 1.5em;
 	}
 
 	#trailStatusTable table {
-		margin-left: 2.5em;
+		margin-left: 1.5em;
 	}
 
 	table {
-		width: 200px;
+		width: 300px;
 	}
 
 }
