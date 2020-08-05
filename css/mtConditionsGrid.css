@@ -22,11 +22,11 @@
 	flex: 1 1 auto;
 } /* Resource used: https://www.w3schools.com/css/css_grid_container.asp */
 
-#navBar {
+/*#navBar {
 	display:grid;
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: repeat(4, 1fr);
-}
+}*/
 
 #forecastGrid {
 	display: grid;
