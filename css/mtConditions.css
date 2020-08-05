@@ -303,21 +303,22 @@ img.roundedCorners {
 		font-size: 1.2em;
 	}
 
-	h3 {
-		margin-left: 0.5em;
+	h3, h4 {
+		margin-left: 1em;
+	}
+
+	#liftStatusTable {
+		margin-top: -34em;
 	}
 
 	#liftStatusTable table {
 		margin-left: 2.2em;
 	}
 
-	h4 {
-		margin-left: 0.5em;
-	}
-
 	#trailStatusTable table {
 		margin-left: 2.2em;
 	}
+
 }
 
 
