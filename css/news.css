@@ -85,9 +85,9 @@ nav a:hover, nav a:active {
 	margin: 0;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 4.5rem;
     top: 40%;
-    left: 18%;
+    left: 16%;
     bottom: 0rem;
     position: absolute;
     max-width: 30%;
@@ -118,20 +118,21 @@ nav a:hover, nav a:active {
 
 .heroBackground2 {
     height: 50%;
-    width: 60%;
+    width: 80%;
 }
 
 .mountainHero2 {
-    left: 39%;
+    left: 32%;
     position: absolute;
     bottom:-3em;
 }
 
 .mountainHero2 h2 {
     position: absolute;
-    left: 1.5em;
+    left: 2.7em;
     bottom: 0.3em;
     color: white;
+    font-size: 2em;
 }
 
 #currentStatus {
@@ -151,6 +152,10 @@ nav a:hover, nav a:active {
 	object-fit: cover;
 	width: 100%;
 	height: 400px;
+}
+
+.forecast1 {
+	font-size: 1.5em;
 }
 
 .forecast3 {
@@ -213,7 +218,7 @@ nav a:hover, nav a:active {
 }
 
 #newsStory1 h4 {
-	font-size: 1.3em;
+	font-size: 1.8em;
 	color: black;
 }
 
@@ -251,7 +256,7 @@ nav a:hover, nav a:active {
 }
 
 #newsStory2 h5 {
-	font-size: 1.2em;
+	font-size: 1.8em;
 }
 
 .hikerFound {
@@ -287,5 +292,9 @@ nav a:hover, nav a:active {
 
 .socials a {
 	color: rgb(200, 200, 200);
+}
+
+@media all and (max-width: 500px) {
+
 }
 
