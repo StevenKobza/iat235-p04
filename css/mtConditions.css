@@ -280,16 +280,27 @@ img.roundedCorners {
 
 @media all and (max-width: 500px) {
 	.heroBackground {
-		width: 300px;
+		width: 270px;
 		left: 10%;
+	}
+
+	#mountainHero img {
+		width: 80%;
+		height: 500px;
 	}
 
 	#mountainHero1 h1 {
 		font-size: 1.8em;
+		margin-top: 1.5em;
 	}
 
 	.forecast1 {
 		margin-left: 1.5em;
+	}
+
+	h2 {
+		margin-top: -0.6em;
+		font-size: 1.2em;
 	}
 
 	h3 {
@@ -309,25 +320,6 @@ img.roundedCorners {
 	}
 }
 
-@media all and (max-width: 900px) {
-	.heroBackground {
-		width: 350px;
-	}
-}
-
-@media all and (min-width: 501px) and (max-width: 768px) {
-	#mountainHero1 h1 {
-		font-size: 1.8em;
-		left: 30%;
-	}
-}
-
-@media all and (min-width: 769px) and (max-width: 1200px) {
-	#mountainHero1 h1 {
-		font-size: 1.8em;
-		left: 25%;
-	}
-}
 
 
 
