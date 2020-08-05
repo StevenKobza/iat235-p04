@@ -33,6 +33,7 @@
 	grid-template-columns: repeat(18, 1fr);
 	grid-template-rows: repeat(4, 1fr);
 	margin-top: -7em;
+	grid-gap: 1%;
 }
 
 .forecast1 {
@@ -96,12 +97,12 @@
 }
 
 .forecast13 {
-	grid-column: 9/9;
+	grid-column: 8/8;
 	grid-row: 2/2;
 }
 
 .forecast14 {
-	grid-column: 9/9;
+	grid-column: 8/8;
 	grid-row: 3/3;
 }
 
@@ -116,12 +117,12 @@
 }
 
 .forecast17 {
-	grid-column: 12/13;
+	grid-column: 9/9;
 	grid-row: 2/2;
 }
 
 .forecast18 {
-	grid-column: 12/13;
+	grid-column: 9/9;
 	grid-row: 3/3;
 }
 
