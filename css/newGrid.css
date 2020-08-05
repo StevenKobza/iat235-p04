@@ -122,13 +122,33 @@
         margin-right: auto;
     }
 
+    #whatHypothermia .twoByGrid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 3fr;
+        margin-bottom: 20%;
+    }
+
+    #checkList>.twoByGrid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr;
+    }
+
+    #checkList .twoByGrid .twoByGrid .gridTwo{
+        position: relative;
+        top: -1em;
+    }
+    #checkList .twoByGrid .twoByGrid .gridOne{
+        position: relative;
+        top: 1em;
+    }
 
     .twoByGrid {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, 1fr);
 
-        margin-bottom: 10%;
     }
+
+
     .gridOne {
         grid-column: 1;
         grid-row: 1;
@@ -136,8 +156,28 @@
     .gridTwo {
         grid-column: 1;
         grid-row: 1;
-        height: fit-content;
     }
+
+    #whatHypothermia .gridOne {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #whatHypothermia .gridTwo {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #checkList .gridOne {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #checkList .gridTwo {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
     .gridTwoFade {
         grid-column: 1;
         grid-row: 2;
