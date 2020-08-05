@@ -10,8 +10,8 @@ nav a, nav a:visited {
     color: #ffffff;
     padding: 1em 1.25em;
     text-decoration: none;
-    -webkit-transition: background-color 0.5s;
-    transition: background-color 0.5s;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
 .navMainItem {
@@ -20,7 +20,7 @@ nav a, nav a:visited {
     color: #ffffff;
     padding: 1em 1.25em;
     text-decoration: none;
-    transition: background-color 0.5s ease-out;
+    transition: 0.5s ease-in-out;
 }
 
 .navMain {
@@ -39,6 +39,7 @@ nav a, nav a:visited {
 nav a:hover, nav a:active {
     text-decoration: underline;
     color: #ffffff;
+    
 }
 
 #mobileNavGrid {
@@ -228,9 +229,6 @@ nav a:hover, nav a:active {
         grid-row: 6/9;
     }
 
-    #hero h1 {
-    }
-    
     .hypoCheck .gridTwo {
         margin-left: 0;
         margin-right: 0;
@@ -273,9 +271,6 @@ nav a:hover, nav a:active {
     }
 
 
-    .footerGrid img {
-        
-    }
 }
 
 @media (max-width: 784px) {
