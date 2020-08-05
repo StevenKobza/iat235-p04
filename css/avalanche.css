@@ -63,7 +63,7 @@ h3 {
 
 @media (max-width: 500px) {
     #whatAvalanche {
-        top: 2rem;
+        top: -5rem;
     }
 
     #whatAvalanche img {
@@ -82,11 +82,10 @@ h3 {
         width: 75%;
         left: 5%;
     }
-    .gridOneFade{
-        top: -2em;
-    }
 
-    .gridTwoFade {
-        top: -4em;
+    #hazardousTerrain img {
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

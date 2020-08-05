@@ -208,6 +208,18 @@ ul {
         max-width: 80%;
     }
 
-    .h2Background {
+    #checkList>.twoByGrid {
+        position: relative;
+        top: 2em;
+    }
+
+    #earlyWarning {
+        position: relative;
+        top: 5em;
+    }
+
+    .footerGrid {
+        position: relative;
+        top: 5em;
     }
 }
