@@ -285,9 +285,24 @@ img.roundedCorners {
 	}
 
 	.forecast1 {
-		margin-left: 2.8em;
+		margin-left: 1.5em;
 	}
 
+	h3 {
+		margin-left: 0.5em;
+	}
+
+	#liftStatusTable table {
+		margin-left: 2.2em;
+	}
+
+	h4 {
+		margin-left: 0.5em;
+	}
+
+	#trailStatusTable table {
+		margin-left: 2.2em;
+	}
 }
 
 @media all and (max-width: 900px) {
