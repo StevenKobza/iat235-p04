@@ -145,6 +145,9 @@ nav a:hover, nav a:active {
 
 @media (max-width: 500px) {
 
+    .bodyInfo p {
+        font-size: 1rem;
+    }
     #hero h1 {
         top: 10em;
         border: none;
