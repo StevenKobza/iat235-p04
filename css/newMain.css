@@ -8,6 +8,8 @@ body{
 	
 }
 
+
+
 .h1Background {
     position: absolute;
     height: 70%;
@@ -95,7 +97,7 @@ img {
 
 nav a, nav a:visited {
     display: inline-block;
-    background-color: red;
+    background-color: rgb(255, 40, 40);
     color: #ffffff;
     padding: 1em 1.25em;
     text-decoration: none;
@@ -113,7 +115,7 @@ nav a, nav a:visited {
 
 .navMainItem {
     display: inline-block;
-    background-color: red;
+    background-color: rgb(255, 40, 40);
     color: #ffffff;
     padding: 1em 1.25em;
     text-decoration: none;

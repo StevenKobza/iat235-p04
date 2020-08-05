@@ -2,17 +2,7 @@ h3 {
     font-weight: normal;
 }
 
-.footerGrid {
-    font-size: 1rem;
-    background-color: #6b6b6b;;
-}
-.footerGrid a, .footerGrid p {
-    color: #bdbdbd;
-}
 
-.footerGrid a {
-    text-decoration: none;
-}
 
 #increaseOdds, #caughtIn{
     left: 5rem;

@@ -1,24 +1,6 @@
 .noListStyle {
     list-style: none;
 }
-.footerGrid p {
-    color: #bdbdbd;
-}
-
-.footerGrid {
-    font-size: 1rem;
-    background: #6b6b6b;
-}
-
-.footerCitation a{
-    color: #bdbdbd;
-    text-decoration: none;
-}
-
-.footerMobile a{
-    color: #bdbdbd;
-    text-decoration: none;
-}
 
 .logoHeader {
     margin-left: auto;
@@ -38,6 +20,12 @@
 #citationsList ul a{
     color: black;
     text-decoration: none;
+}
+
+#citationsList ul a:hover {
+    color: rgb(255, 75, 75);
+    transition: ease-in-out;
+    transition-duration: 0.5s;
 }
 
 /*
