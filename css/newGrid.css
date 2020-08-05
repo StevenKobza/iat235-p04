@@ -65,21 +65,26 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5%;
+    margin-bottom: 5%;
 }
 
 .gridThreeOneSpanOne {
+    grid-row: 1;
     grid-column: 1;
 }
 
 .gridThreeOneSpanTwo {
-    grid-column: 1/3;
+    grid-row: 1;
+    grid-column: 2/4;
 }
 
 .gridThreeTwoSpanOne {
-    grid-column: 3;
+    grid-row: 1;
+    grid-column: 1;
 }
 
 .gridThreeTwoSpanTwo {
+    grid-row: 1;
     grid-column: 2/4;
 }
 
@@ -198,7 +203,7 @@
 
     .threeByGrid {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: 1fr 2fr;
         height: fit-content;
         margin-bottom: 10%;
         width: 80%;

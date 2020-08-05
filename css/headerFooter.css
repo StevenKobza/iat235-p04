@@ -165,7 +165,7 @@ nav a:hover, nav a:active {
 .footerLogo {
     position: relative;
     top: 0.5em;
-    left: 2em;
+    left: 3em;
     width: 7em;
     height: 7em;
     max-width: unset;
@@ -175,8 +175,11 @@ nav a:hover, nav a:active {
 }
 
 .footerLogo img {
-    width: 175%;
-    height: 175%;
+    margin-left: auto;
+    max-width: unset;
+    max-height: unset;
+    width: 125%;
+    height: 125%;
 }
 
 .footerTitle {
@@ -272,6 +275,10 @@ nav a:hover, nav a:active {
 }
 
 @media (max-width: 500px) {
+    .footerSiteMapPt1, .footerSiteMapPt2, .footerSiteMapPt3 {
+        display: none;
+    }
+
     .footerGrid {
         grid-template-rows: repeat(8, 1fr);
         grid-template-columns: repeat(7, 1fr);
@@ -288,6 +295,8 @@ nav a:hover, nav a:active {
     }
     
     .footerLogo {
+        top: unset;
+        left: 1em;
         align-self: center;
         margin-right: auto;
         width: 50%;
@@ -296,8 +305,14 @@ nav a:hover, nav a:active {
     }
 
     .footerTitle {
+        align-self: center;
         grid-column: 3/7;
         grid-row: 1/5;
+    }
+
+    .footerLogo img {
+        height: unset;
+        width: unset;
     }
 
     .footerSocial {
