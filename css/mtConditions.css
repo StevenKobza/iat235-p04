@@ -133,8 +133,11 @@ nav a:hover, nav a:active {
 
 .forecast5 {
 	width: 60%;
-	margin-left: 1em;
 	margin-top: 1em;
+}
+
+.forecast6 {
+	margin-left: -1em;
 }
 
 .forecast8 img {
@@ -153,14 +156,20 @@ nav a:hover, nav a:active {
 
 .forecast11 {
 	width: 60%;
-	margin-left: 0.8em;
 	margin-top: 0.8em;
 }
 
+.forecast12 {
+	margin-left: -1em;
+}
+
 .forecast15 {
-	width: 60%;
-	margin-left: 1.4em;
+	width: 30%;
 	margin-top: 0.8em;
+}
+
+.forecast16 {
+	margin-left: -3.5em;
 }
 
 h3 {
