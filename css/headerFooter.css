@@ -274,6 +274,12 @@ nav a:hover, nav a:active {
     margin-left: auto;
 }
 
+#navGrid{
+    top:0;
+    position:sticky;
+    z-index: 10;
+}
+
 @media (max-width: 500px) {
     .footerSiteMapPt1, .footerSiteMapPt2, .footerSiteMapPt3 {
         display: none;
