@@ -112,29 +112,60 @@
 
 @media (max-width: 500px) {
 
-    
-    .twoByGrid {
+    #whatAvalanche .twoByGrid {
         display: block;
     }
+
+    .twoByGrid {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
     .twoByGrid {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, 1fr);
+
+        margin-bottom: 10%;
     }
     .gridOne {
         grid-column: 1;
-        grid-row: 1/2;
-        height:fit-content;
+        grid-row: 1;
     }
     .gridTwo {
         grid-column: 1;
-        grid-row: 2/3;
+        grid-row: 1;
+        height: fit-content;
     }
     .gridTwoFade {
         grid-column: 1;
-        grid-row: 2/3;
+        grid-row: 2;
+        height: fit-content;
     }
     .gridOneFade {
         grid-column: 1;
-        grid-row: 1/2;
+        grid-row: 2;
+        height: fit-content;
+    }
+
+    .threeByGrid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        height: fit-content;
+        margin-bottom: 10%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gridThreeOneSpanOne, .gridThreeTwoSpanOne{
+        grid-column: 1;
+        grid-row: 1;
+        height: fit-content;
+    }
+    .gridThreeOneSpanTwo, .gridThreeTwoSpanTwo {
+        grid-column: 1;
+        grid-row: 2;
+        height: fit-content;
     }
 }

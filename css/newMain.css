@@ -196,4 +196,11 @@ nav a:hover, nav a:active {
         font-size: 1.25em;
     }
 
+    .gridOneFade h1, .gridTwoFade h1 {
+        font-size: 1.5rem;
+    }
+
+    .gridOneFade h3, .gridTwoFade h3, #whatAvalanche p, #caughtIn p, #hazardousTerrain p{
+        font-size: 1rem;
+    }
 }
