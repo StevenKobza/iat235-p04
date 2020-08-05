@@ -28,7 +28,7 @@ body{
     margin: 0;
     font-family: "Josefin Sans", sans-serif;
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 5rem;
     top: 45%;
     left: 20%;
     bottom: 0rem;
@@ -79,20 +79,21 @@ img {
 
 .h2Background {
     height: 50%;
-    width: 20em;
+    width: 100%;
 }
 
 .heroH2 {
     color: white;
-    left: 42.5%;
+    left: 35%;
     position: absolute;
-    bottom:-3em;
+    bottom:-4em;
 }
 
 .heroH2 h2 {
     position: absolute;
-    left: 1em;
-    bottom: 0.5em;
+    left: 1.5em;
+    bottom: -0.25em;
+    font-size: 3rem;
 }
 
 nav a, nav a:visited {
@@ -135,6 +136,10 @@ nav a:hover, nav a:active {
 
 .roundThis {
     border-radius: 20px;
+}
+
+.bodyInfo p {
+    font-size: 1.5rem;
 }
 
 
