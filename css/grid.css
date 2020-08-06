@@ -1,4 +1,4 @@
-/* Erin Beaudoin 301381019. 
+/* Erin Beaudoin 301381019.
     How I learned this:
     Paul's 235 tutorials on youtube
     A Complete Guide to Flexbox: CSS-Tricks. (2020, June 12). Retrieved July 09, 2020, from https://css-tricks.com/snippets/css/a-guide-to-flexbox/
@@ -11,7 +11,7 @@
 
 .box {
 
-	
+
 	display: flex; /* displays this as a flexbox */
 	flex-wrap: wrap; /* without this, everything tries to fit the width of the page, with this, it will wrap underneath when resized */
 	justify-content: space-around;
@@ -20,14 +20,29 @@
 }
 
 .quickBrief {
-	
+
 	position: relative;
 	margin-top: 5em;
 	margin-bottom: 5em;
 }
 
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
 .column{
-	display: flex; 
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 	display: -webkit-flex; /* For support in a series of Webkit browsers */
@@ -44,11 +59,11 @@
 	justify-content: flex-start;
 	display: -webkit-flex; /* For support in a series of Webkit browsers */
 	display: -ms-flex; /* For support in IE 10 */
-	
+
 }
 
 .boxItemNav {
-	
+
 	flex-grow: 1;
 	flex-shrink: 1;
 	flex-basis: auto;/* this means "look at my width or height property"*/

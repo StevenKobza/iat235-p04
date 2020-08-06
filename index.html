@@ -1,143 +1,170 @@
-   <!-- Erin Beaudoin 301381019. 
-    How I learned this:
-    Paul's 235 tutorials on youtube
-    A Complete Guide to Flexbox: CSS-Tricks. (2020, June 12). Retrieved July 09, 2020, from https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-    Web Dev Simplified (March 16, 2019) Learn CSS Box Model In 8 Minutes [Video]  Retrieved from: https://www.youtube.com/watch?v=rIO5326FgPE
-    Web Dev Simplified (September 27, 2018) Learn Flexbox in 15 Minutes [Video] https://www.youtube.com/watch?v=fYq5PXgSsbE
-      -->
-   
+<!-- Erin Beaudoin 301381019.
+ How I learned this:
+ Paul's 235 tutorials on youtube
+ A Complete Guide to Flexbox: CSS-Tricks. (2020, June 12). Retrieved July 09, 2020, from https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+ Web Dev Simplified (March 16, 2019) Learn CSS Box Model In 8 Minutes [Video]  Retrieved from: https://www.youtube.com/watch?v=rIO5326FgPE
+ Web Dev Simplified (September 27, 2018) Learn Flexbox in 15 Minutes [Video] https://www.youtube.com/watch?v=fYq5PXgSsbE
+   -->
+
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 
-   
-    <head>
-       
-        <link href="css/normalize.css" rel = "stylesheet">    
-        <link href= "css/main.css" rel="stylesheet">
-        <link href = "css/grid.css" rel = "stylesheet">
-        <link href = "css/newMain.css" rel = "stylesheet">
-        <link href = "css/newGrid.css" rel = "stylesheet">
-        <link href = "css/headerFooter.css" rel = "stylesheet">
-        <meta charset = "utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>KALMONT RESCUE TEAM</title>
-    </head>
-    <body>
-        <div id = "mobileNavGrid">
-            <div id = "navHamburger" class = "centerGridItem hamburgerClass">
-                <img id = "hamburger" src = "HamburgerSVG/iconfinder_menu-alt_134216.svg" alt = "menuHamburger">
-            </div>
-            <div id = "navLogo">
-                <a href = "index.html" class = "logoHeaderMobile"><img src = "img/kalmontLogoHeader.png" alt = "abstract mountain logo"></a>
-            </div>
-            <div class = "mobileDropDownMenu">
-                <a href = "aboutus.html" class = "navSubMenu boxItemNav centerGridItem">WHAT WE DO</a>
-                <a href = "hypothermia.html" class = "navSubMenu boxItemNav centerGridItem">HYPOTHERMIA</a>
-                <a href = "avalanche.html" class = "navSubMenu boxItemNav centerGridItem">AVALANCHE</a>
-                <a href = "mountainConditions.html" class = "navSubMenu boxItemNav centerGridItem">CURRENT CONDITIONS</a>
-            </div>
+
+<head>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/newMain.css" rel="stylesheet">
+    <link href="css/newGrid.css" rel="stylesheet">
+    <link href="css/headerFooter.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KALMONT RESCUE TEAM</title>
+</head>
+<body>
+<div id="mobileNavGrid">
+    <div id="navHamburger" class="centerGridItem hamburgerClass">
+        <img id="hamburger" src="HamburgerSVG/iconfinder_menu-alt_134216.svg" alt="menuHamburger">
     </div>
-        <div id = "navGrid">
-            <div id = "navBar">
-
-                <nav class = "navMain box navOne">
-
-                    <!--Navigation Items-->
-                
-                    <a href="aboutus.html" class = "navMainItem boxItemNav buttonNav ">WHAT WE DO</a>
-
-                    <a href="#dropDown" class = "navMainItem boxItemNav buttonNav dropDown">EDUCATION</a>
-
-                    <a href="mountainConditions.html" class = "navMainItem boxItemNav buttonNav">CURRENT CONDITIONS</a>
-
-                    <a href="news.html" class = "navMainItem boxItemNav buttonNav">NEWS</a>
-
-                    <a href = "#" class = "navMainItem boxItemNav buttonNav blankOne">&nbsp;</a>
-
-                </nav>
-                <a href = "index.html" class = "navTwo logoHeader"><img src = "img/kalmontLogoHeader.png" alt = "abstract mountain logo"> </a>
-                <div class = "dropDownMenu">
-                    <a href = "hypothermia.html" class = "navSubMenu boxItemNav centerGridItem">HYPOTHERMIA</a>
-                    <a href = "avalanche.html" class = "navSubMenu boxItemNav centerGridItem">AVALANCHE</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class = "left-box" id = "hero">
-            <div id = "heroH1">
-                <h1 class = "title" >KALMONT RESCUE TEAM </h1>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="828" height="674" viewBox="0 0 828 674" fill="none" class = "h1Background">
-                        <path d="M0 20.7C0 9 10-0.2 21.6 0.7L809.1 64.5C820.5 65.4 828.8 75.6 827.3 86.9L761 605C759.8 614.5 752.1 621.8 742.6 622.4L21.4 673.5C9.8 674.3 0 665.1 0 653.5L0 20.7Z"/>
-                    </svg>
-        </div>
-        <img src = "img/helicopter.jpg" alt = "A red first aid helicopter flying through the mountains" class = "heroImg">
-        <!-- Citation:Mooze, S. (Date Unknown). Helicopter over Central Switzerland [Online Image]. Retrieved June 23, 2020 from https://unsplash.com/photos/IzgsIKFghrw-->
+    <div id="navLogo">
+        <a href="index.html" class="logoHeaderMobile"><img src="img/kalmontLogoHeader.png" alt="abstract mountain logo"></a>
     </div>
+    <div class="mobileDropDownMenu">
+        <a href="aboutus.html" class="navSubMenu boxItemNav centerGridItem">WHAT WE DO</a>
+        <a href="hypothermia.html" class="navSubMenu boxItemNav centerGridItem">HYPOTHERMIA</a>
+        <a href="avalanche.html" class="navSubMenu boxItemNav centerGridItem">AVALANCHE</a>
+        <a href="mountainConditions.html" class="navSubMenu boxItemNav centerGridItem">CURRENT CONDITIONS</a>
+    </div>
+</div>
+<div id="navGrid">
+    <div id="navBar">
 
-        <div class="column">
-            <!-- can only have one type of id on each page, it is unique -->
-            <h2>Our Mission</h2>
-            <p class= "body-text">The team consists of approximately 50 volunteers skilled in search and rescue operations in mountain, canyon and urban settings. Kalmont Rescue Team performs approximately 130 search & rescue operations annually, with some operations lasting multiple days <br><br>
-               MMembers participate in different support or rescue categories, depending on individual skills and participation levels. Kalmont Rescue Team is a volunteer community-based search and rescue team. Its members are from all walks of life but share a common interest in providing an important life-saving service to the public, 24 hours a day, every day of the year.
-<br><br>
+        <nav class="navMain box navOne">
+
+            <!--Navigation Items-->
+
+            <a href="aboutus.html" class="navMainItem boxItemNav buttonNav ">WHAT WE DO</a>
+
+            <a href="#dropDown" class="navMainItem boxItemNav buttonNav dropDown">EDUCATION</a>
+
+            <a href="mountainConditions.html" class="navMainItem boxItemNav buttonNav">CURRENT CONDITIONS</a>
+
+            <a href="news.html" class="navMainItem boxItemNav buttonNav">NEWS</a>
+
+            <a href="#" class="navMainItem boxItemNav buttonNav blankOne">&nbsp;</a>
+
+        </nav>
+        <a href="index.html" class="navTwo logoHeader"><img src="img/kalmontLogoHeader.png"
+                                                            alt="abstract mountain logo"> </a>
+        <div class="dropDownMenu">
+            <a href="hypothermia.html" class="navSubMenu boxItemNav centerGridItem">HYPOTHERMIA</a>
+            <a href="avalanche.html" class="navSubMenu boxItemNav centerGridItem">AVALANCHE</a>
+        </div>
+    </div>
+</div>
+
+<div class="left-box" id="hero">
+    <div id="heroH1">
+        <h1 class="title">KALMONT RESCUE TEAM </h1>
+        <svg xmlns="http://www.w3.org/2000/svg" width="828" height="674" viewBox="0 0 828 674" fill="none"
+             class="h1Background">
+            <path d="M0 20.7C0 9 10-0.2 21.6 0.7L809.1 64.5C820.5 65.4 828.8 75.6 827.3 86.9L761 605C759.8 614.5 752.1 621.8 742.6 622.4L21.4 673.5C9.8 674.3 0 665.1 0 653.5L0 20.7Z"/>
+        </svg>
+    </div>
+    <img src="img/helicopter.jpg" alt="A red first aid helicopter flying through the mountains" class="heroImg">
+    <!-- Citation:Mooze, S. (Date Unknown). Helicopter over Central Switzerland [Online Image]. Retrieved June 23, 2020 from https://unsplash.com/photos/IzgsIKFghrw-->
+</div>
+
+<div class="column">
+    <!-- can only have one type of id on each page, it is unique -->
+    <h2>Our Mission</h2>
+
+    <p class="body-text ">The team consists of approximately 50 volunteers skilled in search and rescue operations
+        in mountain, canyon and urban settings. Kalmont Rescue Team performs approximately 130 search & rescue
+        operations annually, with some operations lasting multiple days.
+
+        Members participate in different support or rescue categories, depending on individual skills and
+        participation levels. Kalmont Rescue Team is a volunteer community-based search and rescue team. Its members
+        are from all walks of life but share a common interest in providing an important life-saving service to the
+        public, 24 hours a day, every day of the year.
+    </p>
+</div>
+
+<div class="column-container grey-background">
+
+    <h2>Our Services</h2>
+
+    <div class="row-container">
+
+        <img src="img/servicesH.jpg">
+
+        <div class="column-container">
+
+            <p class="body-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
             </p>
+
+            <button>Button</button>
         </div>
 
-        <div class="column">
-            <h2>Current Weather</h2>
-            <img class ="padthai" src = "img/weather.jpg" alt = "Weather forecast Monday: Cloudy, -1 feels like -2, chance of rain 10%, Tuesday: Sun and Clouds, -2, feels like - 4 chance of rain 10%, Wednesday Sunny,-3 Feels like - 2, chance of rain 2%, Thursday: Sunny, -1, feels like 0, chance of rain 2%, Friday: Cloudy, -2, feels like -1, chance of rain 8%, Saturday: Sunny with clouds, 0, feels like 1, chance of rain 6%, Sunday: Sunny, 1, feels like 0, chance of rain 2%">
-      </div>
-    <!--
-    <div class="column">
-         
-         <h2>Quick Links<br><br></h2>
-         
-            <a href="#" class = "quick-link">LEARN ABOUT OUR SERVICES</a>
-            <a href="#" class = "quick-link">READ THE LATEST MOUNTAIN NEWS</a>
-            <a href="#" class = "quick-link">CHECK MOUNTAIN CONDITIONS</a>
-         
-    </div>
-    -->
-  
-
-    <div class = "quickBrief box">
-        <img src = "img/mountain news.png">
-        <img src = "img/our services.png">
-        <img src = "img/mountain conditions.png">
     </div>
 
-    <footer>
+</div>
 
-        <div class = "footerGrid">
-            <div class = "footerLogo rightGridItem">
-                <img src = "img/kalmontLogoFooter.png" alt = "abstract mountain logo">
-            </div>
-            <div class = "footerTitle centerGridItem">
-                <p id = "kalmontTitle">KALMONT<br>RESCUE</p>
-            </div>
+<!--
+<div class="column">
 
-            <div class = "footerCredit centerGridItem">
-                <p>Made By <br>Zoomers</p>
-            </div>
+     <h2>Quick Links<br><br></h2>
 
-            <div class = "footerSocial centerGridItem">
-                <p>SOCIAL MEDIA</p>
-            </div>
+        <a href="#" class = "quick-link">LEARN ABOUT OUR SERVICES</a>
+        <a href="#" class = "quick-link">READ THE LATEST MOUNTAIN NEWS</a>
+        <a href="#" class = "quick-link">CHECK MOUNTAIN CONDITIONS</a>
 
-            <div class = "footerSocialSVG centerGridItem">
-                <img src = "footerSVGs/f_logo_RGB-Black_1024.svg" alt = "facebook logo">
-                <img src = "footerSVGs/glyph-logo_May2016.svg" alt = "instagram logo">
-                <img src = "footerSVGs/Twitter_Logo_Blue.svg" alt = "twitter logo">
-            </div>
+</div>
+-->
 
-            <div class = "footerCitation centerGridItem">
-                <a href = "citations.html">Citations</a>
-            </div>
+
+<div class="quickBrief box">
+    <img src="img/mountain news.png">
+    <img src="img/our services.png">
+    <img src="img/mountain conditions.png">
+</div>
+
+<footer>
+    <div class="footerGrid">
+        <div class="footerLogo rightGridItem">
+            <img src="img/kalmontLogoFooter.png" alt="abstract mountain logo">
         </div>
-    </footer>
+        <div class="footerTitle centerGridItem">
+            <p id="kalmontTitle">KALMONT<br>RESCUE</p>
+        </div>
 
-    <img src ="img/Desktop - Home.jpg" alt = "Screen grab of Kalmont Rescue homeoage">
-    
-    <script src = "js/dropDownMenu.js"></script>
-    </body>
+        <div class="footerCredit centerGridItem">
+            <p>Made By <br>Zoomers</p>
+        </div>
+
+        <div class="footerSocial centerGridItem">
+            <p>SOCIAL MEDIA</p>
+        </div>
+
+        <div class="footerSocialSVG centerGridItem">
+            <img src="footerSVGs/f_logo_RGB-Black_1024.svg" alt="facebook logo">
+            <img src="footerSVGs/glyph-logo_May2016.svg" alt="instagram logo">
+            <img src="footerSVGs/Twitter_Logo_Blue.svg" alt="twitter logo">
+        </div>
+
+        <div class="footerCitation centerGridItem">
+            <a href="citations.html">Citations</a>
+        </div>
+    </div>
+</footer>
+
+<img src="img/Desktop - Home.jpg" alt="Screen grab of Kalmont Rescue homeoage">
+
+<script src="js/dropDownMenu.js"></script>
+</body>
 </html>
