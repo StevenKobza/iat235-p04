@@ -125,9 +125,13 @@ a:hover, a:focus, a:active{
 
 .grey-background{
 	background-color: rgb(243,243,243);
-	padding: 2rem;
+	padding: 3rem;     
 }
 
+.white-background{
+	background-color: rgb(255,255,255);
+	padding: 3rem;     
+}
 /*.navMainItem{
 
 	background-color: rgb(255, 71, 71);
