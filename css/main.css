@@ -105,14 +105,6 @@ a:hover, a:focus, a:active{
 	z-index: 5;
 }
 
-.quick-link{
-	background-color: rgb(245, 245, 245);
-	padding: 0.5rem 0.75rem;
-	padding-left: 2rem;
-	padding-right: 2rem;
-	border:0.5rem;
-	margin:1rem;
-}
 
 .background {
 	z-index: 0;
@@ -121,6 +113,16 @@ a:hover, a:focus, a:active{
   height: fit-content;
   background: url(Rectangle 433.svg);
   background-size: 100px 82px;
+}
+
+.weather-column{
+	max-width: 15rem;
+	border-right-width: 0.08rem;
+	border-right-style: solid;
+	border-color: #C4C4C4;
+	border-left-width: 0.08rem;
+	border-left-style: solid;
+	border-height:494px;
 }
 
 .grey-background{
@@ -132,6 +134,42 @@ a:hover, a:focus, a:active{
 	background-color: rgb(255,255,255);
 	padding: 3rem;     
 }
+
+.weather-day{
+	 font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.weather-date{
+	 font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.weather-temp1{
+	 font-family: "Open Sans", sans-serif;
+    font-weight: 675;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.weather-temp2{
+	 font-family: "Open Sans", sans-serif;
+    font-weight: 675;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.weather-description{
+	 font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+}
+
 /*.navMainItem{
 
 	background-color: rgb(255, 71, 71);

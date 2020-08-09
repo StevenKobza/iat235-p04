@@ -32,12 +32,27 @@
     flex-direction: column;
 }
 
+.column-container-start{
+	display:flex;
+	flex-direction: column;
+	justify-content:flex-start;
+}
+
+
 .row-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+.row-container-center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 
 
 
