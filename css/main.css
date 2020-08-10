@@ -242,6 +242,11 @@ a:hover, a:focus, a:active{
 	margin-left: 2rem;
 }
 
+.moveUp {
+    position: relative;
+    top: -4em;
+}
+
 /*.navMainItem{
 
 	background-color: rgb(255, 71, 71);
