@@ -233,6 +233,15 @@ a:hover, a:focus, a:active{
      min-height: 3rem;
 }
 
+.red-button {
+	background-color: rgb(255, 75, 75);
+	border: 1px solid rgb(255, 75, 75);
+	border-radius: 10px;
+	color: white;
+	padding: 0.75rem;
+	margin-left: 2rem;
+}
+
 /*.navMainItem{
 
 	background-color: rgb(255, 71, 71);
@@ -254,6 +263,10 @@ a:hover, a:focus, a:active{
 
 	z-index: 10;
 }*/
+
+#img-contact {
+	margin: 1rem;
+}
 
 .padthai{
 	padding-left: 1rem;
