@@ -116,9 +116,14 @@ a:hover, a:focus, a:active{
 }
 
 .weather-column{
-	max-width: 15rem;
+	max-width: 16rem;
+	min-width: 15rem;
 	border-right-width: 0.08rem;
 	border-right-style: solid;
+	border-top-width: 0.08rem;
+	border-top-style: solid;
+	border-bottom-width: 0.08rem;
+	border-bottom-style: solid;
 	border-color: #C4C4C4;
 	border-left-width: 0.08rem;
 	border-left-style: solid;
@@ -147,6 +152,7 @@ a:hover, a:focus, a:active{
     font-weight: 300;
     font-size: 1rem;
     text-align: center;
+    margin-top: -2rem;
 }
 
 .weather-temp1{
@@ -168,6 +174,9 @@ a:hover, a:focus, a:active{
     font-weight: 700;
     font-size: 1rem;
     text-align: center;
+    max-width: 14rem; 
+     max-height: : 3rem; 
+     min-height: 3rem;
 }
 
 /*.navMainItem{
