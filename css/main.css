@@ -268,10 +268,6 @@ a:hover, a:focus, a:active{
 		height: 10%;
 		width: 80%;
 	}
-	.column img, .box img,.shrink {
-		height: 10%;
-		width: 80%;
-	}
 
 	.grey-background, .white-background {
 		padding: 3rem;
