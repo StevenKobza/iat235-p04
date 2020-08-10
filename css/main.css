@@ -235,5 +235,9 @@ a:hover, a:focus, a:active{
 	.whatWeDoImg {
 		height: 10%;
 		width: 80%;
-	}	
+	}
+	.column img, .box img {
+		height: 10%;
+		width: 80%;
+	}
 }
