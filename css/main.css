@@ -272,4 +272,15 @@ a:hover, a:focus, a:active{
 		top: 1em;
 	
 	}
+	.aboHref, .hypHref, .avaHref {
+		margin-left: auto;
+		margin-right: auto;
+		width: fit-content;
+	}
+
+	.aboBut {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
