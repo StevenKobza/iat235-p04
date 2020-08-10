@@ -180,9 +180,7 @@ ul {
 }
 
 @media (max-width: 500px) {
-    #hero {
-        /*top: -13.5em;*/
-    }
+    
 
     #whatHypothermia {
         top: 2rem;

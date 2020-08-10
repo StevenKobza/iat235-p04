@@ -111,8 +111,8 @@ a:hover, a:focus, a:active{
   display: block;
   position: absolute;
   height: fit-content;
-  background: url(Rectangle 433.svg);
-  background-size: 100px 82px;
+  /*background: url(Rectangle 433.svg);*/
+  /*background-size: 100px 82px;*/
 }
 
 .weather-column{
@@ -127,7 +127,7 @@ a:hover, a:focus, a:active{
 	border-color: #C4C4C4;
 	border-left-width: 0.08rem;
 	border-left-style: solid;
-	border-height:494px;
+	/*border-height:494px;*/
 }
 
 .grey-background{
@@ -225,9 +225,3 @@ a:hover, a:focus, a:active{
 	object-position: 50% 60%;
 }
 
-@media (max-width: 500px) {
-	.heroH2 h2 {
-		left: 2em;
-	}
-
-}
