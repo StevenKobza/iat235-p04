@@ -99,7 +99,7 @@
     z-index: 5;
     grid-row: 1;
     position: relative;
-    background-color: rgba(243, 243, 243, 75%);
+    background-color: rgba(243, 243, 243, 100%);
     background-size: auto;
     grid-column: 2;
 }
@@ -109,7 +109,7 @@
     z-index: 5;
     grid-row: 1;
     position: relative;
-    background-color: rgba(243, 243, 243, 75%);
+    background-color: rgba(243, 243, 243, 100%);
     grid-column: 1;
 }
 
