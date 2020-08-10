@@ -231,7 +231,7 @@ a:hover, a:focus, a:active{
 	}
 	.heroImg {
 		top: 13.75rem;
-		width: 100%;
+		width: fit-content;
 		height: unset;
 	}
 	.whatWeDoImg {
