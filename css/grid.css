@@ -51,6 +51,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    	display: -webkit-flex; /* For support in a series of Webkit browsers */
+	display: -ms-flex; /* For support in IE 10 */
 }
 
 

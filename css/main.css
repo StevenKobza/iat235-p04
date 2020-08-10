@@ -116,7 +116,7 @@ a:hover, a:focus, a:active{
 }
 
 .weather-column{
-	max-width: 16rem;
+	max-width: 20rem;
 	min-width: 15rem;
 	border-right-width: 0.08rem;
 	border-right-style: solid;
