@@ -261,4 +261,15 @@ a:hover, a:focus, a:active{
 	.grey-background, .white-background {
 		padding: 3rem;
 	}
+
+	#hero h1 {
+		top: 10.25em;
+	}
+
+	.heroH2 h2 {
+		width: 80%;
+		left: 0.85em;
+		top: 1em;
+	
+	}
 }
