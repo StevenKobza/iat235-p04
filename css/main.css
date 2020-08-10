@@ -252,7 +252,7 @@ a:hover, a:focus, a:active{
 		width: 80%;
 	}
 	.column img, .box img,.shrink {
-		/*height: 10%;*/
+		height: 10%;
 		width: 80%;
 	}
 
