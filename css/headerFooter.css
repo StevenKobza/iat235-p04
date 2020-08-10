@@ -381,3 +381,10 @@ nav a:hover, nav a:active {
         display: none;
     }
 }
+
+@media (max-width: 1600px) {
+    .footerLogo {
+        height: 5em;
+        width: 5em;
+    }
+}

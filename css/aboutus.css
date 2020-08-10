@@ -6,6 +6,11 @@
     top: 40%;
 }
 
+.moveUp {
+    position: relative;
+    top: -6em;
+}
+
 @media (max-width: 500px) {
 	.heroH2 h2 {
         left: 0.5em;
@@ -33,4 +38,9 @@
 		height: 10%;
 		width: 80%;
     }
+    .moveUp {
+        position: relative;
+        top: 0em;
+    }
+    
 }
