@@ -130,6 +130,21 @@ a:hover, a:focus, a:active{
 	/*border-height:494px;*/
 }
 
+.weather-column{
+	max-width: 20rem;
+	min-width: 15rem;
+	border-right-width: 0.08rem;
+	border-right-style: solid;
+	border-top-width: 0.08rem;
+	border-top-style: solid;
+	border-bottom-width: 0.08rem;
+	border-bottom-style: solid;
+	border-color: #C4C4C4;
+	border-left-width: 0.08rem;
+	border-left-style: solid;
+	/*border-height:494px;*/
+}
+
 .grey-background{
 	background-color: rgb(243,243,243);
 	padding-bottom: 5rem;    
