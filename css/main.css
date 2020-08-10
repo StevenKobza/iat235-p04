@@ -230,13 +230,14 @@ a:hover, a:focus, a:active{
 		height: unset;
 	}
 	.heroImg {
+		top: 13.75rem;
 		height: unset;
 	}
 	.whatWeDoImg {
 		height: 10%;
 		width: 80%;
 	}
-	.column img, .box img {
+	.column img, .box img, .colum-container img {
 		height: 10%;
 		width: 80%;
 	}
