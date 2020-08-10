@@ -238,7 +238,7 @@ a:hover, a:focus, a:active{
 		height: 10%;
 		width: 80%;
 	}
-	.column img, .box img, .column-container img {
+	.column img, .box img,.shrink {
 		height: 10%;
 		width: 80%;
 	}
