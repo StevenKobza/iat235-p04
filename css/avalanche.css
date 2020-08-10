@@ -92,4 +92,8 @@ h3 {
     .heroH2 h2 {
         top: 0em;
     }
+
+    #hazardousTerrain h2 {
+        font-size: 1.5rem;
+    }
 }
