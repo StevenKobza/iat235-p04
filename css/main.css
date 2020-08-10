@@ -229,4 +229,11 @@ a:hover, a:focus, a:active{
 	#hero img {
 		height: unset;
 	}
+	.heroImg {
+		height: unset;
+	}
+	.whatWeDoImg {
+		height: 10%;
+		width: 80%;
+	}	
 }
