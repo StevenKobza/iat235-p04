@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-/* 
+/*
 
 Erin Beaudoin 301381019 P03, Step 3
- 
-/* Erin Beaudoin 301381019. 
+
+/* Erin Beaudoin 301381019.
     How I learned this:
     Paul's 235 tutorials on youtube
     A Complete Guide to Flexbox: CSS-Tricks. (2020, June 12). Retrieved July 09, 2020, from https://css-tricks.com/snippets/css/a-guide-to-flexbox/
@@ -77,7 +77,7 @@ img{
     margin: 0;
     padding: 0;
     object-fit: cover;
-	object-position: 50% 60%;    
+	object-position: 50% 60%;
 }
 
 a{
@@ -88,7 +88,7 @@ a{
 a:hover, a:focus, a:active{
 	color: rgb(24,113,133);
 	font-size: 105%; /* learned from CSS :hover Selector. (n.d.). Retrieved July 01, 2020, from https://www.w3schools.com/cssref/sel_hover.asp*/
-/*	
+/*
 }*/
 .title{
 	padding: 2rem;
@@ -102,19 +102,87 @@ a:hover, a:focus, a:active{
 .body-text{
 	padding:2rem;
 	max-width:40rem;
+	z-index: 5;
 }
 
-.quick-link{
-	background-color: rgb(245, 245, 245);
-	padding: 0.5rem 0.75rem;
-	padding-left: 2rem;
-	padding-right: 2rem;
-	border:0.5rem;
-	margin:1rem;
+
+.background {
+	z-index: 0;
+  display: block;
+  position: absolute;
+  height: fit-content;
+  background: url(Rectangle 433.svg);
+  background-size: 100px 82px;
+}
+
+.weather-column{
+	max-width: 16rem;
+	min-width: 15rem;
+	border-right-width: 0.08rem;
+	border-right-style: solid;
+	border-top-width: 0.08rem;
+	border-top-style: solid;
+	border-bottom-width: 0.08rem;
+	border-bottom-style: solid;
+	border-color: #C4C4C4;
+	border-left-width: 0.08rem;
+	border-left-style: solid;
+	border-height:494px;
+}
+
+.grey-background{
+	background-color: rgb(243,243,243);
+	padding-bottom: 5rem;    
+	padding-top:  3rem;
+}
+
+.white-background{
+	background-color: rgb(255,255,255);
+	padding: 3rem; 
+	padding-bottom: 5rem;        
+}
+
+.weather-day{
+	 font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.weather-date{
+	 font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: -2rem;
+}
+
+.weather-temp1{
+	 font-family: "Open Sans", sans-serif;
+    font-weight: 675;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.weather-temp2{
+	 font-family: "Open Sans", sans-serif;
+    font-weight: 675;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.weather-description{
+	 font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    max-width: 14rem; 
+     max-height: : 3rem; 
+     min-height: 3rem;
 }
 
 /*.navMainItem{
-	
+
 	background-color: rgb(255, 71, 71);
 	font-size: 1.5rem;
 	color: white;

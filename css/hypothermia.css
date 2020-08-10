@@ -108,25 +108,7 @@ ul {
     width: 80%;
 }
 
-#hero h1 {
-    margin: 0;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 600;
-    font-size: 2rem;
-    top: 50%;
-    left: 20%;
-    bottom: 0rem;
-    position: absolute;
-    max-width: 50%;
-    z-index: 2;
-}
 
-#hero {
-    position: relative;
-    margin:0;
-    padding:0;
-    top: -11em;
-}
 /*
 #hero img {
     min-width: 100%;
@@ -191,6 +173,10 @@ ul {
 #whatHypothermia {
     position: relative;
     top: -10rem;
+}
+
+.heroH2 h2 {
+    bottom: -0.15em;
 }
 
 @media (max-width: 500px) {
