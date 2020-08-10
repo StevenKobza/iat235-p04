@@ -16,7 +16,7 @@ Erin Beaudoin 301381019 P03, Step 3
 
 body{
 	font-family: "Open Sans", Arial, sans-serif;
-	font-size:1.25rem;
+	font-size:1.35rem;
 }
 
 h1{
@@ -44,7 +44,7 @@ h2{
 	font-size:3rem;
 }
 h2{
-	font-size: 2.5rem;
+	font-size: 3.75rem;
 	text-align: center;
 }
 }
@@ -63,7 +63,7 @@ h2{
 
 
 p, ol, ul{
-	font-size: 1.25rem;
+	font-size: 1.35rem;
 }
 
 img{
