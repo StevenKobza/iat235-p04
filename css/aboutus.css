@@ -27,4 +27,8 @@
     #heroH1 h1 {
         top: 9.5em;
     }
+
+    .whatWeDoImg {
+        max-height: 100%;
+    }
 }
