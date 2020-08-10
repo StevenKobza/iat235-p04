@@ -3,7 +3,7 @@
 
 body{
 	font-family: "Open Sans", Arial, sans-serif;
-	font-size:1.25rem;
+	font-size:1.35rem;
 	/*margin:1rem;*/
 	
 }
@@ -42,7 +42,7 @@ h1, h2, h3{
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 3.75rem;
 }
 
 h3 { 
@@ -139,12 +139,29 @@ nav a:hover, nav a:active {
 }
 
 .bodyInfo p {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
 }
 
+#checkList {
+    background-color: rgb(243, 243, 243);
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
 
 @media (max-width: 500px) {
+    #whatHypothermia {
+        padding-bottom: 3em;
+    }
+    #checkList {
+        padding-top: 2em;
+        padding-bottom: 6em;
+    }
 
+    img {
+    }
+    h2 {
+        font-size: 2rem;
+    }
     .bodyInfo p {
         font-size: 1rem;
     }
