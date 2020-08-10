@@ -41,10 +41,10 @@ h2{
 
 @media (min-width: 0px) and (max-width: 460px) {
 	h1{
-	font-size:3rem;
+	font-size:2rem;
 }
 h2{
-	font-size: 3.75rem;
+	font-size: 2rem;
 	text-align: center;
 }
 }
