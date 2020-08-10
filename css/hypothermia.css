@@ -183,6 +183,18 @@ ul {
     height: 60%;
 }
 
+#hero h1 {
+    top: 50%;
+    font-size: 4.5rem;
+}
+
+@media (max-width: 1440px) {
+    #hero h1 {
+        top: 50%;
+        font-size: 4rem;
+    }
+}
+
 @media (max-width: 500px) {
     
 
@@ -200,7 +212,7 @@ ul {
         width: 30%;
         height: 35%;
         top: 11em;
-        font-size: 1.3em;
+        font-size: 1.25em;
         left: 1.6em;
     }
 
