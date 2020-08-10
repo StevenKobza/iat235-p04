@@ -146,6 +146,17 @@ nav a:hover, nav a:active {
 
 
 @media (max-width: 500px) {
+    #whatHypothermia {
+        padding-bottom: 3em;
+    }
+    #checkList {
+        padding-top: 2em;
+        padding-bottom: 6em;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
 
     .bodyInfo p {
         font-size: 1rem;
