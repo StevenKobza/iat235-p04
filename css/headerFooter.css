@@ -369,7 +369,7 @@ nav a:hover, nav a:active {
     .mobileDropDownMenu {
         display: none;
         grid-column: 1/6;
-        grid-row: 4/14;
+        grid-row: 4/17;
         
     }
 

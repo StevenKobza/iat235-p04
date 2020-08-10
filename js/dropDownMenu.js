@@ -29,7 +29,7 @@ mobileBtn.onclick = function() {
     console.log(mobileEl.display);
     if (mobileEl.style.display == "none") {
         mobileEl.style.display = "unset";
-        tempEl.style.gridTemplateRows = "repeat(13, 1fr)";
+        tempEl.style.gridTemplateRows = "repeat(16, 1fr)";
     } else {
         tempEl.style.gridTemplateRows = "repeat(3, 1fr)";
         mobileEl.style.display = "none";
