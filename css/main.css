@@ -85,12 +85,7 @@ a{
 	color: rgb(37,169,198);
 	text-decoration: none;
 }
-/*
-a:hover, a:focus, a:active{
-	color: rgb(24,113,133);
-	font-size: 105%; /* learned from CSS :hover Selector. (n.d.). Retrieved July 01, 2020, from https://www.w3schools.com/cssref/sel_hover.asp*/
-/*
-}*/
+
 .title{
 	padding: 2rem;
 	position: absolute;
@@ -242,27 +237,11 @@ a:hover, a:focus, a:active{
 	margin-left: 2rem;
 }
 
-/*.navMainItem{
+.moveUp {
+    position: relative;
+    top: -4em;
+}
 
-	background-color: rgb(255, 71, 71);
-	font-size: 1.5rem;
-	color: white;
-	padding: 0.5rem 0.75rem;
-	text-align: center;
-	flex-basis: 20rem;
-	transition-property: background-color;
-	transition-duration: 1s;
-	transition-timing-function: ease-out;
-}*/
-/*
-.nav-main {
-	/*position: fixed;*/
-	/*top: 0;
-	left: 0;
-	right: 0;
-
-	z-index: 10;
-}*/
 
 #img-contact {
 	margin: 1rem;
@@ -272,19 +251,7 @@ a:hover, a:focus, a:active{
 	padding-left: 1rem;
 	padding-right: 1rem;
 }
-/*
-.navMainItem:hover, .navMainItem:active, .navMainItem:focus{
-	background-color: rgb(50,50,50);
-}*/
-/*
-.footer{
-	background-color: rgb(107, 107, 107);
-	color: white;
-	padding: 4rem;
-	border-top:2rem;
-	margin-top: 4rem;
-}
-*/
+
 
 .heroImg {
 	object-position: 50% 60%;
