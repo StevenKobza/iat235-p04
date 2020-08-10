@@ -38,6 +38,9 @@
 		height: 10%;
 		width: 80%;
     }
-
+    .moveUp {
+        position: relative;
+        top: 0em;
+    }
     
 }
