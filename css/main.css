@@ -252,11 +252,33 @@ a:hover, a:focus, a:active{
 		width: 80%;
 	}
 	.column img, .box img,.shrink {
-		height: 10%;
+		/*height: 10%;*/
 		width: 80%;
 	}
 
 	.grey-background, .white-background {
 		padding: 3rem;
+	}
+
+	#hero h1 {
+		top: 10.25em;
+	}
+
+	.heroH2 h2 {
+		width: 80%;
+		left: 0.85em;
+		top: 1em;
+	
+	}
+	.aboHref, .hypHref, .avaHref {
+		margin-left: auto;
+		margin-right: auto;
+		width: fit-content;
+	}
+
+	.aboBut {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }

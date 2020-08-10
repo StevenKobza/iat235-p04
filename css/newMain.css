@@ -151,7 +151,7 @@ nav a:hover, nav a:active {
     #hero h1 {
         top: 10em;
         border: none;
-        padding: none;
+        padding: 0;
         width: 30%;
         height: 30%;
         font-size: 1.4em;
@@ -200,7 +200,7 @@ nav a:hover, nav a:active {
 
     .h2Background {
         width: 100%;
-        margin: none;
+        margin: 0;
     }
     .heroH2 h2 {
         font-size: 1.25em;

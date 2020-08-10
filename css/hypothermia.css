@@ -192,6 +192,14 @@ ul {
         max-width: 80%;
     }
 
+    #hero h1 {
+        width: 30%;
+        height: 35%;
+        top: 11em;
+        font-size: 1.3em;
+        left: 1.6em;
+    }
+
     #checkList>.twoByGrid {
         position: relative;
         top: 2em;
