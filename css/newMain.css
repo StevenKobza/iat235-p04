@@ -144,6 +144,11 @@ nav a:hover, nav a:active {
     font-size: 1.35rem;
 }
 
+#checkList {
+    background-color: rgb(243, 243, 243);
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
 
 @media (max-width: 500px) {
     #whatHypothermia {
