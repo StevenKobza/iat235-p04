@@ -197,6 +197,9 @@ ul {
 
 @media (max-width: 500px) {
     
+    .heroH2 h2 {
+        top: 0em;
+    }
 
     #whatHypothermia {
         top: 2rem;
