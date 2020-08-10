@@ -67,7 +67,9 @@
 }
 
 
-
+.left-aligned {
+	align-items: flex-start;
+}
 
 .column{
 	display: flex;

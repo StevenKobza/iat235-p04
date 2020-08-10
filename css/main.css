@@ -33,6 +33,7 @@ h1{
 }
 
 h2{
+	font-family: "Open Sans", sans-serif;
 	font-size: 3.75rem;
 	text-align: center;
 
@@ -143,6 +144,27 @@ a:hover, a:focus, a:active{
     text-align: center;
 	
 }
+
+.people-title{
+	font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.75rem;
+    text-align: left;
+    margin-top: 0;
+	
+}
+
+.people-body{
+	font-family: "Open Sans", sans-serif;
+    font-size: 1.35rem;
+    text-align: left;
+    max-width: 18rem;
+	min-width: 15rem;
+	margin-top: -2rem;
+
+	
+}
+
 .services-body{
 	font-family: "Open Sans", sans-serif;
     font-size: 1.35rem;
@@ -211,6 +233,20 @@ a:hover, a:focus, a:active{
      min-height: 3rem;
 }
 
+.red-button {
+	background-color: rgb(255, 75, 75);
+	border: 1px solid rgb(255, 75, 75);
+	border-radius: 10px;
+	color: white;
+	padding: 0.75rem;
+	margin-left: 2rem;
+}
+
+.moveUp {
+    position: relative;
+    top: -4em;
+}
+
 /*.navMainItem{
 
 	background-color: rgb(255, 71, 71);
@@ -232,6 +268,10 @@ a:hover, a:focus, a:active{
 
 	z-index: 10;
 }*/
+
+#img-contact {
+	margin: 1rem;
+}
 
 .padthai{
 	padding-left: 1rem;
