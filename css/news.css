@@ -352,6 +352,163 @@ nav a:hover, nav a:active {
 }
 
 @media all and (max-width: 500px) {
+	.heroBackground {
+		width: 270px;
+		left: 10%;
+	}
 
+	#mountainHero img {
+		width: 80%;
+		height: 500px;
+		margin-top: -6em;
+	}
+
+	#mountainHero1 h1 {
+		font-size: 1.8em;
+		margin-top: 1.5em;
+	}
+
+	.mountainHero2 h2 {
+		margin-top: 3em;
+		margin-left: -4.3em;
+		font-size: 1.3em;
+	}
+
+	.heroBackground2 {
+		margin-left: -28%;
+		width: 110%;
+	}
+
+	.redSkier {
+		height: 250px;
+	}
+
+	.forecast1 h2 {
+		margin-top: -0.6em;
+		font-size: 1.2em;
+	}
+
+	.forecast2 {
+		margin-top: -2em;
+	}
+
+	.forecast3 {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -2em;
+	}
+
+	.forecast4 p {
+		margin-top: -5em;
+	}
+
+	.forecast5 {
+		width: 20%;
+		margin-top: -12em; 
+	}
+	
+	.forecast6 {
+		margin-left: 7em;
+		margin-top: -12em;
+	}
+
+	.forecast7 {
+		margin-left: 8.5em;
+		margin-top: -18em;
+	}
+
+	.forecast8 {
+		margin-top: -22.5em;
+	}
+
+	.forecast9 {
+		margin-left: 8.5em;
+		margin-top: -24em;
+	}
+
+	.forecast10 {
+		margin-top: -22.3em;
+	}
+
+	.forecast11 {
+		width: 20%;
+		margin-top: -29em;
+	}
+
+	.forecast12 {
+		margin-left: 8em;
+		margin-top: -29.5em;
+	}
+
+	.forecast13 {
+		margin-left: auto;
+		margin-top: -36em;
+	}
+
+	.forecast14 {
+		margin-left: auto;
+		margin-top: -44.5em;
+	}
+
+	.forecast15 {
+		width: 20%;
+		margin-left: 1.5em;
+		margin-top: -51em;
+	}
+
+	.forecast16 {
+		margin-left: 5.5em;
+		margin-top: -51.5em;
+	}
+
+	.forecast17 {
+		padding-bottom: 1.2em;
+	}
+
+	.forecast18 {
+		margin-top: -4em;
+	}
+
+	#newsStories {
+		margin-top: -70em;
+	}
+
+	h4 {
+		margin-left: 0.75em;
+	}
+
+	#newsStory1 p {
+		margin-left: -3em;
+	}
+
+	.skierInAir {
+		height: 300px;
+	}
+
+	h5 {
+		margin-left: 0.75em;
+		margin-right: 0.75em;
+	}
+
+	#newsStory2 {
+		margin-top: -5em;
+	}
+
+	#newsStory2 p{
+		margin-left: -3em;
+	}
+
+	.hikerFound {
+		height: 300px;
+	}
+
+	footer {
+		margin-top: -8em;
+	}
 }
+
+
+
+
+
 
