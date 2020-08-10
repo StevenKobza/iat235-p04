@@ -29,6 +29,8 @@
     }
 
     .whatWeDoImg {
-        /*max-height: 100%;*/
+        
+		height: 10%;
+		width: 80%;
     }
 }
