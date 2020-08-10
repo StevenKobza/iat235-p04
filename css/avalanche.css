@@ -88,4 +88,12 @@ h3 {
         margin-left: auto;
         margin-right: auto;
     }
+
+    .heroH2 h2 {
+        top: 0em;
+    }
+
+    #hazardousTerrain h2 {
+        font-size: 1.5rem;
+    }
 }
