@@ -5,3 +5,26 @@
 #heroH1 h1 {
     top: 40%;
 }
+
+@media (max-width: 500px) {
+	.heroH2 h2 {
+        left: 1.25em;
+        width: 80%;
+        top: 1em;
+	}
+    .heroH2 {
+        top: 11em;
+    }
+
+    .h1Background {
+        top: 11em;
+    }
+
+    .heroImg {
+        top: 11em;
+    }
+
+    #heroH1 h1 {
+        top: 9.5em;
+    }
+}
