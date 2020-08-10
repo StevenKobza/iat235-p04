@@ -132,12 +132,14 @@ a:hover, a:focus, a:active{
 
 .grey-background{
 	background-color: rgb(243,243,243);
-	padding: 3rem;     
+	padding-bottom: 5rem;    
+	padding-top:  3rem;
 }
 
 .white-background{
 	background-color: rgb(255,255,255);
-	padding: 3rem;     
+	padding: 3rem; 
+	padding-bottom: 5rem;        
 }
 
 .weather-day{
