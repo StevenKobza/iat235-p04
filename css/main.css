@@ -143,6 +143,27 @@ a:hover, a:focus, a:active{
     text-align: center;
 	
 }
+
+.people-title{
+	font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.75rem;
+    text-align: left;
+    margin-top: 0;
+	
+}
+
+.people-body{
+	font-family: "Open Sans", sans-serif;
+    font-size: 1.35rem;
+    text-align: left;
+    max-width: 18rem;
+	min-width: 15rem;
+	margin-top: -2rem;
+
+	
+}
+
 .services-body{
 	font-family: "Open Sans", sans-serif;
     font-size: 1.35rem;
