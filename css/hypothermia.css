@@ -179,6 +179,10 @@ ul {
     bottom: -0.15em;
 }
 
+.h2Background {
+    height: 60%;
+}
+
 @media (max-width: 500px) {
     
 
